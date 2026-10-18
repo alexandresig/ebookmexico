@@ -1,0 +1,57 @@
+{
+  "MX-F001": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F001.png",
+    "original_sha256": "32e42e1cafb10225f535773710c7eba2ca25a634e70b8a99088a1593c3d578c9",
+    "original_dimensoes": [
+      1911,
+      823
+    ],
+    "final": "imagens/MX-F001.png",
+    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+  },
+  "MX-F002": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F002.png",
+    "original_sha256": "ba2b92c038eafb004f23a0fa4942bfc71cdfc6c4db5cb87df91f641d9ec66b38",
+    "original_dimensoes": [
+      2027,
+      776
+    ],
+    "final": "imagens/MX-F002.png",
+    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+  },
+  "MX-F003": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F003.png",
+    "original_sha256": "dcb9ac6bca87593d1b8b1405fdb2b9925f167202c932b0dc475f30537c4ce3e4",
+    "original_dimensoes": [
+      2161,
+      728
+    ],
+    "final": "imagens/MX-F003.png",
+    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+  },
+  "MX-F004": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F004.png",
+    "original_sha256": "d4281979b575142a3baa1e5bdeb69f5d659a9645cc36d23609a1f7255a516523",
+    "original_dimensoes": [
+      2124,
+      740
+    ],
+    "final": "imagens/MX-F004.png",
+    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+  },
+  "MX-F005": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F005.png",
+    "original_sha256": "8a0d1d2753c9c8fb3446b86a000212d54f65c97cc7e99610dde864b78c0332e1",
+    "original_dimensoes": [
+      1476,
+      1066
+    ],
+    "final": "imagens/MX-F005.png",
+    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+  }
+}
