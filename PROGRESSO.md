@@ -1,32 +1,120 @@
-# Progresso da montagem — versão GPT Image
+# Progresso do ebook — GPT Image
 
-## Versão vigente
+**19/104 imagens inseridas.** Próxima pendente: MX-F020.
 
-As imagens de MX-F001 a MX-F005 foram **geradas com GPT Image**, pela ferramenta `image_gen`, e substituem os desenhos por código entregues anteriormente. A versão anterior permanece no commit `9d45c02` e no histórico da branch; não refazer ou apagar esse histórico.
+Orientação vigente: GPT Image, sem título geral ou numeração de figura dentro das imagens. Rótulos funcionais e notas didáticas preservados. PNGs finais em `imagens/`; gerações originais em `imagens/originais_gpt/`.
 
-- Fonte do ebook: `Ebook_Codex_corrigido.zip`; 160 páginas e 104 campos. ZIP antigo ignorado.
-- Originais do gerador, sem retoques por código: `imagens/originais_gpt/MX-F001.png` a `MX-F005.png`.
-- PNGs finais: `imagens/MX-F001.png` a `MX-F005.png`, com tamanho dos prompts. O único processamento por código é adequação proporcional de resolução e margem branca, sem redesenho de textos, componentes ou conexões.
-- Ilustrações 1, 2 e 5 representam equipamentos reconhecíveis; esquemas 3 e 4 também foram gerados com GPT Image, conforme a correção solicitada pelo usuário. A arte inclui volume/perspectiva em equipamentos, afastando-se do estilo estritamente plano dos prompts originais para atender ao pedido de imagens ilustradas do usuário.
-- O script `scripts/produzir_bloco_001_005.py` é histórico da versão antiga, desenhada por código; **não usá-lo para sobrescrever as imagens atuais**. `scripts/preparar_imagens_gpt.py` apenas prepara os PNGs já gerados e incorpora um por vez.
+As versões anteriores permanecem no histórico Git (`9d45c02`: desenhos por código; `15ddd93`: primeiro bloco GPT com títulos). Não executar os scripts antigos de produção para sobrescrever esta versão.
 
-| Código | Página | Origem | Criada | Conferida | Inserida | Bloqueada |
+O processamento local somente exporta PNG no tamanho do prompt, ajusta margens e paleta de cores para conter o tamanho do HTML; não desenha textos, equipamentos ou fios. Originais GPT sem esse processamento preservados.
+
+Fonte: Ebook_Codex_corrigido.zip; ZIP antigo corrompido ignorado. Cada inserção preserva todos os bytes fora de seu campo. Conferência visual didática; sem certificação de instalação, simulação elétrica ou ensaio de hardware.
+
+| Código | Página | Criada | Conferida | Inserida | Bloqueada | Pendência |
 |---|---:|---|---|---|---|---|
-| MX-F001 | 4 | GPT Image | sim | sim | sim | não |
-| MX-F002 | 9 | GPT Image | sim | sim | sim | não |
-| MX-F003 | 10 | GPT Image | sim | sim | sim | não |
-| MX-F004 | 10 | GPT Image | sim | sim | sim | não |
-| MX-F005 | 12 | GPT Image | sim | sim | sim | não |
+| MX-F001 | 4 | sim | sim | sim | não |  |
+| MX-F002 | 9 | sim | sim | sim | não |  |
+| MX-F003 | 10 | sim | sim | sim | não |  |
+| MX-F004 | 10 | sim | sim | sim | não |  |
+| MX-F005 | 12 | sim | sim | sim | não |  |
+| MX-F006 | 13 | sim | sim | sim | não |  |
+| MX-F007 | 14 | sim | sim | sim | não |  |
+| MX-F008 | 15 | sim | sim | sim | não |  |
+| MX-F009 | 16 | sim | sim | sim | não |  |
+| MX-F010 | 17 | sim | sim | sim | não |  |
+| MX-F011 | 19 | sim | sim | sim | não |  |
+| MX-F012 | 21 | sim | sim | sim | não |  |
+| MX-F013 | 23 | sim | sim | sim | não |  |
+| MX-F014 | 24 | sim | sim | sim | não |  |
+| MX-F015 | 26 | sim | sim | sim | não |  |
+| MX-F016 | 28 | sim | sim | sim | não |  |
+| MX-F017 | 30 | sim | sim | sim | não |  |
+| MX-F018 | 31 | sim | sim | sim | não |  |
+| MX-F019 | 32 | sim | sim | sim | não |  |
+| MX-F020 | 35 | não | não | não | não |  |
+| MX-F021 | 36 | não | não | não | não |  |
+| MX-F022 | 37 | não | não | não | não |  |
+| MX-F023 | 39 | não | não | não | não |  |
+| MX-F024 | 40 | não | não | não | não |  |
+| MX-F025 | 41 | não | não | não | não |  |
+| MX-F026 | 42 | não | não | não | não |  |
+| MX-F027 | 43 | não | não | não | não |  |
+| MX-F028 | 45 | não | não | não | não |  |
+| MX-F029 | 46 | não | não | não | não |  |
+| MX-F030 | 47 | não | não | não | não |  |
+| MX-F031 | 49 | não | não | não | não |  |
+| MX-F032 | 50 | não | não | não | não |  |
+| MX-F033 | 51 | não | não | não | não |  |
+| MX-F034 | 52 | não | não | não | não |  |
+| MX-F035 | 53 | não | não | não | não |  |
+| MX-F036 | 54 | não | não | não | não |  |
+| MX-F037 | 55 | não | não | não | não |  |
+| MX-F038 | 56 | não | não | não | não |  |
+| MX-F039 | 57 | não | não | não | não |  |
+| MX-F040 | 58 | não | não | não | não |  |
+| MX-F041 | 59 | não | não | não | não |  |
+| MX-F042 | 60 | não | não | não | não |  |
+| MX-F043 | 61 | não | não | não | não |  |
+| MX-F044 | 63 | não | não | não | não |  |
+| MX-F045 | 64 | não | não | não | não |  |
+| MX-F046 | 65 | não | não | não | não |  |
+| MX-F047 | 66 | não | não | não | não |  |
+| MX-F048 | 67 | não | não | não | não |  |
+| MX-F049 | 68 | não | não | não | não |  |
+| MX-F050 | 70 | não | não | não | não |  |
+| MX-F051 | 71 | não | não | não | não |  |
+| MX-F052 | 73 | não | não | não | não |  |
+| MX-F053 | 74 | não | não | não | não |  |
+| MX-F054 | 74 | não | não | não | não |  |
+| MX-F055 | 76 | não | não | não | não |  |
+| MX-F056 | 77 | não | não | não | não |  |
+| MX-F057 | 78 | não | não | não | não |  |
+| MX-F058 | 80 | não | não | não | não |  |
+| MX-F059 | 81 | não | não | não | não |  |
+| MX-F060 | 82 | não | não | não | não |  |
+| MX-F061 | 83 | não | não | não | não |  |
+| MX-F062 | 84 | não | não | não | não |  |
+| MX-F063 | 86 | não | não | não | não |  |
+| MX-F064 | 87 | não | não | não | não |  |
+| MX-F065 | 88 | não | não | não | não |  |
+| MX-F066 | 90 | não | não | não | não |  |
+| MX-F067 | 91 | não | não | não | não |  |
+| MX-F068 | 92 | não | não | não | não |  |
+| MX-F069 | 93 | não | não | não | não |  |
+| MX-F070 | 94 | não | não | não | não |  |
+| MX-F071 | 97 | não | não | não | não |  |
+| MX-F072 | 98 | não | não | não | não |  |
+| MX-F073 | 99 | não | não | não | não |  |
+| MX-F074 | 100 | não | não | não | não |  |
+| MX-F075 | 104 | não | não | não | não |  |
+| MX-F076 | 105 | não | não | não | não |  |
+| MX-F077 | 106 | não | não | não | não |  |
+| MX-F078 | 107 | não | não | não | não |  |
+| MX-F079 | 110 | não | não | não | não |  |
+| MX-F080 | 111 | não | não | não | não |  |
+| MX-F081 | 114 | não | não | não | não |  |
+| MX-F082 | 115 | não | não | não | não |  |
+| MX-F083 | 118 | não | não | não | não |  |
+| MX-F084 | 119 | não | não | não | não |  |
+| MX-F085 | 122 | não | não | não | não |  |
+| MX-F086 | 123 | não | não | não | não |  |
+| MX-F087 | 126 | não | não | não | não |  |
+| MX-F088 | 127 | não | não | não | não |  |
+| MX-F089 | 130 | não | não | não | não |  |
+| MX-F090 | 131 | não | não | não | não |  |
+| MX-F091 | 134 | não | não | não | não |  |
+| MX-F092 | 135 | não | não | não | não |  |
+| MX-F093 | 138 | não | não | não | não |  |
+| MX-F094 | 139 | não | não | não | não |  |
+| MX-F095 | 142 | não | não | não | não |  |
+| MX-F096 | 143 | não | não | não | não |  |
+| MX-F097 | 146 | não | não | não | não |  |
+| MX-F098 | 147 | não | não | não | não |  |
+| MX-F099 | 150 | não | não | não | não |  |
+| MX-F100 | 151 | não | não | não | não |  |
+| MX-F101 | 154 | não | não | não | não |  |
+| MX-F102 | 155 | não | não | não | não |  |
+| MX-F103 | 158 | não | não | não | não |  |
+| MX-F104 | 159 | não | não | não | não |  |
 
-## Conferência desta versão
-
-- MX-F001: representações ilustradas dos dois quadros, luminárias, contatos e motor/bomba; duas setas residenciais e uma industrial, sem misturar as funções.
-- MX-F002: depósito e tubulação inferior com válvula regulável; associações pressão/tensão, vazão/corrente e restrição/resistência, com a nota de limite do modelo.
-- MX-F003: conferência visual do percurso + → H1 → H2 → − e das duas ramas independentes em paralelo; pontos nas derivações, sem ponte direta entre polos ou ligação entre os circuitos.
-- MX-F004: conferência visual de S0 NC e FR1 NC antes da bifurcação; S1 NA em paralelo apenas com auxiliar KM1 NA 13-14; retorno da bobina A2 a 0 V. Sem KS1 ou união com PE. Não houve simulação elétrica nem ensaio físico.
-- MX-F005: primeira geração revisada pelo próprio GPT Image para trocar a aparência de botão de emergência por pulsador vermelho de paro normal. Oito blocos e sequência funcional preservados, KM1 associado por rótulos e tensões qualificadas como exemplos.
-- As cinco gerações e a correção foram inspecionadas visualmente. Não foram detectados textos cortados, conexões indevidas ou identificadores trocados nesta revisão; os equipamentos ilustrados são representações conceituais, sem pretensão de reproduzir bornes de um fabricante.
-- HTML verificado no Chromium: 160 páginas, 104 campos e 5 imagens preenchidas; dimensões nativas carregadas correspondem aos PNGs finais; referências, substituição, importação em lote, download e acionamento de impressão passaram, sem erros JavaScript. Páginas 4, 9, 10 e 12 capturadas e inspecionadas após montagem. PDF de produção não gerado.
-- Comparação com o ZIP corrigido: CSS, scripts, bases de página e todos os bytes fora dos cinco campos permanecem idênticos. As outras 99 figuras continuam pendentes.
-
-Nenhuma figura bloqueada neste bloco. Conferência didática visual, sem certificação para instalação real. A próxima execução deve avançar para **MX-F006 a MX-F010**, usando GPT Image e preservando este progresso.
+Detalhes da origem, hashes e conferências em `imagens/ESTADO.json`. As páginas e os controles serão verificados no Chromium a cada bloco; ver `conferencias/`.
