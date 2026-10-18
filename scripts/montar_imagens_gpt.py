@@ -31,7 +31,12 @@ for key,source in json.loads(Path(sys.argv[1]).read_text()).items():
  if Path(source).resolve()!=original.resolve():shutil.copy2(source,original)
  w,h=x['dimensoes']
  with Image.open(original) as im:
-  fitted=ImageOps.contain(im.convert('RGB'),(w-100,h-60),Image.Resampling.LANCZOS)
+  source_rgb=im.convert('RGB')
+  if code=='MX-F031':
+   # Margens brancas inspecionadas; preserva os cinco pilotos e seus rótulos.
+   bounds=(0,int(im.height*.20),im.width,int(im.height*.75))
+   source_rgb=source_rgb.crop(bounds);x['recorte_branco_exportacao']=list(bounds)
+  fitted=ImageOps.contain(source_rgb,(w-100,h-60),Image.Resampling.LANCZOS)
   out=Image.new('RGB',(w,h),'white');out.paste(fitted,((w-fitted.width)//2,(h-fitted.height)//2))
   # Paleta de exportação; imagem original íntegra permanece acima.
   out=out.quantize(colors=256,method=Image.Quantize.MEDIANCUT,dither=Image.Dither.NONE)

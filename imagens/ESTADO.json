@@ -369,10 +369,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nLínea funcional trifásica de QF1 a KM1 y de KM1 a M1. Entre QF1 y KM1, derivación hacia KP1 que mide L1,L2,L3. KP1 NO está en serie alimentando motor y no toma medida después de KM1. La línea única es abreviación funcional de tres fases, no unión física de fases. Mantener nota que explica esta convención.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nQF1\nProtección\nKM1\nContactor\nM1\nMotor\nKP1\nMide L1, L2 y L3\nToma de medida\nantes de KM1\nLínea única = recorrido trifásico funcional, no un solo conductor.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO354.7 · SUPERVISIÓN DE FASESLa pérdida de una fase puede impedir el arranque o provocar una condición térmicapeligrosa durante la marcha. La corriente resultante depende de la carga y la conexión: nohay un multiplicador universal ni un tiempo fijo hasta la falla.FIGURA 20 · PUNTO DE MEDICIÓN DE KP1QF1ProtecciónKM1ContactorM1MotorKP1Mide L1, L2 y L3Toma de medidaantes de KM1Línea única = recorrido trifásico funcional, no un solo conductor.KP1 se conecta al punto que se desea supervisar. El dibujo no es una instrucción de conexión de un modelo comercial.Funciones que deben confirmarse• Pérdida de fase y secuencia: revisa si ambas están incluidas y cómo actúan los contactos.• Asimetría, subtensión y sobretensión: no están presentes en todos los modelos.• Retardos, restablecimiento y pérdida de alimentación propia: deben ser compatibles con elproceso y con la lógica de control.Una limitación frecuenteUn monitor de tensión conectado antes del contactor no garantiza detectar un poloabierto del propio contactor, un cable roto después de él ni toda anomalía del devanado.Puede requerirse otra ubicación o supervisión de corriente, según el diseño.El relevador solo ve donde mideUn relevador de sobrecarga con detección de pérdida de fase puede responder a esacondición. No afirmes que siempre actuará tarde ni que otro relevador siempre evitará eldaño. Selecciona la respuesta según el riesgo y las características documentadas. CAPÍTULO 4 · DISPOSITIVOS DE PROTECCIÓN",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "730795607f2b35f7ccc07e332c4c0294077ddc7a8cad3450c24eab3fbcd021e9",
+    "final_sha256": "00f95ad9938c1d68326423e80f1f48d84fa660c8495c80abae13897c3c9c4629",
+    "pendencia": ""
   },
   "21": {
     "codigo": "MX-F021",
@@ -383,10 +388,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nComparación visual de un fusible cilíndrico y un fusible de cuchillas/NH, separados sin cableado. Ambos llevan campos A · V · CLASE · kA, sin valores inventados. Cilíndrico con cápsulas metálicas en extremos; NH con cuchillas. Texto subraya que la forma no define clase, capacidad o función; no insinuar equivalencia de selección.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nA · V · CLASE · kA\nCILÍNDRICO\nLeer clase y características\nA · V · CLASE · kA\nCUCHILLAS / NH\nFormato no define la función",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO364.8 · FUSIBLESFormato, clase y función son cosasdistintasEl fusible interrumpe cuando su elemento responde a una sobrecorriente conforme a sucaracterística tiempo-corriente. Su tensión, capacidad de interrupción, energía pasante ycoordinación importan tanto como los amperes. Una actuación exige sustitución ydiagnóstico, no un puente.FIGURA 21 · NO SELECCIONAR SOLO POR LA FORMAA · V · CLASE · kACILÍNDRICOLeer clase y característicasA · V · CLASE · kACUCHILLAS / NHFormato no define la funciónIlustraciones de formatos. Un cuerpo cilíndrico no identifica por sí solo la categoría de empleo ni una clasenorteamericana.Familia o designaciónQué verificarClases J, RK1, RK5, CCClases del sistema norteamericano. Confirmar tensión, base, acción ycaracterísticas del modelo.gG / aMCategorías IEC distintas. aM se usa para cortocircuito en circuitos demotor y requiere protección contra sobrecarga por separado.NH / cilíndrico / DFormatos o sistemas constructivos. Leer además la categoría y ficha;no equivalen a una función única.Alta velocidadPara semiconductores según diseño del fabricante. No todo fusiblerápido protege adecuadamente un variador.Una sustitución debe estar documentadaVerifica la referencia indicada o una equivalencia técnicamente validada. No mezclesdimensiones, clases o características por compartir amperaje. Si abre una sola fase,evalúa el riesgo de operación monofásica antes de restablecer.Referencia: Eaton Bussmann, fichas de familias norteamericanas e IEC. CAPÍTULO 4 · DISPOSITIVOS DE PROTECCIÓN",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "bb86700c1d26ea9c3e8f10e651ecd19b201078e120e7e7f436f9aa7812959503",
+    "final_sha256": "3f2f650b464ab2ff8876b50513058f9a72a8c7070272094cf120da355d9891c3",
+    "pendencia": ""
   },
   "22": {
     "codigo": "MX-F022",
@@ -397,10 +407,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nEsquema: +24 Vcc → S0 NC → FR1 NC 95-96 → KP1 permiso NA → [S1 NA en paralelo con KM1 NA 13-14] → KM1:A1; A2 a 0 Vcc. KP1 se muestra abierto sin energía y cierra cuando concede permiso. Retención solo puentea S1. No unir retorno con PE. Nota de estados de reposo obligatoria. Sin KS1 adicional ni función de seguridad completa.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\n+24 Vcc\nS0\nPARO · NC\nFR1\n95-96 · NC\nKP1\nPERMISO · NA\nS1 · ARRANQUE\nKM1 · 13-14 · NA\nKM1\nA1\nA2\n0 Vcc\nNA/NC representados sin energía; FR1 sin disparo y pulsadores sin accionar.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO374.9 · LÓGICA DE PERMISORed saludable antes de arrancarSupón un monitor KP1 cuya salida se energiza cuando la red es válida y se desenergiza aldetectar falla o perder su alimentación. Su contacto NA se cierra con la condición saludable:eso crea el permiso de marcha. Confirma esa lógica en el modelo real.FIGURA 22 · CONTROL DIDÁCTICO A 24 Vcc+24 VccS0PARO · NCFR195-96 · NCKP1PERMISO · NAS1 · ARRANQUEKM1 · 13-14 · NAKM1A1A20 VccNA/NC representados sin energía; FR1 sin disparo y pulsadores sin accionar.Fuente y protección de control omitidas. KM1 tiene bobina de 24 Vcc. KP1 aporta un contacto seco adecuado a esa carga;su circuito de medida no está dibujado. No es un circuito de paro de emergencia.CondiciónRespuesta previstaRed inválida o KP1 sinalimentaciónEl permiso KP1 abre; KM1 no puede mantenerse energizado.Sobrecarga: FR1 dispara95-96 abre y retira energía de la bobina.Paro S0 accionadoAbre el circuito aunque el contacto de retención esté cerrado.Red restablecidaCon S1 liberado y componentes sanos, se requiere una nuevaorden de arranque.La retención nunca puentea las proteccionesEl contacto KM1 de retención está en paralelo solo con S1. Este circuito básico nogarantiza seguridad funcional ante contacto soldado, pulsador trabado u otras fallas; esassituaciones requieren medidas adicionales según el riesgo. CAPÍTULO 4 · DISPOSITIVOS DE PROTECCIÓN",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "74ab0dce8001ec6e9f4596e7137d0d232b578d748761c62f26b58741db4770b8",
+    "final_sha256": "f56407e994cc53265831ebe4c5f777c19d5bea6fd69250717ed81f97e1115839",
+    "pendencia": ""
   },
   "23": {
     "codigo": "MX-F023",
@@ -411,10 +426,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos símbolos independientes de pulsador con vínculo mecánico discontinuo al accionador. Izquierda NA abierto en reposo; derecha NC cerrado en reposo y símbolo diagonal de NC. No representar pulsadores accionados ni unir ambos contactos como conmutador. Etiquetas completas y estado de reposo bajo cada símbolo.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nNA · NORMALMENTE ABIERTO\nReposo: abierto\nNC · NORMALMENTE CERRADO\nReposo: cerrado",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO39CAPÍTULO 5Dispositivos de controlEl circuito de control recibe órdenes, comprueba permisos y decide cuándo accionar unacarga. Pulsadores, contactores, temporizadores, alimentación y pilotos trabajan juntos.Entender qué hace cada uno te permite leer el tablero y localizar una falla con método.Pulsadores: el estado normal es el reposoUn pulsador momentáneo vuelve a su posición al soltarlo. NA significa normalmente abierto;NC, normalmente cerrado. En catálogos también encontrarás NO y NC. El estado se describesin accionar el pulsador; no significa que la máquina esté trabajando normalmente.FIGURA 23 · CONTACTOS DE PULSADORES EN REPOSONA · NORMALMENTE ABIERTOReposo: abiertoNC · NORMALMENTE CERRADOReposo: cerradoSímbolos de contacto con accionamiento manual. La línea discontinua indica acción mecánica, no un cable.ContactoSin pulsarAl pulsarNAAbiertoCerradoNCCerradoAbiertoPara una orden de arranque por pulso se utiliza un NA; para interrumpir la orden de marcha,un NC en serie. La retención mantiene la bobina energizada después de soltar ARRANQUE,siempre que los permisos sigan presentes.El frente y el bloque de contactos son partes distintasUn mismo accionador puede mover varios bloques NA y NC. Confirma su combinación,capacidad eléctrica, montaje y retorno. El color del botón no identifica por sí solo suscontactos. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "2cb549f8d2e156f0a291a5e0dbe1395db47de5f1753660ced0bb25606a6740d4",
+    "final_sha256": "d6e2bdfc0f150ad4b1df3b30e085c50e541764b4257ac5a7bcc7f9b2f0466a6f",
+    "pendencia": ""
   },
   "24": {
     "codigo": "MX-F024",
@@ -425,10 +445,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nA la izquierda accionador de emergencia rojo sobre fondo amarillo, enclavable, texto PARO. A la derecha tres tarjetas ACCIONAR → RESTABLECER → ARRANCAR. Restablecer libera el dispositivo pero no da orden de arranque. La nueva orden ocurre después de recuperar condiciones. No dibujar cableado ni presentar desbloqueo como reinicio automático.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nPARO\nAccionador enclavable\nACCIONAR\nSe solicita la\nparada de emergencia\nRESTABLECER\nSe libera el dispositivo;\nno ordena arrancar\nARRANCAR\nNueva orden, después\nde recuperar condiciones\nSecuencia funcional; no representa un circuito de seguridad.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO405.1 · PARO DE EMERGENCIADestrabar no es arrancarEl paro de emergencia es una función de seguridad de la máquina. El accionador tipo hongose reconoce por el rojo sobre fondo amarillo y queda enclavado al accionarlo. Su liberaciónexige una acción deliberada, conforme al mecanismo del fabricante. Para una soluciónelectromecánica, verifica contactos NC de apertura positiva o directa y la aptitud certificadadel dispositivo para emergencia.FIGURA 24 · TRES ACCIONES DIFERENTESPAROAccionador enclavableACCIONARSe solicita laparada de emergenciaRESTABLECERSe libera el dispositivo;no ordena arrancarARRANCARNueva orden, despuésde recuperar condicionesSecuencia funcional; no representa un circuito de seguridad.Antes de permitir otra partida se elimina la causa, se revisa la zona de peligro y se recuperan las condiciones exigidas porel sistema.La respuesta depende del riesgo• Parada de categoría 0: se retira de inmediato la energía a los actuadores; el movimientopuede continuar por inercia.• Parada de categoría 1: se conserva energía durante una parada controlada y despuésse retira. No equivale a mantener la máquina en marcha.La evaluación de riesgos define la respuesta y la arquitectura. Pueden requerirse canalesredundantes, supervisión, lógica de seguridad y elementos de corte adecuados. Un NCcomún colocado primero en el dibujo no demuestra que esa función sea segura.Dos separaciones esencialesLiberar la emergencia debe permitir una nueva orden, no generarla. Parar la máquinatampoco sustituye al seccionamiento, bloqueo y control de energías para mantenimiento.Referencia: Rockwell Automation, 800-WP008: accionamiento, enclavamiento y restablecimiento.Referencia: IDEC: funciones de parada según IEC 60204-1.En México, considera además la NOM-004-STPS-1999 para seguridad de maquinaria en centros de trabajo. Las referenciasIEC explican criterios de diseño; no sustituyen los requisitos mexicanos aplicables.Referencia: Catálogo oficial: NOM-004-STPS-1999, vigente en la consulta. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "7799a8f0dc45e832b0613756c5beed4edf9ad7720ecdbb49641fcd5a18eea46a",
+    "final_sha256": "cfcf93a985e97282e0661143a36d8dd397d4d9b83ab2161810ed75bf3024722f",
+    "pendencia": ""
   },
   "25": {
     "codigo": "MX-F025",
@@ -439,10 +464,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nPanel didáctico: pulsador blanco ARRANQUE, pulsador negro PARO, seta roja sobre fondo amarillo PARO DE EMERGENCIA, selector de tres posiciones M / 0 / A. Identificar S1 NA momentáneo, S0 NC paro normal, SE emergencia y SA1 selector. El dibujo no es una especificación de accesibilidad ni disposición reglamentaria universal. No combinar paro normal y emergencia en un solo botón.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nARRANQUE\nPARO\nPARO DE EMERGENCIA\nM\n0\nA\nS1 · PULSADOR NA\nLa orden es momentánea.\nS0 · PULSADOR NC\nParada normal, distinta de emergencia.\nSE · EMERGENCIA\nRequiere diseño y validación.\nSA1 · SELECTOR M / 0 / A\nInforma el modo de operación elegido.\nVista didáctica. Ubicación, envolvente y accesibilidad se definen para la máquina.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO415.2 · ESTACIÓN DE MANDOElegir el modo de operaciónUn selector mantenido conserva la posición elegida; uno con retorno por resorte vuelve alsoltarlo. Para MANUAL / 0 / AUTO, confirma qué contactos cierran en cada posición y si abrenantes de cerrar los siguientes. El frente no revela toda la secuencia interna.FIGURA 25 · PULSADORES Y SELECTOR IDENTIFICADOSARRANQUEPAROPARO DE EMERGENCIAM0AS1 · PULSADOR NALa orden es momentánea.S0 · PULSADOR NCParada normal, distinta de emergencia.SE · EMERGENCIARequiere diseño y validación.SA1 · SELECTOR M / 0 / AInforma el modo de operación elegido.Vista didáctica. Ubicación, envolvente y accesibilidad se definen para la máquina.Ejemplo de interfaz: arranque blanco, paro normal negro y emergencia roja con fondo amarillo. El selector no es un mediode aislamiento eléctrico.PosiciónIntención del modoM · ManualRecibir órdenes deliberadas del operador.0 · InhibidoRetirar la solicitud normal de marcha.A · AutomáticoAtender la demanda del proceso después de habilitar el sistema.Cambiar de modo no debe provocar una partida peligrosaSepara la selección del modo y la habilitación de marcha. Define qué ocurre al pasar aAUTO con una demanda ya presente, al volver la energía y al liberar una parada. Lasprotecciones permanecen activas en todos los modos.Referencia: Schneider Electric, FA28043: colores de accionadores cuando aplica IEC 60204-1. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "4237779067816afe1ce48ae40873eb2fbf5ae2edc2a7afc0038aab6636235184",
+    "final_sha256": "23a7c35ea0971cafd45f5c29d70d5c236a5997a5d7bc928c729d2e26a683458c",
+    "pendencia": ""
   },
   "26": {
     "codigo": "MX-F026",
@@ -453,10 +483,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nEsquema completo de retención básica: +24 Vcc → S0 NC → FR1 NC 95-96 → bifurcación de S1 NA y KM1 NA 13-14 en paralelo → KM1:A1. A2 vuelve a bus 0 Vcc. Ningún contacto puentea S0 ni FR1. No añadir dispositivos ausentes ni confundir KM1 auxiliar con polo de potencia. Estado desenergizado.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\n+24 Vcc\nS0\nPARO · NC\nFR1\n95-96 · NC\nS1 · ARRANQUE\nKM1 · 13-14 · NA\nKM1\nA1        A2\n0 Vcc",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO425.3 · RETENCIÓN DE MARCHAEl paro tiene prioridadEste circuito didáctico es de arranque y paro manual a 24 Vcc. La bobina KM1 acciona elcontactor; su auxiliar 13-14 conserva el camino de corriente cuando se libera S1. Laretención puentea únicamente el pulsador de arranque.FIGURA 26 · ARRANQUE, PARO Y SOBRECARGA+24 VccS0PARO · NCFR195-96 · NCS1 · ARRANQUEKM1 · 13-14 · NAKM1A1        A20 VccNA/NC dibujados sin accionamiento; FR1 sin disparo. Se omiten fuente, protecciones de control y potencia. No es uncircuito de emergencia ni incorpora el selector de la página anterior.AcciónResultado con componentes sanosPulsar S1, con S0 y FR1 cerradosKM1 se energiza; 13-14 cierra.Soltar S1KM1 continúa por el contacto de retención.Pulsar S0 o disparar FR1Se abre el camino común; KM1 pierde energía.Restablecer alimentación o FR1Con S1 liberado, hace falta otra orden de arranque.Si S0 y S1 se accionan a la vez, el NC de paro abierto impide energizar KM1. Un cable abiertoen ese camino también retira la orden; un puente o un contacto soldado puede anular esarespuesta. Esta lógica básica no detecta todos los fallos.La retención se pierde al caer la bobinaNo añadas puentes para evitar una parada molesta. Localiza su causa. Un rearranqueintencional en automático requiere otra lógica y medidas acordes al proceso.Referencia: NOM-001-SEDE-2012: 430-43, rearranque; 430-74, fallas a tierra en control. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "f0fc5c6d013ba0ef1259b99ac0b3e4031106bef1cc692a05cbccc4eb50491b74",
+    "final_sha256": "05510dd2d07f63eb3a255660ac80d79b485affd774be36a0d420839972f686ff",
+    "pendencia": ""
   },
   "27": {
     "codigo": "MX-F027",
@@ -467,10 +502,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nConfiguración IEC ilustrativa de KM1: tres polos principales abiertos con pares 1/L1-2/T1, 3/L2-4/T2, 5/L3-6/T3. Bobina A1-A2 separada eléctricamente; línea discontinua expresa vínculo mecánico con polos. Auxiliares independientes NA 13-14 y NC 21-22 en columna lateral. No convertir el vínculo mecánico en conductor. Sin puentes entre fases.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nPOLOS PRINCIPALES\n1/L1\n2/T1\n3/L2\n4/T2\n5/L3\n6/T3\nVínculo mecánico\nKM1\nA1\nA2\nAUXILIARES\n13\n14\n21\n22\nNA\nNC",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO435.4 · CONTACTORUna bobina, varios contactosEn un contactor electromagnético convencional, la bobina atrae una armadura y mueve loscontactos. Al retirar su alimentación, el resorte devuelve el conjunto: los principales NAabren, los auxiliares NA abren y los NC cierran. Esa es la respuesta prevista de un dispositivosano, sin enclavamiento mecánico.FIGURA 27 · CONFIGURACIÓN IEC ILUSTRATIVAPOLOS PRINCIPALES1/L12/T13/L24/T25/L36/T3Vínculo mecánicoKM1A1A2AUXILIARES13142122NANCLos polos de potencia están abiertos. La unión discontinua representa el accionamiento mecánico. Los auxiliarespertenecen al mismo contactor; aquí se dibujan separados para leerlos.Marcado habitualQué identifica1/L1, 3/L2, 5/L3 → 2/T1, 4/T2, 6/T3Pares de terminales principales. Respeta lado delínea/carga cuando lo exija el fabricante.A1 / A2Bobina: verificar tensión, CA/CC, frecuencia ypolaridad si está indicada.13-14 / 21-22Un auxiliar NA / un auxiliar NC en esta configuración.Estos marcados son frecuentes en equipos IEC; no sustituyen el esquema del modelo. Otrosbloques, equipos NEMA o contactores especiales pueden usar otra identificación. Tampocotodos incluyen el mismo número de auxiliares.Maniobra y protección son funciones diferentesEl contactor requiere protecciones de sobrecarga y cortocircuito coordinadas. Seleccionatambién sus auxiliares para la carga real de control.Referencia: Schneider Electric: ficha y esquema LC1D09BD, como ejemplo de identificación. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "d05aadbd84a1c9b8fa2d66707f89a0c94e3ad87bfdc0e8dd5aee67efb537ffec",
+    "final_sha256": "4a428df297920fb719e224412f1dada7ab3c6a549c121fd6b0919e4de77884c7",
+    "pendencia": ""
   },
   "28": {
     "codigo": "MX-F028",
@@ -481,10 +521,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nCuatro cronogramas ideales, cada uno con dos pistas y eje temporal común dentro de su panel. ON-DELAY: U sube, R sube después de un retardo; ambos caen cuando U cae. OFF-DELAY: C sube y R sube a la vez; C cae y R permanece alto durante un retardo antes de caer, suponiendo alimentación mantenida. INTERVALO: al subir U, R sube inmediatamente, permanece alto un intervalo y cae aunque U siga alto. CÍCLICO: mientras U está alto, R alterna periodos alto/bajo; elegir comienzo en alto como caso dibujado y cortar R al retirar U. No asignar segundos concretos. Leyenda U alimentación, C mando, R salida; nivel alto activo.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nON-DELAY\nU\nR\nOFF-DELAY\nC\nR\nINTERVALO\nU\nR\nCÍCLICO\nU\nR\nTiempo →  |  nivel alto = activo  |  U: alimentación  ·  C: mando  ·  R: salida",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO455.6 · TEMPORIZADORESLeer el tiempo antes de cablearUn relevador temporizador relaciona una entrada con una salida a lo largo del tiempo. Antesde elegirlo, identifica qué inicia la cuenta, qué la reinicia y qué sucede si desaparece laalimentación. El nombre de la función no basta para conocer todos esos detalles.FIGURA 28 · CUATRO RESPUESTAS IDEALIZADASON-DELAYUROFF-DELAYCRINTERVALOURCÍCLICOURTiempo →  |  nivel alto = activo  |  U: alimentación  ·  C: mando  ·  R: salidaCada fila es un caso independiente. Los intervalos son ilustrativos; no son valores de ajuste ni un esquema de bornes. EnOFF-DELAY la alimentación U permanece presente durante todo el caso.ON-DELAY: la salida espera antes de activarse. OFF-DELAY: en el caso mostrado se activacon C y se desactiva después de que C abre, conservando U. Un temporizador de retardo porcorte de alimentación es otro diseño; debe declarar esa función.Intervalo: la salida se activa un tiempo al aplicar U y luego cae aunque U continúe. Cíclico:alterna estados mientras está alimentado; aquí empieza activo. Otros equipos permiten otroestado inicial o tiempos distintos de encendido y apagado.Referencia: Schneider Electric, RE17RMMW: diagramas funcionales y retardo con señal de control. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "ba0c9e799dbb64be729120cd1ddf51760d2e9d3a20babf8051e325be3b9bb0d7",
+    "final_sha256": "9d469ddaf355930f0805e74593a0b8c3548d50843f6cc6d75373cd7c0e8cde60",
+    "pendencia": ""
   },
   "29": {
     "codigo": "MX-F029",
@@ -495,10 +540,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nTres tarjetas separadas por flechas: ESTRELLA / Aceleración / Tiempo tY; TRANSICIÓN / Ambos abiertos / Intervalo sin solape; DELTA / Conexión de marcha / Estrella abierta. Diferenciar duración de aceleración e intervalo entre apertura Y y cierre Δ. No fijar tiempos ni representar Y y Δ simultáneos. Mantener nota de que no es diagrama de potencia.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nESTRELLA\nAceleración\nTiempo tY\nTRANSICIÓN\nAmbos abiertos\nIntervalo sin solape\nConexión de marcha\nEstrella abierta\nNo es un diagrama de potencia ni una receta de tiempo para cualquier motor.\nDELTA",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO465.7 · AJUSTE Y COMPROBACIÓNProgramar también es verificarUn mando giratorio puede pertenecer a un temporizador electrónico; un display no garantizamayor exactitud por sí mismo. Compara rango, error de ajuste, repetibilidad, resolución yefecto de la temperatura. Los datos deben corresponder a la función que usarás.• 1. Identifica: referencia, alimentación, diagrama de terminales, contacto de salida yentrada de mando, si existe.• 2. Define: función, evento que inicia la cuenta, comportamiento de retorno y condición dememoria o reinicio.• 3. Ajusta: unidad y rango antes del valor. Cinco segundos, cinco minutos y cinco décimasno son equivalentes.• 4. Comprueba: en una prueba controlada, observa la salida real, la interrupción de laseñal y la pérdida de alimentación. Cambia ajustes solo como permite el manual.ESTRELLAAceleraciónTiempo tYTRANSICIÓNAmbos abiertosIntervalo sin solapeConexión de marchaEstrella abiertaNo es un diagrama de potencia ni una receta de tiempo para cualquier motor.El tiempo de aceleración en estrella y el intervalo de transición cumplen funciones distintas.Un retardo genérico no garantiza una conmutación sin solape. La selección incluyetemporización adecuada e interbloqueos eléctricos y mecánicos según el conjunto.No hay un ajuste universal de cinco segundosEl motor, la carga y los tiempos reales de los contactores determinan la secuencia.Incluso con intervalo sin solape pueden aparecer transitorios; verifica la aplicación y lasinstrucciones del arrancador.El contacto de salida del timer no alimenta automáticamente cualquier bobina: revisa cargainductiva, corriente de cierre, corriente de apertura y supresión compatible. Un displayencendido solo confirma parte de su funcionamiento.Referencia: Schneider Electric México, FA31459: coordinación para estrella-triángulo.FIGURA 29 · ESTRELLA-DELTA: DOS TIEMPOS DISTINTOSDELTASecuencia conceptual de transición abierta. Las bobinas de los contactores de estrella y delta no deben activarsesimultáneamente. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "54acf2683832ef37158c01a82a850de7af8cf473769f29da908910684e3e1dee",
+    "final_sha256": "dc9919b11a7988e6dccb67982d35b58fe7eb1109d4cacf40e634ff7f7b053e58",
+    "pendencia": ""
   },
   "30": {
     "codigo": "MX-F030",
@@ -509,10 +559,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos caminos horizontales separados, sin conexión cruzada. Camino superior 220 Vca 60 Hz → TRANSFORMADOR de entrada compatible → 24 Vca. Inferior 220 Vca 60 Hz → FUENTE CA/CC de entrada compatible → 24 Vcc. Flechas de transformación funcional, no esquema de bornes. No hacer salir CC de un transformador solo. Mantener carácter de ejemplos hipotéticos.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\n220 Vca · 60 Hz\nTRANSFORMADOR\nEntrada compatible\n24 Vca\n220 Vca · 60 Hz\nFUENTE CA/CC\nEntrada compatible\n24 Vcc\nEjemplos hipotéticos con entrada marcada para 220 V; no son tensiones universales.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO475.8 · ALIMENTACIÓN DEL CONTROL24 Vca y 24 Vcc no son igualesUn transformador convencional funciona con corriente alterna: puede adaptar la tensión y,con devanados separados, proporcionar separación galvánica. Por sí solo no rectifica acorriente continua. Para bobinas, sensores o controladores de 24 Vcc necesitas una fuenteCA/CC adecuada u otra alimentación CC compatible.FIGURA 30 · DOS CAMINOS DE ALIMENTACIÓN220 Vca · 60 HzTRANSFORMADOREntrada compatible24 Vca220 Vca · 60 HzFUENTE CA/CCEntrada compatible24 VccEjemplos hipotéticos con entrada marcada para 220 V; no son tensiones universales.Diagramas funcionales: se omiten seccionamiento, protecciones, conexiones de tierra y cableado. Un autotransformadorno proporciona la separación de devanados del primer caso.Qué debes comprobar• Entrada: tensión disponible, frecuencia, tolerancias y terminales. Verifica el marcado y lospuentes de conexión antes de energizar.• Salida: CA o CC, tensión admitida por la carga, corriente disponible y comportamientodurante arranques y fallas.• Instalación: aislamiento, puesta a tierra o unión prevista, ventilación y protección de lafuente y de los conductores.Reducir tensión no elimina todos los riesgos24 V no garantiza por sí solo un circuito seguro al tacto: importan la separación, elambiente y la instalación. La cara accesible de un pulsador debe ser segura; el operadorno debe tocar partes vivas para dar una orden.Un transformador común no estabiliza la red ni mantiene el control al desaparecer sualimentación. Si el proceso necesita continuidad, debe diseñarse una solución de respaldo;elegir una supuesta “fase buena” no la garantiza.Referencia: AutomationDirect: el transformador no regula la tensión de entrada. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "205f24700c39aa0b6dba8856c80e1a9315b0eb1a865a40b7e0af7553e84d29f6",
+    "final_sha256": "e4611b3974fa4ebc3f5c520149b21e3bd5b9b9b923ad26938541a89731895ab0",
+    "pendencia": ""
   },
   "31": {
     "codigo": "MX-F031",
@@ -523,10 +578,21 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nCinco lámparas piloto como círculos del mismo tamaño en una fila, con borde oscuro: rojo, amarillo, azul, verde y blanco. Cada círculo lleva nombre de color debajo. No añadir significados nuevos ni estados ON/OFF; la explicación de usos está en el texto del ebook. No emplear color para conductores eléctricos.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nROJO\nAMARILLO\nAZUL\nVERDE\nBLANCO",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO495.10 · LÁMPARAS PILOTOEl color comunica una condiciónUn piloto ayuda a reconocer el estado del sistema. Primero define qué señal lo activa y quédebe hacer el operador; después elige color y rótulo. En esta edición usamos comoreferencia la convención IEC para indicación de máquinas, comprobando su aplicación encada equipo.FIGURA 31 · COLORES DE INDICACIÓNROJOAMARILLOAZULVERDEBLANCOEsta guía de pilotos no es la tabla de colores de pulsadores. Usa además texto o símbolos: el color no debe ser la únicainformación.ColorSignificado de referenciaEjemplo de interpretaciónRojoEmergencia o peligroRequiere atención inmediata ante unacondición peligrosa.AmarilloCondición anormalRevisar o intervenir, según el evento indicado.AzulAcción obligatoriaEl operador debe realizar la acciónidentificada.VerdeCondición normalEstado normal definido para la aplicación.BlancoInformación neutraPor ejemplo, disponibilidad de alimentación decontrol.No asignes rojo automáticamente a “motor apagado”, ni azul a cualquier dato deproducción. Para el ejemplo siguiente, amarillo identifica disparo de sobrecarga, blancodisponibilidad del control y verde activación del contactor; los rótulos limitan lo que se estáafirmando.La luz informa; no garantizaUna lámpara apagada puede estar dañada. Una lámpara verde no prueba ausencia depeligro. Para confirmar giro, flujo o presión necesitas una señal que realmente mida esacondición.Referencia: IDEC: tabla de pilotos según IEC 60204-1; referencia de diseño. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "recorte_branco_exportacao": [
+      0,
+      176,
+      1788,
+      660
+    ],
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "eb64b319c68b37603c3b363c37374805b539f84175c5ceb63104e79a4efdd03c",
+    "final_sha256": "3346a252e4b3b6991723299ef84db0540b287b24b2dd1c9353e23b96bf0de31e",
+    "pendencia": ""
   },
   "32": {
     "codigo": "MX-F032",
@@ -537,10 +603,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nBuses +24 Vcc y 0 Vcc, tres ramas independientes. Rama superior piloto H0 directo, blanco, CONTROL DISPONIBLE. Rama media contacto auxiliar KM1 NA 53-54 en serie con H1 verde, KM1 ACTIVADO. Rama inferior FR1 NA de disparo 97-98 en serie con H2 amarillo, SOBRECARGA. KM1 desenergizado y FR1 sin disparo en el dibujo. No alimentar la alarma a través de FR1 NC 95-96. Indicación de contactor no demuestra giro del motor.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\n+24 Vcc\n0 Vcc\nH0\nCONTROL DISPONIBLE\nKM1 · 53-54 · NA\nH1\nKM1 ACTIVADO\nFR1 · 97-98 · NA\nH2\nSOBRECARGA\nContactos en reposo: KM1 sin energía y FR1 sin disparo.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO505.11 · CABLEADO DE SEÑALIZACIÓNEl contacto va en serie con el pilotoFIGURA 32 · TRES INDICACIONES, TRES RAMAS+24 Vcc0 VccH0CONTROL DISPONIBLEKM1 · 53-54 · NAH1KM1 ACTIVADOFR1 · 97-98 · NAH2SOBRECARGAContactos en reposo: KM1 sin energía y FR1 sin disparo.El color representa el lente, no una luz encendida. Fuente de control ya protegida; confirma polaridad. Se omiten potencia,protección de ramas y puesta a tierra.H1: se usa 53-54 como ejemplo de un NA adicional; confirma ese bloque y su numeración enel equipo. El 13-14 del circuito de retención ya cumple otra función. El auxiliar informa delestado del mecanismo, no verifica cada polo de potencia ni la rotación del motor.H2: 97-98 es un marcado habitual del contacto NA de disparo; verifica el modelo. Elcontacto está en serie con la lámpara. Poner la lámpara en paralelo con ese contactoproduciría otra lógica y no equivale a esta señalización.Una bobina energizada no demuestra que el contactor cerróUn piloto colocado en paralelo con A1-A2 indica tensión aplicada a la bobina. No confirmaque la armadura se movió. Para diagnosticar, distingue orden eléctrica, posición delmecanismo y respuesta del proceso.Selecciona pilotos por tensión, CA/CC, consumo, ambiente y duración declarada. Los LED también disipan calor y puedenfallar. Un modelo multivoltaje solo admite el rango escrito en su ficha.Cada rama alimenta un piloto de 24 Vcc. H0 indica control disponible; H1 depende de unauxiliar de KM1; H2 indica disparo de FR1. Alimenta las barras después de la proteccióndel control y antes de S0 y FR1:95-96, para conservar la indicación de sobrecarga. CAPÍTULO 5 · DISPOSITIVOS DE CONTROL",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "6a5a6bf9e70be5454f6e0cb2915b897faa24dfb1f5fc659a55a386a9ed030379",
+    "final_sha256": "9126bfe6e293b7458bb8374c99655ae9ed82767b38bb24e96d737fb122ef5b27",
+    "pendencia": ""
   },
   "33": {
     "codigo": "MX-F033",
@@ -551,10 +622,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nCuatro tarjetas paralelas de lectura: ORDEN, PERMISOS, ACCIONAMIENTO, RESPUESTA, cada una con su pregunta exacta. No unirlas con cables ni convertirlas en una lista de elementos de seguridad. La respuesta de proceso es distinta de que se haya activado un contactor.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nORDEN\n¿Qué solicita\nel operador?\nPERMISOS\n¿Qué condiciones\ndeben cumplirse?\nACCIONAMIENTO\n¿Se activa\nel dispositivo?\nRESPUESTA\n¿Qué confirma\nel proceso?",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO515.12 · CIERRE DEL CAPÍTULODel componente a una funcióncomprobableAntes de cambiar un componente, identifica dónde deja de cumplirse la función prevista.Sigue la cadena con planos actualizados y las medidas de seguridad del procedimiento.FIGURA 33 · CUATRO PREGUNTAS PARA LEER EL CONTROLORDEN¿Qué solicitael operador?PERMISOS¿Qué condicionesdeben cumplirse?ACCIONAMIENTO¿Se activael dispositivo?RESPUESTA¿Qué confirmael proceso?Ninguna indicación individual confirma por sí sola toda la cadena.Lista de verificación• Pulsadores y selector: contactos, retorno, rótulos y respuesta al cambiar de modoidentificados.• Paro y emergencia: prioridad sobre arranque; restablecimiento sin partida inesperada;función de seguridad validada para la máquina.• Contactor: categoría y servicio correctos; bobina compatible; auxiliares disponibles ycapacidad de maniobra comprobada.• Temporización: disparador, reinicio, unidad, valor y respuesta a pérdida de energíadocumentados.• Alimentación: CA/CC, carga continua, transitorios, protecciones y conexiones verificadas.• Pilotos: cada rótulo coincide con lo que mide la señal; ningún contacto se suponedisponible sin confirmar el bloque instalado.Prueba sin improvisarDefine una prueba controlada con personal capacitado, EPP apropiado y condiciones deacceso seguras. Para intervenir, identifica y aísla todas las fuentes, bloquea conforme alprocedimiento y verifica ausencia de tensión. Un pulsador de paro no es aislamiento.En el siguiente capítulo entran sensores y dispositivos de campo: nivel, presión, posición yotras variables que convierten una orden manual en una secuencia automática.Referencia: NOM-029-STPS-2011: seguridad en mantenimiento de instalaciones eléctricas. CAPÍTULO 5 · DISPOSITIVOS DE CONTROLLos ejemplos son educativos; la selección de equipos y las funciones de protección deben verificarse para la aplicaciónreal.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "0dec59c67ee2ddeb0c592de1a397db227856b6533d8b7d2f337b3f8188704269",
+    "final_sha256": "21cdbb055fe645b0b37e93ff032875e603890173123d8d4fef2323fcd73c2487",
+    "pendencia": ""
   },
   "34": {
     "codigo": "MX-F034",
@@ -565,10 +641,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nTres bloques con flechas conceptuales: PROCESO → DISPOSITIVO → CONTROL. Proceso enumera nivel, posición, presión y temperatura; dispositivo convierte condición en señal; control interpreta y aplica lógica. No añadir PLC obligatorio ni presuponer señal siempre digital.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nPROCESO\nNivel, posición,\npresión, temperatura\nDISPOSITIVO\nConvierte la condición\nen una señal\nCONTROL\nInterpreta la señal\ny aplica la lógica",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO52CAPÍTULO 6Dispositivos de campoEl tablero recibe información de la máquina, la cisterna, la tubería o el proceso. Losdispositivos de campo convierten nivel, posición, presión, temperatura o presencia enseñales que el control puede interpretar. Saber elegirlos y comprobar su respuesta permiteresolver aplicaciones de mayor valor.FIGURA 34 · DE LA CONDICIÓN FÍSICA A LA DECISIÓNPROCESONivel, posición,presión, temperaturaDISPOSITIVOConvierte la condiciónen una señalCONTROLInterpreta la señaly aplica la lógicaEl dispositivo aporta una señal. La protección del proceso depende también de la lógica, los actuadores y su respuestaante fallas.Qué quieres conocerDispositivo de este capítuloPosición por contactoInterruptor de límite / fin de carrera.Nivel de líquidoInterruptor de flotador o controlador con electrodos.Presión o temperaturaPresostato o termostato / controlador.Presencia sin contactoSensor inductivo, capacitivo o fotoeléctrico.Circulación de fluidoInterruptor de flujo / sensor de caudal.Tres datos antes de conectar• Qué detecta: objeto o fluido, rango, montaje y condiciones ambientales.• Cómo se alimenta: tensión, CA/CC y consumo, cuando requiere alimentación propia.• Qué entrega: contacto seco, salida electrónica o señal analógica. La entrada receptoradebe ser compatible.No todas las señales se cablean como un interruptorUn contacto seco no genera tensión. Una salida PNP/NPN necesita alimentación y unacarga compatible. Un sensor analógico requiere una entrada que interprete su señal; nose conecta como si fuera un NA. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "f51262992907ef1d6ce41939b95aa57236632652ebc37cf4cc59177055154afc",
+    "final_sha256": "9c1938478aa6e064518f5030ca3b6eea94666c01d422b4976f5ec439de894889",
+    "pendencia": ""
   },
   "35": {
     "codigo": "MX-F035",
@@ -579,10 +660,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos paneles. Izquierda cuerpo de final de carrera, palanca con rodillo, leva superior y flecha de desplazamiento; llamada al contacto interno. Derecha conmutador en reposo: COM unido a NC y NA abierto. Al accionar COM pasa a NA. No unir NC y NA, no asignar números físicos de borne. Línea mecánica nunca se confunde con conductor.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nCUERPO\nContacto interno\nLeva\nRodillo\nAccionamiento mecánico\nCONTACTO CONMUTADO EN REPOSO\nCOM\nNC\nNA\nAl accionar: COM pasa de NC a NA.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO536.1 · INTERRUPTOR DE LÍMITEDetectar posición por contactoUn interruptor de límite o fin de carrera usa un rodillo, palanca, émbolo u otro accionadorpara cambiar contactos. En un modelo momentáneo, vuelve al reposo al retirarse la leva.Hay versiones con otra acción mecánica; confirma cuál tienes.FIGURA 35 · ACCIONADOR Y CONTACTO CONMUTADOCUERPOContacto internoLevaRodilloAccionamiento mecánicoCONTACTO CONMUTADO EN REPOSOCOMNCNAAl accionar: COM pasa de NC a NA.El dibujo no reproduce un producto comercial. COM, NC y NA identifican funciones; el marcado y la numeración realesdependen del modelo.Condición del ejemploCOM-NCCOM-NASin accionarCerradoAbiertoAccionadoAbiertoCerradoDetecta posiciones de piezas, mesas o mecanismos. También existen métodos sin contacto.El interruptor no debe absorber la fuerza de fin de recorrido como si fuera el tope mecánico.• Respeta recorrido, sobrecarrera admisible, ángulo de ataque, velocidad de la leva yfijación. Una palanca forzada puede dejar de regresar.• Comprueba categoría de los contactos, carga mínima y máxima, sellado y ambiente. Uncontacto para potencia puede fallar con una señal demasiado pequeña.Detectar una puerta no equivale a proteger a una personaUn fin de carrera de uso general no valida una función de seguridad. Resguardos,polipastos y elevadores requieren dispositivos y diseño específicos.Referencia: OMRON: estructura y uso correcto de interruptores de límite. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "cd7dd28ddb1a64ed3a115a778e64bba283177581f1a9c7a3a4bc4d008154340c",
+    "final_sha256": "d236fc26bc9b49040c52d04c1b3d5063cb6eba778ebd1be06f7e01073172dfb8",
+    "pendencia": ""
   },
   "36": {
     "codigo": "MX-F036",
@@ -593,10 +679,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos vistas del MISMO principio de flotador de cable con diferencial. Tanque izquierdo con nivel bajo y flotador inclinado hacia abajo, “Solicita llenar”; derecho nivel alto y flotador elevado, “Detiene el llenado”. Cable anclado en lateral; sin afirmar dimensiones, longitudes o umbrales. No representar dos sensores independientes ni un cable rígido que impida la inclinación.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nNIVEL BAJO\nSolicita llenar\nNIVEL ALTO\nDetiene el llenado\nEjemplo de flotador de cable con diferencial mecánico",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO546.2 · FLOTADORES Y ELECTRODOSLlenar y vaciar son lógicas opuestasUn flotador eléctrico cambia su contacto con el nivel. En uno de cable, el punto de fijación yel movimiento permitido determinan el diferencial entre conmutaciones. Deja espacio paraque no se atore con paredes, tuberías, residuos o la entrada de agua.FIGURA 36 · SOLICITUD DE LLENADO CON DIFERENCIALNIVEL BAJOSolicita llenarNIVEL ALTODetiene el llenadoEjemplo de flotador de cable con diferencial mecánicoEn este ejemplo, el contacto solicita llenado al bajar y lo interrumpe al subir. Entre ambos puntos mantiene el estadoanterior; se verifica esa acción en el modelo elegido.Función requeridaAl nivel bajoAl nivel altoLlenar el depósitoSolicitar marchaRetirar solicitudVaciar el depósitoRetirar solicitudSolicitar marchaAlgunos modelos permiten controlar directamente un motor dentro de capacidadesdeclaradas; otros son solo para señalización. Para este libro usamos el circuito de control delcontactor, verificando además la capacidad de conmutar su bobina o una interfaz. Ni “220V” ni un alto amperaje garantizan compatibilidad a 24 Vcc.Control por electrodosUn controlador conductivo mide a través de electrodos y un líquido suficientementeconductor. Los niveles alto y bajo permiten formar un diferencial. No funciona igual conaceite o agua de muy baja conductividad; requiere selección, limpieza y compatibilidad delmaterial. Los electrodos se conectan al controlador destinado a esa función, nuncadirectamente a la red.Referencia: SJE PumpMaster WPS: llenado/vaciado y capacidades específicas del modelo.Referencia: OMRON: control conductivo de nivel y diferencial. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "c2a1139e8908ac94ab0ff385e4b75a88c2e733461b432d2d0e41d5126646b362",
+    "final_sha256": "93a79a6d9a585a7b39761cdafe6c65a0eb729a77563bd513e45f2dcaf385f0ea",
+    "pendencia": ""
   },
   "37": {
     "codigo": "MX-F037",
@@ -607,10 +698,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nPanel superior: cisterna B2 con reserva mínima, bomba y tubería hacia tinaco B1 con nivel alto de paro. Panel inferior: +24 Vcc → S2 HABILITAR (mantenido) → FR1 NC 95-96 → B2 RESERVA → B1 LLENADO → KM1:A1; A2 a 0 Vcc. B2 conduce solo con reserva suficiente; B1 conduce con demanda de llenado y abre al nivel alto. Indicar estos estados funcionales explícitamente, sin deducirlos de la forma del flotador. No añadir retención ni nueva botonera: S2 es habilitación mantenida. No usar B0 en esta figura, pues su identificador local es B2. Es esquema didáctico parcial, no arquitectura completa de protección.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nCISTERNA · B2\nReserva mínima\nTINACO · B1\nNivel alto de paro\nBOMBA\nRecorrido hidráulico esquemático\n+24 Vcc\nKM1\nS2\nHABILITAR\nFR1\n95-96 · NC\nB2\nRESERVA\nB1\nLLENADO\nA1        A2\n0 Vcc",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO556.3 · CISTERNA Y TINACODemanda de agua y reservadisponiblePara llenar un tinaco, B1 solicita agua al nivel bajo y abre al nivel alto. En la cisterna, B2abre antes de perder la reserva necesaria para bombear y vuelve a cerrar cuando el nivel serecupera. Cada flotador debe tener el diferencial apropiado.FIGURA 37 · DOS CONDICIONES EN SERIECISTERNA · B2Reserva mínimaTINACO · B1Nivel alto de paroBOMBARecorrido hidráulico esquemático+24 VccKM1S2HABILITARFR195-96 · NCB2RESERVAB1LLENADOA1        A20 VccAquí puede haber arranque automáticoRecuperar agua o alimentación puede iniciar la bomba si la operación está habilitada yB1 solicita llenado. Define las inhibiciones necesarias. Antes de rearmar una sobrecarga,revisa su causa.El nivel no confirma cebado, válvula abierta ni caudal. Verifica materiales aptos para agua potable y límites deconmutación para cargas pequeñas.Referencia: SJE MilliAmpMaster: ejemplo de límites CA/CC y cargas de control pequeñas.Circuito didáctico de 24 Vcc: contactos con ambos flotadores abajo, S2 deshabilitado y FR1 sin disparo. Los tanquesilustran su ubicación. Se omiten fuente, protecciones, potencia, válvulas y tierra. Confirma la capacidad de B1/B2.Control automático de dos hilos: S2 mantenido habilita; FR1 permite marcha; B2confirma reserva y B1 solicita llenado. Difiere del mando manual de tres hilos de las páginas10 y 42. No añadas retención en paralelo con B1 o B2: anularía su función. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "9929b3528c1471992c273dba7508096d49daa0f2d26d7c9a9f26a261c9da5cfc",
+    "final_sha256": "dce34eedd177befc0a5ca6b3cfb7620753951c62c4fadde4edcfed0e72562205",
+    "pendencia": ""
   },
   "38": {
     "codigo": "MX-F038",
@@ -621,10 +717,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nGráfica conceptual presión manométrica frente al tiempo. Líneas horizontales discontinuas en 5 bar y 7 bar. Trayectoria arranca en 5 (“ARRANCA”), asciende a 7 mientras “Bombeando”, se detiene en 7 (“PARA”), desciende por “Consumo de agua” hasta 5 y vuelve a “ARRANCA”. Entre umbrales conserva estado. No inventar escala temporal ni presentar pendientes como curva real de bomba. Valores hipotéticos, no ajuste recomendado universal.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\n5 bar\n7 bar\nPresión manométrica\nTiempo\nARRANCA\nPARA\nARRANCA\nBombeando\nConsumo de agua\nEntre umbrales se conserva el estado previo; pendiente ilustrativa, no una curva de bomba.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO566.4 · PRESOSTATODos umbrales evitan oscilacionesEl presostato entrega una conmutación asociada a la presión. En un modelo mecánico, undiafragma o pistón mueve el contacto; uno electrónico necesita interpretar ademásalimentación y salida. Para un sistema hidroneumático, define por separado la presión dearranque y la de paro.FIGURA 38 · EJEMPLO HIPOTÉTICO: ARRANQUE A 5, PARO A 75 bar7 barPresión manométricaTiempoARRANCAPARAARRANCABombeandoConsumo de aguaEntre umbrales se conserva el estado previo; pendiente ilustrativa, no una curva de bomba.Los valores sirven para explicar la histéresis; no son ajustes recomendados para un tanque, compresor o bomba real.Diferencial: 7 - 5 = 2 bar. En presión manométrica, 5 bar = 500 kPa ≈ 72.5 psi; 7 bar =700 kPa ≈ 101.5 psi. Comprueba unidades y referencia: presión manométrica y absoluta noson intercambiables.• El ajuste principal puede corresponder al arranque o al paro, según el modelo. Nosupongas que todo dial se configura restando el diferencial.• Distingue rango de trabajo, presión admisible y resistencia a sobrepresión. El límite de uncomponente no autoriza al resto del sistema a operar a ese valor.• Verifica fluido, temperatura, materiales y rosca. Usa junta o sellador según la conexión; noapliques cinta de forma universal ni permitas que bloquee el puerto.Presostato, descarga y alivio no son lo mismoEn un compresor, una función de descarga para facilitar el arranque no sustituye a laválvula de seguridad por sobrepresión. El control normal no reemplaza las proteccionesdel recipiente. Los sistemas contra incendio requieren control específico; este ejemplo nose aplica a ellos.Referencia: OMRON: presión, referencia, rango e histéresis. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "6919072dee940c245b6d0a59b75490128e98b4578d66ea9d4dedef12d6d19bd5",
+    "final_sha256": "b9e2957e4b660cc279e8e27df8ef4cc297f0b413926f2050d4d6a0b4c5117bd4",
+    "pendencia": ""
   },
   "39": {
     "codigo": "MX-F039",
@@ -635,10 +736,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos cadenas funcionales horizontales independientes. REGULACIÓN: sensor de temperatura del proceso → controlador de orden normal de calor/frío → actuador que conmuta carga. LÍMITE: sensor independiente del límite → limitador que detecta condición peligrosa → corte de seguridad según diseño. No conectar los dos sensores como si fueran uno ni afirmar que todo termostato de regulación es limitador de seguridad. Sin cableado o certificación de arquitectura.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nREGULACIÓN\nLÍMITE\nSENSOR\nTemperatura\ndel proceso\nCONTROLADOR\nOrden normal\nde calor o frío\nACTUADOR\nConmuta la carga\nsegún el control\nSENSOR DEL LÍMITE\nVigilancia\nindependiente\nLIMITADOR\nDetecta condición\npeligrosa\nCORTE DE SEGURIDAD\nRetira energía\nsegún el diseño",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO576.5 · TEMPERATURARegular el proceso y limitar elpeligroEl controlador actúa según la temperatura. En calefacción solicita calor al enfriarse; enrefrigeración, enfriamiento al calentarse. Diferencial y tiempos mínimos deben seradecuados al proceso y al equipo.TecnologíaQué debes comprobarBimetálicaAcción del contacto, temperatura de actuación y retorno.Bulbo y capilarRango y posición del bulbo. Manejar el capilar según el manual.ElectrónicaSensor compatible (Pt100, NTC o termopar según el modelo),entrada configurada y tipo de salida.FIGURA 39 · DOS FUNCIONES CON REQUISITOS DIFERENTESREGULACIÓNLÍMITESENSORTemperaturadel procesoCONTROLADOROrden normalde calor o fríoACTUADORConmuta la cargasegún el controlSENSOR DEL LÍMITEVigilanciaindependienteLIMITADORDetecta condiciónpeligrosaCORTE DE SEGURIDADRetira energíasegún el diseñoArquitectura funcional, no un circuito listo para instalar. La independencia del límite y su medio de corte deben respondera las fallas que el diseño debe cubrir.No todas las sondas se intercambian por tener dos o tres cables. Comprueba tipo,conexionado, ubicación y respuesta ante sensor abierto o en cortocircuito. La exactituddepende del sistema completo, no de que tenga display.Un segundo ajuste no basta como protección independienteEl límite debe cubrir las fallas previstas, incluso un elemento de mando normal que quedacerrado. Usa rearme manual cuando se requiera; revisa la causa antes de restablecer.Referencia: OMRON: control de temperatura, sensores y configuración. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "c11fcaa3f3ab46fdcaf82d6a4fba60d41cbad36946e0fa1a83480f48e0a677cd",
+    "final_sha256": "6344fa9325ea97b9d0f9f72f1e97bcd14b3e45152c32d6b2e198a655588668ba",
+    "pendencia": ""
   },
   "40": {
     "codigo": "MX-F040",
@@ -649,10 +755,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nSensor inductivo cilíndrico genérico en vista lateral izquierda, cara activa hacia un blanco metálico a la derecha. Cota s solo entre cara activa y superficie del objeto. Línea de detección discontinua; no conductor eléctrico. Sin milímetros arbitrarios ni afirmar s=Sn. Indicar verificar rango de trabajo real de montaje.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nINDUCTIVO\nOBJETO METÁLICO\ns\nCara activa\ns = separación real de montaje. Confirmar el rango de trabajo, no solo Sn.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO586.6 · SENSOR INDUCTIVOMetal detectable, distanciaverificableUn inductivo detecta metal sin contacto mediante un campo electromagnético. Muchosmodelos detectan acero y metales no ferrosos a distintas distancias; “inductivo” no significa“solo hierro”.FIGURA 40 · OBJETO, CARA ACTIVA Y SEPARACIÓNINDUCTIVOOBJETO METÁLICOsCara activas = separación real de montaje. Confirmar el rango de trabajo, no solo Sn.El dibujo ilustra la geometría de detección, sin fijar un alcance para un sensor real. El objeto de referencia del fabricantepuede ser distinto de la pieza del proceso.DatoQué cambia en la aplicaciónSn / distancia nominalReferencia de ensayo; usa el rango de trabajo para el objeto y elambiente.Material y tamañoCambian la distancia útil y el factor de corrección.Enrasado / no enrasadoExige espacio libre respecto al metal y a otros sensores.Frecuencia y respuestaDeben permitir detectar cada pieza a su velocidad real.Una rueda con 6 pulsos por vuelta a 600 rpm entrega 6 × 600 / 60 = 60 pulsos/s. Verificatambién ancho de pulso, respuesta y filtros de la entrada del PLC; el LED no confirma lalectura.Sin contacto no significa sin fallasVerifica ambiente, alimentación y cableado. Un sensor de uso general no sustituye a undispositivo de seguridad.Referencia: OMRON: principio inductivo y condiciones de instalación.Referencia: OMRON: distancias, montaje enrasado y respuesta. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "a452f2de1eec4b3baaa86cdc3c08d8ffe7eaa006cc77b94884be8d4727a65289",
+    "final_sha256": "7d188d952d40804f11781c4e4801b40dd44317dd2300da9ed7a3fc961820eb34",
+    "pendencia": ""
   },
   "41": {
     "codigo": "MX-F041",
@@ -663,10 +774,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos paneles de sensor electrónico de tres hilos a 24 Vcc. Ambos: L+ a +24 Vcc, L− a 0 Vcc. PNP: salida OUT → carga → 0 Vcc, flecha de corriente convencional desde OUT hacia carga con salida activa. NPN: +24 Vcc → carga → OUT, flecha desde carga hacia OUT cuando conduce. No invertir carga de retorno, no poner carga entre OUT y PE y no puentear OUT directamente a un bus. Interior sensor es bloque funcional de etapa electrónica, sin transistor inventado. No indicar corrientes nominales.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nPNP\n+24 Vcc\n0 Vcc\nSENSOR\nPNP\nEtapa electrónica\nL+\nL-\nOUT\nCARGA\nFlecha: corriente con la salida activa.\nNPN\n+24 Vcc\n0 Vcc\nSENSOR\nNPN\nEtapa electrónica\nL+\nL-\nOUT\nCARGA\nFlecha: corriente con la salida activa.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO596.7 · SALIDAS DE TRES HILOSPNP y NPN: sigue la corrienteEn una salida PNP activa, el sensor suministra corriente hacia la carga; esta retorna a 0 V.En una salida NPN activa, el sensor conduce la corriente de la carga hacia 0 V; la carga sealimenta desde el positivo. Son etapas electrónicas, no contactos secos.FIGURA 41 · EJEMPLOS DE SALIDA A 24 VccPNP+24 Vcc0 VccSENSORPNPEtapa electrónicaL+L-OUTCARGAFlecha: corriente con la salida activa.NPN+24 Vcc0 VccSENSORNPNEtapa electrónicaL+L-OUTCARGAFlecha: corriente con la salida activa.La carga representa una entrada compatible o una interfaz seleccionada. Se omite la electrónica interna y la protección dealimentación. El dibujo muestra conexiones, no un estado NA/NC.PNP/NPN no define NA/NC. En un sensor de proximidad configurado NA, la detecciónactiva la salida; en NC ocurre la respuesta inversa, dentro de las condiciones declaradas. Lapérdida de alimentación debe analizarse por separado: no equivale simplemente a “no hayobjeto”.En muchos sensores: marrón = L+, azul = L- y negro = salida. Confirma plano y pines. Soncolores del cable del dispositivo, no una regla general para los conductores del tablero.La compatibilidad se comprueba en ambos extremosCon PNP, una entrada típica recibe corriente y retorna a 0 V; con NPN, la entrada típica lasuministra desde positivo. Comprueba el común del módulo, umbrales, caída de tensión,fugas y capacidad de la salida. No conectes una bobina por su tensión solamente.Referencia: Schneider Electric, FA142566: salidas PNP/NPN y compatibilidad con PLC. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "43d07d650ef7081df6488832c8b4b6d785269b92100dff4d583d9f74f0f57592",
+    "final_sha256": "13666ddd7d215dde25dddad87088da02c9b835238a57b5941b1dfed32d7b66c1",
+    "pendencia": ""
   },
   "42": {
     "codigo": "MX-F042",
@@ -677,10 +793,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nTres filas ópticas. BARRERA: emisor E separado a la izquierda, receptor R a la derecha, objeto interrumpe haz entre ambos. RETRORREFLECTIVO: E+R en mismo bloque izquierdo, reflector derecho, haz de ida y regreso; objeto corta trayecto. DIFUSO: E+R izquierdo y objeto derecho, retorno por reflexión del objeto sin reflector separado. Flechas son luz, no cables. Diferenciar obstrucción en las dos primeras filas y reflexión en tercera.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nBARRERA\nE\nR\nObjeto interrumpe\nRETRORREFLECTIVO\nE + R\nREFLECTOR\nObjeto interrumpe\nDIFUSO\nE + R\nOBJETO\nE: emisor · R: receptor. En difuso, el retorno depende de la reflexión del objeto.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO606.8 · CAPACITIVO Y FOTOELÉCTRICOElegir según lo que cambia aldetectarUn capacitivo puede detectar líquidos, polvos, plásticos y metales, según el modelo y elmontaje. Sensibilidad, paredes, humedad y acumulaciones influyen; no detecta cualquiermaterial en cualquier condición.FIGURA 42 · TRES DISPOSICIONES FOTOELÉCTRICASBARRERAERObjeto interrumpeRETRORREFLECTIVOE + RREFLECTORObjeto interrumpeDIFUSOE + ROBJETOE: emisor · R: receptor. En difuso, el retorno depende de la reflexión del objeto.Los trazos azules indican el recorrido óptico previsto. En barrera y retrorreflexión se dibuja un objeto que interrumpe eserecorrido; en difuso se recibe parte de la luz reflejada por el objeto.Barrera: emisor y receptor separados. Retrorreflectivo: usa un reflector. Difuso: elobjeto devuelve la luz. Verifica la salida con recepción o interrupción de luz; la tecnología nodefine NA/NC.• Prueba piezas claras, oscuras, brillantes o transparentes que puedan aparecer; el color y elacabado pueden cambiar la detección, especialmente en difuso.• Comprueba alineación, fondo, suciedad, iluminación externa, tiempo de respuesta yfijación. Una prueba con una sola pieza quieta no representa toda la producción.Dos hilos no equivalen a un contacto secoUn sensor electrónico de dos hilos puede necesitar corriente mínima de carga y dejarcorriente de fuga cuando está inactivo. Verifica compatibilidad; no lo conectesdirectamente entre los polos de la fuente como si fuera una bobina.Referencia: OMRON: detección capacitiva y conexión de sensores.Referencia: OMRON: principios de sensores fotoeléctricos. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "e15d3ac93e874afc6f2c89aacb610c558fa820b14498f41d46fd5de787973822",
+    "final_sha256": "7e25e6e0e16a6bf537e3f142653b3da9c8b2cc3ab738e318704eb8b81e2d0ecd",
+    "pendencia": ""
   },
   "43": {
     "codigo": "MX-F043",
@@ -691,10 +812,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nCorte conceptual de tubería horizontal con agua y flechas de flujo hacia la derecha. Mecanismo de conmutación encima; paleta entra en el flujo desde un pivote y aparece desplazada hacia aguas abajo. Posición sin flujo puede mostrarse discontinua vertical, claramente referencial. No colocar motor ni inferir una orientación de instalación universal; mantener nota del fabricante.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nMECANISMO\nde conmutación\nPaleta desplazada\nFlujo →\nEsquema de principio. La orientación permitida depende del fabricante.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO616.9 · INTERRUPTOR DE FLUJOConfirmar circulación después delarranqueUn interruptor de flujo conmuta al cruzar un umbral de circulación. En un modelo de paleta,el fluido desplaza el mecanismo; también existen tecnologías electrónicas. Un interruptor noinforma necesariamente el caudal en litros por minuto: indica la condición para la que estáajustado.FIGURA 43 · PRINCIPIO DE UN INTERRUPTOR DE PALETAMECANISMOde conmutaciónPaleta desplazadaFlujo →Esquema de principio. La orientación permitida depende del fabricante.La posición discontinua representa reposo. La geometría, el tamaño de paleta, el fluido y el montaje reales debencorresponder a las instrucciones del modelo.La bomba necesita una secuencia coherente• Antes de arrancar: confirma disponibilidad de líquido, cebado y permisos que requiere labomba. La ausencia de flujo con la bomba parada puede ser normal.• Durante el arranque: si el diseño necesita un intervalo para establecer flujo, debe estarlimitado y justificado por el fabricante. No existe un retardo universal ni autorización parahacer funcionar una bomba en seco.• En marcha: exige confirmación dentro del plazo previsto y supervisa su pérdida. Si no secumple, retira la marcha, informa la falla y aplica la condición de rearme definida.No puentear indefinidamente para lograr que arranquePoner “flujo presente” como condición previa a toda partida puede impedir el arranque.El problema se resuelve con una secuencia diseñada, no anulando la protección. Unaseñal trabada en “hay flujo” también debe contemplarse cuando el riesgo lo exija.El flujo local no demuestra refrigeración o lubricación en todo el equipo. Confirma sentido,posición, tramos rectos, materiales, presión, temperatura y umbral. No pruebes la funciónhaciendo trabajar una bomba en seco. CAPÍTULO 6 · DISPOSITIVOS DE CAMPO",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "03af6d6b5206e0440242ec892175b6f131416922414579d5bb004df93e059c63",
+    "final_sha256": "1e3614b8bab42feb343577172dc7d56c4c19a18d85177aeb61257b3d914ab732",
+    "pendencia": ""
   },
   "44": {
     "codigo": "MX-F044",
@@ -705,10 +831,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nDos vistas frontales planas de mismo proyecto. Izquierda puerta con ARRANQUE, PARO e IDENTIFICACIÓN; derecha placa de montaje con cuatro zonas PROTECCIÓN, FUENTE, MANIOBRA y CONTROL, y zona inferior BORNERAS Y ENTRADAS. Flecha “Mismo proyecto” entre vistas. Rieles y bloques son organizativos, no conexiones de potencia. Sin dimensiones de gabinete ni cableado ficticio.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nPUERTA\nARRANQUE\nPARO\nIDENTIFICACIÓN\nPLACA DE MONTAJE\nPROTECCIÓN\nFUENTE\nMANIOBRA\nCONTROL\nBORNERAS Y ENTRADAS\nMismo\nproyecto",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO63CAPÍTULO 7Montaje de tableros de controlUn tablero bien montado facilita comprender el circuito, localizar una falla y sustituir uncomponente. Su calidad depende de las conexiones, la protección, el acceso y ladocumentación, además del acabado. Un aspecto ordenado no demuestra por sí solo que lainstalación sea correcta.FIGURA 44 · EL PLANO TAMBIÉN ORGANIZA EL MONTAJEPUERTAARRANQUEPAROIDENTIFICACIÓNPLACA DE MONTAJEPROTECCIÓNFUENTEMANIOBRACONTROLBORNERAS Y ENTRADASMismoproyectoVista funcional simplificada. Los equipos y los espacios se muestran para explicar la organización; no forman un diseñoconstructivo ni una lista de materiales.Antes de perforar o cortar• Reúne planos, lista de componentes, datos de alimentación y cargas, ubicación del tableroy condiciones ambientales.• Comprueba dimensiones reales, fijaciones, entradas de cable, apertura de puerta y accesopara instalación y mantenimiento.• Define quién revisa la selección de protecciones, conductores y capacidad del conjuntofrente a cortocircuitos. Un interruptor con alta capacidad interruptiva no demuestra lacapacidad del tablero completo.Construir conforme a un proyecto definidoEste capítulo explica criterios de montaje. No convierte un gabinete vacío en un tableroaprobado ni reemplaza las verificaciones de la instalación y del equipo. Documenta lasdecisiones antes de fabricar. CAPÍTULO 7 · MONTAJE DE TABLEROS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "cd559069b8eab1d5026750aac1303df551d295e09b3ce63fea283ff819837093",
+    "final_sha256": "44fb95775f53abdb1cbfe0a9fdf458115ce7d4f191f565e350ad2e385834d7c9",
+    "pendencia": ""
   },
   "45": {
     "codigo": "MX-F045",
@@ -719,10 +850,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nTres tarjetas de planificación: COMPONENTES, CONEXIONES y SERVICIO. Reproducir sus tres criterios respectivos, con igual jerarquía. Nota al pie sobre selección posterior del gabinete. No convertir espacios en porcentajes o distancias universales ni inventar requisitos de ventilación.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nCOMPONENTES\nDimensiones reales\nOrientación y acceso\nCalor generado\nCONEXIONES\nDoblado del conductor\nCanaletas y borneras\nEntradas y sellado\nSERVICIO\nRetiro de equipos\nAcceso a herramientas\nReserva justificada\nEl gabinete se selecciona después de comprobar estos espacios.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO647.1 · SELECCIÓN DE GABINETEEl tamaño se decide con el proyectoNo elijas el gabinete solo por el número de motores. Dos arranques de igual potenciapueden requerir distinto espacio por sus protecciones, terminales, fuente, ambiente y formade mantenimiento.CriterioPregunta que debe resolver el proyectoAmbiente¿Habrá polvo, agua, corrosión, radiación solar o condensación?Protección de la envolvente¿La clasificación declarada cubre ese ambiente y se conserva almontar accesorios?Temperatura¿Las pérdidas y el ambiente permiten operar dentro de los límitesde cada equipo?Mecánica y servicio¿Caben equipos, conductores, herramientas y el movimiento de lapuerta?Crecimiento previsto¿Qué espacio, alimentación y capacidad térmica exige laampliación real?FIGURA 45 · TRES ESPACIOS QUE DEBES RESERVARCOMPONENTESDimensiones realesOrientación y accesoCalor generadoCONEXIONESDoblado del conductorCanaletas y bornerasEntradas y selladoSERVICIORetiro de equiposAcceso a herramientasReserva justificadaEl gabinete se selecciona después de comprobar estos espacios.La reserva de espacio se documenta para el proyecto. No se establece aquí un porcentaje mínimo universal.Una barrera interna puede limitar el acceso a partes activas; una puerta opaca no cumpleautomáticamente esa función. Revisa entradas y accesorios.No basta con que los componentes quepanRespeta ventilación, orientación y distancias indicadas para cada equipo. Abrir agujeros oañadir un ventilador sin revisar el conjunto puede alterar la protección de la envolvente.No asignes una equivalencia automática entre clasificaciones IP y NEMA.Referencia: NOM-001-SEDE-2012, 110-3, 110-12 y 110-13: instalación y montaje. CAPÍTULO 7 · MONTAJE DE TABLEROS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "ee5d9435b2c4662cd1db66bbfe169590ebaedd2820c95d7504870e09a1312e61",
+    "final_sha256": "f864f5f3334192711f06b8f7f837b7a2bf9e964998a2703197f35985bbba8dce",
+    "pendencia": ""
   },
   "46": {
     "codigo": "MX-F046",
@@ -733,10 +869,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nContorno de gabinete en vista frontal con dos zonas diferenciadas. Potencia izquierda: protecciones arriba, contactor+sobrecarga al medio, X1 potencia abajo. Señales derecha: PLC/interfaces, señales de campo, X2 control. Canaletas como bandas grises laterales/intermedia. Rieles como soportes, nunca como conexiones eléctricas. No inventar distancia obligatoria entre zonas; separaciones y barreras según proyecto.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nZONA DE POTENCIA\nZONA DE SEÑALES\nPROTECCIONES\nCONTACTOR + SOBRECARGA\nPLC / INTERFACES\nSEÑALES DE CAMPO\nX1 · POTENCIA\nX2 · CONTROL\nCanaletas, separación y barreras: según circuitos, equipos y proyecto.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO657.2 · DISTRIBUCIÓN Y RUTASOrganizar por función ycompatibilidadUbicar protecciones arriba y borneras abajo puede facilitar el seguimiento del circuito; esuna opción de distribución, no una regla que sirva para todos los tableros. La entrada dealimentación, el calor y el acceso pueden exigir otro arreglo.FIGURA 46 · EJEMPLO DE DISTRIBUCIÓN POR ZONASZONA DE POTENCIAZONA DE SEÑALESPROTECCIONESCONTACTOR + SOBRECARGAPLC / INTERFACESSEÑALES DE CAMPOX1 · POTENCIAX2 · CONTROLCanaletas, separación y barreras: según circuitos, equipos y proyecto.Plano de ubicación, sin conexiones eléctricas. La fuente y otros equipos se colocan según su disipación, accesibilidad yrequisitos de montaje.• Riel DIN: comprueba perfil, carga mecánica, fijaciones y topes. Hay componentes querequieren tornillos o una placa específica.• Canaleta ranurada: permite colocar y retirar conductores sin comprimirlos. Compruebacapacidad de ocupación, curvas, tapas y reserva prevista.• Potencia y señales: separa rutas según susceptibilidad al ruido, aislamiento yclasificación del circuito. La salida de un variador merece atención particular.• Cruces y blindajes: evita recorridos paralelos innecesarios junto a fuentes de ruido. Sideben cruzarse, sigue las recomendaciones del equipo; un cruce cercano a 90° puedereducir acoplamiento.Una divisoria no resuelve todas las interferenciasLa separación, el blindaje, sus terminaciones y las uniones metálicas se diseñan comoconjunto. No existe una única distancia válida para todas las señales. Las reglas decompatibilidad electromagnética no sustituyen las de seguridad eléctrica.Referencia: Rockwell Automation, 1770-4.1: categorías y rutas; guía general de 1998. CAPÍTULO 7 · MONTAJE DE TABLEROS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "2cf7fa14121c1efe8aabc117db5d411a64ce32801b6fcecdc0c9538bd27e49c9",
+    "final_sha256": "dd0357fc76f0b648ecff1048887a5ff3b7e5e22502ffef269a10ac342ea2d91c",
+    "pendencia": ""
   },
   "47": {
     "codigo": "MX-F047",
@@ -747,10 +888,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nBarra horizontal de protección común inferior. Tres conexiones separadas desde ENVOLVENTE punto de unión, PLACA unión verificada y PUERTA puente flexible hasta la barra. Cuarta conexión desde barra al conductor de puesta a tierra de equipos del alimentador. Para puerta, representar puente flexible; no confiar en bisagras. Verde identifica protección y cada rama va rotulada; no añadir neutro ni enlazar un bus 0 V. Vista funcional, no especificación de sección o tornillo.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nENVOLVENTE\nPunto de unión\nPLACA\nUnión verificada\nPUERTA\nPuente flexible\nBARRA DE PROTECCIÓN\nConductor de puesta a tierra de equipos del alimentador",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO667.3 · PUESTA A TIERRA Y UNIÓNUna trayectoria de falla verificableLas partes metálicas que puedan quedar energizadas por una falla requieren una uniónefectiva con la trayectoria de protección. El suelo no sustituye el retorno de la corriente defalla hacia la fuente.FIGURA 47 · UNIONES DE PROTECCIÓN DEL GABINETEENVOLVENTEPunto de uniónPLACAUnión verificadaPUERTAPuente flexibleBARRA DE PROTECCIÓNConductor de puesta a tierra de equipos del alimentadorEjemplo con conductor de protección y puente de puerta. No incluye neutro, electrodos ni dimensionamiento. La soluciónreal debe corresponder al gabinete y sus accesorios.Comprueba envolvente, placa y puerta según su construcción. No supongas continuidad porlas bisagras o sobre pintura: utiliza los medios de unión previstos, superficies adecuadas oherrajes diseñados para esa función.En este tablero alimentado aguas abajo del equipo de acometida, mantén el neutroseparado de la envolvente y de la barra de protección. Otros arreglos requieren revisar lasreglas específicas de unión del sistema.Detalles del montaje• Identifica los puntos de unión y permite inspeccionarlos. El puente de puerta debe tolerarsu movimiento sin quedar tenso, atrapado o expuesto a bordes.• No uses un riel DIN cualquiera como sustituto de una conexión de protección. Los bornesde tierra y el riel deben constituir un sistema previsto para esa función.Continuidad y resistencia del electrodo son comprobaciones distintasLa medición del electrodo no verifica por sí sola las uniones internas del tablero. Definelas pruebas del conjunto y registra los resultados conforme al procedimiento aplicable.Referencia: NOM-001-SEDE-2012, 250-4, 250-8, 250-12 y 250-24. CAPÍTULO 7 · MONTAJE DE TABLEROS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "adbd4e7de5fb1ab5878a4298ea0aff309121c3c810df7a6704e7dbfbf40a99f4",
+    "final_sha256": "00eeeb631c9da086751cf21152d4d60a6c1ef775b75ffedbbf5d265186897da9",
+    "pendencia": ""
   },
   "48": {
     "codigo": "MX-F048",
@@ -761,10 +907,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nUn único conductor horizontal conecta terminal S1:14 a borne X2:3. Dos marcadores “101”, uno cerca de cada extremo, identifican el MISMO conductor. Encabezado “CONDUCTOR 101”. No confundir 101 con borne 101 ni dibujar dos conductores separados. Explicación inferior exacta; sin contactos o cargas adicionales.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nS1:14\nTerminal del\ndispositivo\nX2:3\nBorne del\ntablero\n101\n101\nCONDUCTOR 101\n101 identifica el conductor; S1:14 y X2:3 identifican sus puntos de conexión.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO677.4 · COLORES E IDENTIFICACIÓNEl color acompaña al planoIdentifica componentes, conductores, borneras y mandos con la misma nomenclatura deldiagrama. K1, KM1 o X2 son ejemplos: la leyenda del proyecto define su uso. El número deun terminal no es automáticamente el número del conductor.FIGURA 48 · DISPOSITIVO, CONDUCTOR Y BORNES1:14Terminal deldispositivoX2:3Borne deltablero101101CONDUCTOR 101101 identifica el conductor; S1:14 y X2:3 identifican sus puntos de conexión.Ejemplo de marcación de extremos. Utiliza identificadores legibles y resistentes al ambiente, sin cubrir los datos originalesdel componente.FunciónCriterio de identificación para esta ediciónConductor puesto a tierra(incluido el neutro)Blanco o gris claro como opción de base; 200-6 contempla otrosmedios y condiciones según tamaño y tipo de cable.Puesta a tierra de equiposPara el conductor aislado del ejemplo: verde o verde con franjasamarillas, conforme a 250-119.Fases y controlIdentificar según sistema, proyecto y reglas aplicables;documentar la convención y respetar colores reservados.Cable de sensor / electrónicaRespetar su manual y pines. El azul de un cable de sensor nodemuestra que sea un neutro.Para conductores puestos a tierra de 13.3 mm² (6 AWG) o menores, no sustituyasautomáticamente el acabado longitudinal exigido por cinta solo en las puntas: compruebalas condiciones de 200-6.Identificar no es verificar ausencia de tensiónNo uses verde de protección como fase en estos ejemplos, ni atribuyas una funciónsegura a un cable solo por su color. Antes de intervenir, verifica el circuito mediante elprocedimiento correspondiente.Referencia: NOM-001-SEDE-2012, 200-6: conductor puesto a tierra.Referencia: NOM-001-SEDE-2012, 250-119: identificación de protección. CAPÍTULO 7 · MONTAJE DE TABLEROS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "3cde65e145cf936702bc9e646ed05aadade6c39b66c271113932321b6f82847e",
+    "final_sha256": "ddbbeaefcfd888904253d5cc3b4d1698c273ac6868d53b44f69a77013779612c",
+    "pendencia": ""
   },
   "49": {
     "codigo": "MX-F049",
@@ -775,10 +926,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nTres tarjetas con flechas: PREPARAR → TERMINAR → CONECTAR. Mantener sección/clase y pelado según fabricante, puntera solo si procede y crimpado compatible, inserción completa y apriete especificado. No fijar longitud de pelado ni torque. No dibujar puntera como obligatoria en todos los bornes.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\n1 · PREPARAR\nSección y clase correctas\nPelado según fabricante\n2 · TERMINAR\nPuntera solo si procede\nCrimpado compatible\n3 · CONECTAR\nInserción completa\nApriete especificado\nRevisar el conjunto conductor + terminal + herramienta + borne.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO687.5 · PREPARACIÓN Y CONEXIONESEl borne define la terminaciónCorta cada conductor con longitud suficiente para su ruta y mantenimiento, sin vueltasinnecesarias ni tensión sobre la conexión. El cableado de una puerta requiere flexibilidad,sujeción y espacio para todo su movimiento.FIGURA 49 · UNA CONEXIÓN SE PREPARA COMO CONJUNTO1 · PREPARARSección y clase correctasPelado según fabricante2 · TERMINARPuntera solo si procedeCrimpado compatible3 · CONECTARInserción completaApriete especificadoRevisar el conjunto conductor + terminal + herramienta + borne.Una puntera tubular no es lo mismo que una terminal de aguja. Selecciona la terminación por la compatibilidad declaradadel borne y del conductor.• Conductor: verifica material, sección, clase de cableado y aislamiento. No recortes hilospara hacerlo entrar en el borne.• Terminación: existen bornes que admiten flexible sin puntera. Si utilizas una, compruebasección, longitud, crimpado y capacidad resultante.• Apriete: respeta el valor y la herramienta especificados. Un borne de resorte tiene unprocedimiento distinto; no se le aplica un torque inventado.• Más de un conductor: solo si el borne admite la cantidad, las secciones y lasterminaciones elegidas. Una puntera doble no autoriza cualquier combinación.Ejemplo de lectura: Phoenix Contact UT 4, referencia 3044102La ficha IEC consultada indica pelado de 9 mm y apriete de 0.6 a 0.8 N·m. Presentacapacidades distintas con y sin puntera. Son datos de ese producto y configuración; novalores generales para otros bornes ni equivalencias automáticas de aprobación.Usa borneras o conectores adecuados para organizar conexiones. Un empalme diseñado,aprobado para su uso y accesible no equivale a una unión improvisada. Evita que amarres oprensaestopas dañen el aislamiento.Referencia: Phoenix Contact: datos de conexión y combinaciones admitidas del UT 4. CAPÍTULO 7 · MONTAJE DE TABLEROS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "ec1230bf990444f660c1a1daafbbbd96f09b9c77b97dbe18ecc58a103fa441ac",
+    "final_sha256": "fa3b57072c0f463cc8dc5ac909e9ec3ef2302615049f66d4bbe641a63422cb8e",
+    "pendencia": ""
   },
   "50": {
     "codigo": "MX-F050",
@@ -789,10 +945,15 @@
     ],
     "conteudo": "COMPOSICIÓN, CONTENIDO Y RELACIONES OBLIGATORIOS\nTres tarjetas con aspecto simple de documentos: PLANO VIGENTE, REGISTRO y OPERACIÓN. Reproducir dos líneas de contenido por tarjeta. Pie indica mismo tablero y revisión en todos los documentos. No inventar firma de ingeniero, certificación, resultado de ensayo o sello oficial.\n\nRÓTULOS Y NOTAS DEL ORIGINAL ADAPTADO\nDistribuye los siguientes rótulos en los elementos correspondientes de la composición anterior. No los presentes como una lista descontextualizada. Conserva números, unidades, símbolos, acentos y aclaraciones. El orden de lectura de esta lista no sustituye la topología descrita arriba:\nPLANO VIGENTE\nPotencia y control\nBorneras y leyendas\nREGISTRO\nAjustes y pruebas\nEquipos y revisiones\nOPERACIÓN\nModos y alarmas\nParo y mantenimiento\nIdentificar el tablero y la misma revisión en todos los documentos.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO707.7 · ENTREGA Y CONTINUIDADDejar un tablero que puedamantenerseDocumenta qué se construyó, cómo opera y qué límites tiene. Actualiza los planos tras cadacambio: una copia antigua puede inducir a una conexión equivocada.FIGURA 50 · DOCUMENTOS QUE ACOMPAÑAN AL TABLEROPLANO VIGENTEPotencia y controlBorneras y leyendasREGISTROAjustes y pruebasEquipos y revisionesOPERACIÓNModos y alarmasParo y mantenimientoIdentificar el tablero y la misma revisión en todos los documentos.Guarda la documentación en un lugar accesible y protegido. Un portaplanos o una copia digital controlada debenmantener disponible la revisión vigente.EntregaContenido mínimo a definir para el proyectoIdentificaciónTablero, alimentación, cargas, componentes y revisión.Planos conforme a montajePotencia, control, borneras, numeración y leyendas.Ajustes y pruebasValores aplicados, método, resultados y pendientes.InstruccionesModos, alarmas, parada, rearme y mantenimiento.Ampliaciones previstasEspacio, capacidad eléctrica y térmica que se verificó; no solo unhueco libre.Antes de pasar a los circuitos prácticosLocaliza cada componente y conductor en el plano. Explica las protecciones y larespuesta ante fallas. Resuelve los puntos indefinidos antes de la puesta en servicio.El siguiente capítulo aplica estas bases a arranque, inversión, bombeo y dispositivos decampo. Cada ejemplo requiere revisar alimentación, motor, protecciones y operación.Referencia: Catálogo oficial: estado de la NOM-001-SEDE-2012. CAPÍTULO 7 · MONTAJE DE TABLEROSLos ejemplos son educativos; la selección de equipos y las funciones de protección deben verificarse para la aplicaciónreal.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "213b3d670b1b26a18fa68dfc8d35e8a9a96b23fa41e099722eca6135b88be679",
+    "final_sha256": "0e2d07a8662be1b7aa9eadc49c620e137d43454e466de12f4517f103703721c9",
+    "pendencia": ""
   },
   "51": {
     "codigo": "MX-F051",
@@ -803,10 +964,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCrea una infografía conceptual, no un circuito. Tres tarjetas superiores: POTENCIA / “220 Vca · L1-L2” / “Motor monofásico”; CONTROL / “24 Vcc · + / 0 V” / “Arranque y retención”; SEGURIDAD / “Función externa” / “Interfaz KS1”. Debajo, la frase “Cada vista responde una pregunta distinta” y dos tarjetas: ESQUEMA / “¿Qué conduce y cuándo?”; CONEXIONES / “¿Entre qué terminales?”. Emplea iconos vectoriales simples de motor, contactos y permiso. No conectes las tarjetas como si fueran conductores eléctricos. No representes KS1 como garantía de seguridad completa.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO71CAPÍTULO 8Ejemplos prácticos: leer, conectar ycomprobarAhora reúne lo aprendido: alimentación, protección, maniobra y lógica de control. Cadaejemplo explica qué debe suceder y cómo seguir el recorrido eléctrico. Compara siempre elesquema con la vista de conexiones; la posición de un componente en el tablero nodetermina su función.Condiciones del bloque• Potencia: caso de estudio de 220 Vca, 60 Hz, entre L1 y L2; motor monofásico compatiblecon esa alimentación. PE llega a la carcasa. No se utiliza neutro en el motor.• Control: PS1 entrega 24 Vcc desde una derivación de CA protegida y seccionable. Suentrada, protecciones y conexión de tierra se proyectan por separado. F2 identifica aquí laprotección de la salida de control, aguas arriba del riel +24 V.• Documentación: QS1 representa el seccionamiento previo. Selecciona conductores, QF1,F2 y equipos con los datos de la instalación. No deduzcas sus calibres del tamaño del dibujo.0 V no significa neutro0 V es el retorno de PS1. Su relación con tierra se define en el proyecto; estos esquemasno ordenan unirlo a PE. Los elementos se dibujan sin accionar y sin disparo; KS1 se cierracuando existe permiso. CAPÍTULO 8 · EJEMPLOS PRÁCTICOSLas ilustraciones distinguen el esquema funcional de la vista de conexiones. Ambas deben conservar los mismoscomponentes, terminales y recorridos eléctricos.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "27e561dc35b956cb694326f628dddb6c0c5362a7c8e2452bd57e47afa31990c3",
+    "final_sha256": "b9cc8771ad8195e32308671b1d69755fe82e4ede76981879034be1ef16b6b717",
+    "pendencia": ""
   },
   "52": {
     "codigo": "MX-F052",
@@ -817,10 +983,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nVista FUNCIONAL de potencia, sin detalle de bornes. Dos líneas activas L1 y L2 atraviesan, en orden, bloques bipolares QF1 “Protección del circuito”, KM1 “Maniobra”, FR1 “Sobrecarga seleccionada” y llegan a M1 “1~ · Dos terminales de alimentación”. PE va directo a la carcasa. FR1 se representa como bloque funcional, no como instrucción de usar solo dos canales de un relevador trifásico. Panel lateral: “L1 Y L2 ESTÁN ACTIVOS”, “No hay neutro en esta carga”, “220 V es el caso de estudio”, “Verifica la placa del motor”. Panel inferior “FUERA DE ESTA VISTA”: “Seccionamiento QS1”; “Alimentación protegida de PS1”; “Función de seguridad completa”; “Conexiones internas del motor”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO73EJEMPLO 1 · POTENCIASeguir la energía hasta el motorLa energía llega a M1 a través de la protección y de los contactos principales de KM1. FR1supervisa la corriente y ordena retirar la maniobra mediante su contacto de control. PEacompaña al circuito hasta la carcasa, sin pasar por contactos de mando.Cada línea entra y sale de los bloques en serie. FR1 representa una función de sobrecarga; su recorrido interno se detallaen la figura 56. No es un dispositivo bipolar genérico.Vista de conexiones por funciónRecorridoContinuidad que debes reconocerL1 y L2Alimentación → QF1 → conjunto KM1 + FR1 → M1.PEConductor de protección → unión de la carcasa del motor.M1A y B son las dos entradas funcionales; el fabricante define sus bornes yconexiones internas.La selección de la protección del circuito y la de sobrecarga son decisiones distintas. La capacidad interruptiva, elarranque, la corriente de placa y la coordinación del conjunto deben comprobarse antes del montaje.Referencia: NOM-001-SEDE-2012, Artículo 430: circuitos de motores. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "6d33d190375ca9694670b65ecdb6f5d298806373278028a0c40157339af2c580",
+    "final_sha256": "2cfff84349215287a82d8b12f0a85e251562ecbbbfe5f60052ab16839d1b6bc1",
+    "pendencia": ""
   },
   "53": {
     "codigo": "MX-F053",
@@ -831,10 +1002,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja el mando como esquema de contactos con alimentación protegida +24 Vcc de PS1 a la izquierda y retorno 0 V a la derecha. Recorrido común: +24 V tras F2 → permiso funcional KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → nodo P. Desde P, dos contactos NA en paralelo: S1 13-14 y KM1 13-14; sus salidas se unen en KM1:A1. KM1:A2 vuelve a 0 V. La rama de retención puentea exclusivamente S1, nunca KS1, S0 o FR1. KS1 es una interfaz externa de permiso, no un circuito completo de seguridad. Rotula S0 “PARO”, S1 “ARRANQUE” y KM1 “CONTACTOR”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO74EJEMPLO 1 · CONTROLLa retención solo puentea elarranqueEl paralelo S1 / KM1:13-14 termina antes de A1. No puentea S0, FR1 ni KS1. La bobina permanece en serie con todo elrecorrido de alimentación.Pulsa S1 con los permisos disponibles: KM1 entra y cierra su auxiliar. Al soltar S1, retiene porKM1:13-14. Abrir KS1, S0 o FR1 hace perder la retención.Los números 100-104 identifican redes del ejemplo; no indican sección, color ni capacidad. Usa bornes de distribucióncompatibles para los puntos con derivaciones.Límite de esta retenciónCon S1 liberado, recuperar tensión o permiso no arranca el motor. S1 pulsado o soldadopuede causar rearranque. Cuando deba impedirse, incorpora supervisión y exigencia deuna nueva acción de arranque. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
+    "final_sha256": "c3afce315fc5d5187a296c7e3e2feed1deef672ffd70e3809fe498fb927265e7",
+    "pendencia": ""
   },
   "54": {
     "codigo": "MX-F054",
@@ -845,10 +1021,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCrea una tabla técnica de conexiones, sin fotografía ni tablero realista. Dos columnas “RED” y “TERMINALES CONECTADOS”, seis filas exactas: 100 | +24 V protegido → KS1:a; 101 | KS1:b → S0:11; 102 | S0:12 → FR1:95; 103 | FR1:96 → S1:13 y KM1:13; 104 | S1:14 y KM1:14 → KM1:A1; 0 | KM1:A2 → 0 V de PS1. Los terminales de cada fila pertenecen a una misma red; las distintas filas no se unen entre sí. Nota: “Distribuir derivaciones en bornes aptos; no apilar conductores sin autorización”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO74EJEMPLO 1 · CONTROLLa retención solo puentea elarranqueEl paralelo S1 / KM1:13-14 termina antes de A1. No puentea S0, FR1 ni KS1. La bobina permanece en serie con todo elrecorrido de alimentación.Pulsa S1 con los permisos disponibles: KM1 entra y cierra su auxiliar. Al soltar S1, retiene porKM1:13-14. Abrir KS1, S0 o FR1 hace perder la retención.Los números 100-104 identifican redes del ejemplo; no indican sección, color ni capacidad. Usa bornes de distribucióncompatibles para los puntos con derivaciones.Límite de esta retenciónCon S1 liberado, recuperar tensión o permiso no arranca el motor. S1 pulsado o soldadopuede causar rearranque. Cuando deba impedirse, incorpora supervisión y exigencia deuna nueva acción de arranque. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "050cb40c5b2319eeaae69c03623cf2b28099f1172c7d67c57313093e1edf660d",
+    "final_sha256": "0e53ffa8cf514e5a53c7efebb924548405a0c6b81a96be88f2453059ec7bc35c",
+    "pendencia": ""
   },
   "55": {
     "codigo": "MX-F055",
@@ -859,10 +1040,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDiagrama de tres estados, izquierda a derecha: LISTO / “95-96 cerrado” / “KM1 puede arrancar”; DISPARADO / “95-96 abierto” / “KM1 se desenergiza”; REARMADO / “95-96 cerrado” / “Falta una nueva orden”. Flechas con “Disparo” y “Rearme”. El último estado no indica motor funcionando. Nota exacta: “Secuencia con S1 liberado y los demás permisos disponibles”. No representar este comportamiento como protección contra pulsador soldado.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO76EJEMPLO 2 · PROTECCIÓN DE SOBRECARGAEl relevador ordena abrir elcontactorEste ejemplo desarrolla FR1 sin cambiar la lógica de arranque. La corriente del motoratraviesa los elementos de medición. Ante el disparo, el contacto 95-96 abre el circuito de labobina y KM1 desconecta sus contactos principales. FR1 no sustituye la protección delcircuito contra cortocircuito.Estados funcionales del contacto de disparo. El rearme se realiza después de revisar la causa, las condiciones del motor ylas instrucciones del equipo.Monofásico no significa usar dos canales al azarLa figura siguiente adopta el recorrido monofásico de la figura 1, página 14, de Rockwell193-TD011D: un conductor atraviesa un canal; el otro atraviesa dos canales en seriemediante un puente. La corriente recorre los tres elementos. Úsalo solo con un modelo cuyofabricante autorice esa conexión.• No copies el puente a otro relevador por tener tres polos. Comprueba compatibilidadmonofásica, sensibilidad a pérdida de fase, montaje con el contactor y diagrama vigente delnúmero de catálogo exacto.• Selecciona rango y clase de disparo según motor y arranque. Distingue el valor del dial dela corriente a la que efectivamente dispara; no apliques un multiplicador normativo al dialsin revisar el manual.Rearme manual y causa resueltaPara este ejemplo se elige rearme manual. No aumentes el ajuste solo para evitardisparos. Comprueba carga, alimentación, conexiones, ventilación y condiciones dearranque antes de volver a operar.Referencia: Rockwell 193-TD011D, p. 14, fig. 1: conexión monofásica. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "ab8486378225bd62d53712ba9c7db336ccf90bb769b7096e22002ed83ab66870",
+    "final_sha256": "938dd5b785baccb59eb1cff1491dd7a867e157200463473b136d681ba7305f3b",
+    "pendencia": ""
   },
   "56": {
     "codigo": "MX-F056",
@@ -873,10 +1059,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO77EJEMPLO 2 · POTENCIATres canales en un circuitomonofásicoEl puente azul conecta la salida T2 de FR1 con la entrada 5/L3 de KM1. No conecta dos fasesentre sí: prolonga el segundo recorrido de corriente. El color azul se usa aquí para destacarel puente, sin prescribir el color del conductor.Adaptación funcional del recorrido publicado por Rockwell; no es un plano de montaje para cualquier relevador. A y Bnombran entradas del motor, no sus devanados. QS1, PS1/F2 y la función de seguridad quedan fuera de esta vista.L1: QF1 → KM1 polo 1 → FR1 canal 1 → M1:A.L2: QF1 → KM1 polo 2 → FR1 canal 2 → puente → KM1 polo 3 → FR1 canal 3 → M1:B.PE: conductor de protección → carcasa; no forma parte del circuito de corriente normal.Referencia: Rockwell 193-TD011D, p. 14, fig. 1; numeración adaptada a la leyenda. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "f6a8c80e4bc54339ad5c7e5e8f0b883e806434712a7751a0f53a5f6186eaebde",
+    "pendencia": ""
   },
   "57": {
     "codigo": "MX-F057",
@@ -887,10 +1078,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja el mando como esquema de contactos con alimentación protegida +24 Vcc de PS1 a la izquierda y retorno 0 V a la derecha. Recorrido común: +24 V tras F2 → permiso funcional KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → nodo P. Desde P, dos contactos NA en paralelo: S1 13-14 y KM1 13-14; sus salidas se unen en KM1:A1. KM1:A2 vuelve a 0 V. La rama de retención puentea exclusivamente S1, nunca KS1, S0 o FR1. KS1 es una interfaz externa de permiso, no un circuito completo de seguridad. Rotula S0 “PARO”, S1 “ARRANQUE” y KM1 “CONTACTOR”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO78EJEMPLO 2 · CONEXIONES Y CONTROLUnir el disparo a la retenciónSalida de origenDestino en este recorridoQF1, salida de L1 / L2KM1:1/L1 / KM1:3/L2, respectivamente.KM1:2/T1, 4/T2, 6/T3Entradas de FR1 de canales 1, 2 y 3.FR1:T1 / FR1:T3Entradas M1:A / M1:B, respectivamente.FR1:T2Puente a KM1:5/L3.FR1:95 / FR1:96Desde S0:12 / hacia S1:13 y KM1:13.Es la misma lógica de la figura 53. La vista de conexiones de la figura 54 sigue vigente. El disparo abre 95-96; el contacto97-98 queda reservado para señalización y no se conecta en este ejemplo.Con el circuito preparado para una prueba controlada, utiliza la función de prueba indicadapor el fabricante para verificar que FR1 haga caer KM1. Restablece FR1 con S1 liberado: labobina debe seguir desenergizada hasta una nueva orden. Esta prueba no calibra el umbralde sobrecarga.Antes de llevar el esquema al tableroConfirma bornes reales, puente autorizado, ajuste, clase de disparo, aprietes ycoordinación. El proyecto debe completar alimentación de control, seccionamiento yfunción de seguridad antes de poner la máquina en servicio. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
+    "final_sha256": "e7ac0f87111150a9cb6bb3a1ad41e070a96c765551292b350a5638f91e16d5c6",
+    "pendencia": ""
   },
   "58": {
     "codigo": "MX-F058",
@@ -901,10 +1097,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO80EJEMPLO 3 · POTENCIALa temporización no conduce lacorriente del motorKT1 controla la bobina de KM1. La corriente del motor circula por QF1, los contactosprincipales y los canales de FR1. Se conserva el recorrido monofásico del ejemplo 2, sujeto ala autorización del fabricante del relevador seleccionado.El puente une FR1:T2 con KM1:5/L3. Los tres canales de FR1 conducen corriente. Azul destaca el puente y no prescribe uncolor de cable. PE llega a la carcasa, fuera del recorrido de corriente normal.L1: QF1 → KM1 polo 1 → FR1 canal 1 → M1:A.L2: QF1 → KM1 polo 2 → FR1 canal 2 → puente → KM1 polo 3 → FR1 canal 3 → M1:B.A y B son entradas funcionales del motor; verifica sus bornes y conexiones internas. Selecciona QF1, conductores,contactor y sobrecarga para la carga real. El dibujo no determina sus capacidades.Referencia: Rockwell 193-TD011D, p. 14, fig. 1: recorrido monofásico. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "f6a8c80e4bc54339ad5c7e5e8f0b883e806434712a7751a0f53a5f6186eaebde",
+    "pendencia": ""
   },
   "59": {
     "codigo": "MX-F059",
@@ -915,10 +1116,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nEsquema de control de arranque retardado. Cadena común +24 V tras F2 → KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → P, red 203. Rama 1: P → [S1 NA 13-14 en paralelo con KA1 NA 13-14] → KA1:A1; KA1:A2 → 0 V. Rama 2: P → KA1 NA 23-24 → X, red 205. X alimenta KT1:A1 y el común KT1:15. KT1:A2 → 0 V. Rama 3: X → KT1 contacto 15-18 NA con cierre retardado a la energización → KM1:A1; KM1:A2 → 0 V. No añadir retención de KM1 ni puente al contacto temporizado. Mostrar t sobre KT1 y nota “t: cierre con retardo a la energización”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO81EJEMPLO 3 · CONTROLConservar la orden sin puentear eltiempoLos dos puntos P pertenecen a la misma red 203, después de KS1, S0 y FR1. X identifica la red 205. Los contactos sedibujan en reposo; KT1:15-18 cierra al finalizar el retardo.1. S1 energiza KA1; KA1:13-14 conserva la solicitud.2. KA1:23-24 alimenta KT1:A1 y el común KT1:15.3. Al terminar T, KT1:15-18 alimenta KM1:A1.4. S0, FR1 o KS1 abiertos retiran P: caen KA1 y KM1, y KT1 pierde alimentación.No añadas un sello en paralelo con KT1Un puente o una retención sobre 15-18 puede eliminar la condición temporizada. Aquí laúnica memoria está en KA1. Con S1 liberado y tras restablecer correctamente KT1, unanueva orden inicia una cuenta completa. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "24338dce46c2b079f95a4c9fd531a5b45c5630f8d9495d0dc799aae0458f8c8a",
+    "final_sha256": "1d935bb55225179737f55b2c3017b7e3a7c8f5d5aaeb8839c3ce6222d1a0c7fd",
+    "pendencia": ""
   },
   "60": {
     "codigo": "MX-F060",
@@ -929,10 +1135,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nTres ramas independientes desde +24 V después de F2 hasta 0 V: 1) H0 directamente entre los buses, texto “CONTROL DISPONIBLE”; 2) KM1 NA 53-54 en serie con H1, texto “KM1 ACTIVADO”; 3) FR1 NA de disparo 97-98 en serie con H2, texto “SOBRECARGA”. Usa H0 blanco, H1 verde y H2 amarillo, siempre con texto, sin depender del color. FR1:97-98 aparece abierto sin disparo; cierra por disparo. No alimentar la alarma desde la cadena FR1:95-96. Un auxiliar de KM1 confirma estado del contactor, no giro real del motor.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO82EJEMPLO 3 · SEÑALIZACIÓNCada piloto informa una condiciónconcretaEl contacto de cada indicación está en serie con su lámpara. Estas ramas toman +24 V después de F2 y antes de KS1, S0y FR1:95-96. H2 conserva alimentación cuando dispara la sobrecarga.Piloto y rótuloInterpretación correctaH0 · blancoControl disponibleHay tensión en su rama. No demuestra que todos los permisosestén habilitados.H1 · verdeKM1 activadoEl auxiliar seleccionado de KM1 está cerrado. No prueba giro,caudal ni velocidad del motor.H2 · amarilloSobrecargaFR1 ha conmutado 97-98. No representa todas las fallas posiblesde la máquina.H0 puede permanecer encendido con el motor parado o durante la espera. Esta versión no tiene un piloto exclusivo decuenta en curso. Un piloto apagado tampoco demuestra ausencia de tensión: puede haber una falla de lámpara o decableado.Referencia: IDEC, explicación de IEC 60204-1: significado de colores de pilotos. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "eb023f10c9b6ea7f76e0cd7c7eeb8e3ac53604219af8e271815f171dcac010ed",
+    "final_sha256": "97647704a72695c702210ecf9c14b33c768a642866d08c01842f3704831cc308",
+    "pendencia": ""
   },
   "61": {
     "codigo": "MX-F061",
@@ -943,10 +1154,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDiagrama lógico de identificación del temporizador de referencia, no foto ni reproducción de disposición física. Bloque KT1 “RE17RMMW · FUNCIÓN A”. Separa visualmente alimentación A1-A2 y salida conmutada 15 común, 16 NC, 18 NA. Y1 debe aparecer sin conexión. Anotaciones: “A1-A2: alimentación de 24 Vcc”; “15: común de la salida”; “18: salida NO temporizada”; “16: salida NC, sin usar aquí”; “Y1: sin usar en función A”. Dibuja solo un conmutador 15 hacia 16 en reposo; 18 permanece abierto. No conectes A1 internamente a 15. Leyenda “Identificación funcional; posición física y conexión según ficha del modelo”. No inventes vista frontal, distancias, logotipo ni números de borne adicionales.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO83EJEMPLO 3 · TERMINALES Y SELECCIÓNIdentificar cada conexiónRed o recorridoTerminales que se conectan200 → 201 → 202+24 V tras F2 → KS1:a; KS1:b → S0:11; S0:12 → FR1:95.203 · PFR1:96 → S1:13, KA1:13 y KA1:23.204 · memoriaS1:14 y KA1:14 → KA1:A1.205 · XKA1:24 → KT1:A1 y KT1:15.206 · salidaKT1:18 → KM1:A1.0 · retornoKA1:A2, KT1:A2 y KM1:A2 → 0 V de PS1.Numeración de referencia del Schneider RE17RMMW, ficha de 2018. No traslades su disposición a otro modelo. A1-A2 y lasalida conmutada son circuitos distintos.Ajuste: función A; para 8 min 30 s usa 8,5 min dentro del rango 1-10 min. El dial esaproximado: cronometra la respuesta y verifica tolerancias. Una indicación 8,30 en minutosdecimales equivale a 8 min 18 s, no a 8 min 30 s.KA1 requiere dos NO independientes. KM1 requiere un auxiliar para H1; 53-54 es la identificación elegida y debe existir enel bloque instalado. Comprueba capacidad de maniobra de bobinas en CC, corriente de los pilotos y supresión compatible.No dimensiones una carga inductiva solo con la corriente resistiva anunciada.Referencia: Schneider RE17RMMW, pp. 1-2 y 5-7: función, bornes y temporización. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "1bba1f2bcf645b7d24f9bf2c5d9e670a53478ce7ba90157d1da2abe6a1997992",
+    "final_sha256": "c7bb13a889bfb2ddfb819c222f646e5b0580e6d00edcf9ccfc24ea308538bf07",
+    "pendencia": ""
   },
   "62": {
     "codigo": "MX-F062",
@@ -957,10 +1173,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDiagrama temporal ideal con eje horizontal común y tres pistas digitales: S1; KA1 / KT1; KM1 / H1. Hitos verticales t0 “Arranque”, t1 “Fin de T”, t2 “Paro”. S1 da un pulso corto en t0, vuelve a cero antes de t1. KA1/KT1 suben en t0 y bajan en t2. KM1/H1 permanecen bajos hasta t1, altos entre t1 y t2 y bajos después. Flecha T entre t0 y t1. No dibujes un segundo pulso de S1 al finalizar T. Nota “Esquema temporal ideal; eje sin escala y sin retardos mecánicos”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO84EJEMPLO 3 · PRUEBAS FUNCIONALESComprobar la espera y sucancelaciónLa pulsación de S1 termina antes de T. KA1 conserva la orden y alimenta KT1; KM1 entra al finalizar la espera ypermanece hasta el paro. No se muestra una señal de giro.Prueba controladaRespuesta previstaPulso de S1 y liberaciónKA1 retiene; KM1 espera el tiempo configurado.Paro durante la cuentaKA1 y KT1 pierden alimentación. KM1 no debe arrancar al llegar eltiempo anterior.Nueva orden tras el paroTras el restablecimiento de KT1, comienza un nuevo intervalocompleto.Disparo de FR1Caen memoria y maniobra; H2 enciende si sigue disponible elcontrol.Pérdida de alimentaciónCae la maniobra. Con S1 liberado, al retornar la alimentación nocomienza otra cuenta.Verifica también el restablecimiento realRespeta el tiempo de reset indicado para KT1: una interrupción demasiado breve puedeno reiniciar la cuenta. Prueba el equipo elegido con su carga y supresión. S1 mantenido osoldado puede iniciar otra cuenta al recuperar permisos; esta memoria básica nosupervisa una nueva pulsación.Realiza pruebas con personal competente y zona de movimiento controlada. Simula el disparo mediante la función deprueba autorizada, sin sobrecargar el motor. Verifica también KS1 antes y después de T. Las pruebas lógicas no validan lafunción de seguridad ni la protección eléctrica completa. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "7e5a25582dbc0095b8de7fef457619967321dc77fe81bb97c35545e5ab63f6ca",
+    "final_sha256": "13f08a6faa80306fed4fe77fd710e78a6912978d48954dc55bb6e13f5d83b147",
+    "pendencia": ""
   },
   "63": {
     "codigo": "MX-F063",
@@ -971,10 +1192,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nVista funcional de dos motores monofásicos alimentados por L1-L2, 220 Vca. Del mismo par de líneas salen dos ramales distintos: QF1 → KM1 → FR1 → M1 1~, y QF2 → KM2 → FR2 → M2 1~. Cada bloque representa dos recorridos activos sin especificar cableado interno de relevadores. Rotula QF “Protección de circuito”, KM “Contactor”, FR “Sobrecarga”. M1 y M2 tienen entradas A y B. PE llega a ambas carcasas. No unas las salidas de los contactores. Nota “Vista funcional; conexión de los canales de sobrecarga según fabricante”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO86EJEMPLO 4 · POTENCIADos circuitos derivados, dosproteccionesL1-L2 se muestran después del seccionamiento. Solo los puntos negros unen los cruces. Los conjuntos KM/FR se detallanen la página 89 y en la figura 58.QF1 y QF2 protegen sus respectivos circuitos; FR1 y FR2 corresponden a sus motores. Nounas las salidas entre sí. PE une las carcasas al sistema de protección, sin contactos demaniobra.• Dimensiona cada ramal con los datos de su motor; sus ajustes pueden ser distintos.• Revisa alimentador, protección general, capacidad interruptiva y coordinación. Unseccionador no incorpora necesariamente protección contra sobrecorriente.La espera no elimina la corriente de arranqueSeparar las órdenes puede reducir su coincidencia si el primer motor ya aceleró. Untiempo fijo no lo garantiza ni permite ignorar la carga simultánea. El alimentador debeadmitir las condiciones de funcionamiento previstas para los dos motores.Referencia: NOM-001-SEDE-2012, Artículo 430: motores y conjuntos de motores. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b51d83c50a8034e314079273aaacd2d7059802697056a85ea97c222a1930b151",
+    "final_sha256": "6f7ea33c0c6608079db1fe3dbe161dd6488d9ee56a8ea1a09466fec780739627",
+    "pendencia": ""
   },
   "64": {
     "codigo": "MX-F064",
@@ -985,10 +1211,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCadena común +24 V tras F2 → KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → FR2 NC 95-96 → P, red 304. Rama 1: P → [S1 NA 13-14 paralelo KM1 NA 13-14] → KM1:A1 → retorno A2 a 0 V. Rama 2: P → KM1 NA 23-24 → X, red 306. X alimenta KT1:A1 y KT1:15. KT1:A2 a 0 V. X → KT1 NA temporizado 15-18 → KM2:A1; KM2:A2 a 0 V. Sin retención de KM2. Abrir cualquiera de los permisos comunes retira ambas órdenes. Nota “t: retardo al cierre. Sin retención de KM2”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO87EJEMPLO 4 · CONTROLLa segunda orden conserva suscondicionesP identifica la red 304, después de KS1, S0 y ambas sobrecargas. X es la red 306, habilitada por KM1:23-24. Los puntoscon la misma identificación pertenecen a la misma red.1. S1 activa KM1; KM1:13-14 conserva la orden.2. KM1:23-24 alimenta KT1 y su común de salida 15.3. Al finalizar T, KT1:15-18 alimenta KM2.4. Abrir la cadena común retira P: ambos contactores y KT1 pierden alimentación.KM2 no tiene sello propioSu bobina depende continuamente de X y de KT1:15-18. No puentes el contactotemporizado con un auxiliar de KM2: ese cambio altera la secuencia. El paro por S0 osobrecarga no depende de esperar a que termine T. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "d1ce7258857f20939211996d80694bf8a62f4f0fc21ebb20cee9aed23fa964d0",
+    "final_sha256": "858c6e60b7a9ddb903688fb09dd8a1ae9212530f42577a8374d55b6b7dd35ff2",
+    "pendencia": ""
   },
   "65": {
     "codigo": "MX-F065",
@@ -999,10 +1230,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCinco ramas independientes de señalización entre +24 V después de F2 y 0 V: H0 directo “CONTROL”; KM1 NA 53-54 → H1 “KM1 ACTIVADO”; KM2 NA 13-14 → H2 “KM2 ACTIVADO”; FR1 contacto de disparo NA 97-98 → H31 “SOBRECARGA M1”; FR2 contacto de disparo NA 97-98 → H32 “SOBRECARGA M2”. Pilotos de control blancos, marcha verdes, sobrecarga amarillos. Los colores son elección de esta ilustración y van acompañados de etiquetas. Los pilotos no comparten la cadena de permisos NC que cortaría la indicación de falla. No unir salidas de contactos de dos circuitos distintos.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO88EJEMPLO 4 · SEÑALIZACIÓNDistinguir cada motor y cadasobrecargaLos pilotos son de 24 Vcc y toman alimentación antes de la cadena de permisos. Cada contacto está en serie con su piloto.H31 y H32 pueden indicar el disparo aunque FR1 o FR2 hayan retirado P.H0 blanco: control disponible en su rama.H1 / H2 verdes: auxiliares de KM1 / KM2 cerrados.H31 / H32 amarillos: sobrecarga FR1 / FR2 disparada.Durante la espera, H1 está encendido y H2 apagado en el funcionamiento normal. Estacombinación no es una confirmación independiente de que KT1 esté contando: una fallatambién puede impedir la entrada de KM2. Consulta el temporizador y el estado del circuito.Identifica el significado junto al pilotoLos verdes no certifican que los motores giren. Las alarmas amarillas identifican estosdisparos, no cualquier defecto de la máquina. Los rótulos y códigos pertenecen a esteejemplo; no reutilices conexiones de otros ejercicios solo porque una lámpara tenga elmismo número. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "4bafa9e55b5c28b58790049f6503e04518c9c50e4343e9cfb34df6215097350d",
+    "final_sha256": "c8816a82be35b9b2cc14ee0d7b056892707147b8c269a7faabb960391bc04ac3",
+    "pendencia": ""
   },
   "66": {
     "codigo": "MX-F066",
@@ -1013,10 +1249,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCronograma con pistas S1, KM1 / KT1, KM2. t0 Arranque, t1 Fin de T, t2 Paro. S1 pulso breve en t0. KM1/KT1 altos desde t0 hasta t2. KM2 alto desde t1 hasta t2. T entre t0 y t1; después de t2 todos bajos. Nota “Secuencia ideal; se omiten tiempos de actuación de contactos y bobinas”. No representar el auxiliar de KM1 como confirmación de velocidad de M1.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO90EJEMPLO 4 · TEMPORIZACIÓN Y PRUEBASEnsayar la secuencia y el paroconjuntoT se cuenta desde la alimentación de KT1 por el auxiliar de KM1. La segunda orden llega al terminar ese intervalo; losretardos físicos no se representan a escala.Configura KT1 en retardo a la energización, sin acumulación. Para estudiar la secuenciapuede usarse un ajuste nominal de 10 s; no es una recomendación para una máquina real.Define T según el proceso y verifica la respuesta del temporizador seleccionado.Prueba controladaResultado en la lógica normalPulso breve de S1KM1 retiene; KM2 espera T.S0 antes o después de TAmbas órdenes caen. La cuenta se cancela.Disparo de FR1 o FR2Ambos contactores caen; indica H31 o H32, respectivamente.Pérdida de KS1 o alimentaciónSe pierde la maniobra. Al retornar con S1 liberado, no reinicia.Nueva orden tras restablecerKM1 entra y KT1 inicia un intervalo completo, una vez cumplidosu tiempo de reset.Prueba con personal competente, resguardos y zona de movimiento controlada. Utiliza las funciones de pruebaautorizadas para simular disparos. La retención básica no supervisa pulsadores soldados ni contactos pegados; S1mantenido puede causar una nueva secuencia al recuperar permisos.Referencia: Schneider RE17RMMW: función A y restablecimiento del temporizador. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "ab016e99dc38a8c76f0fc01846328b94054b00cbb00c2775cef26372c1faeff5",
+    "final_sha256": "0bb3a191f6ab587da5d45fdaa638721563db9902e95fdfe43ce7708b84403c6a",
+    "pendencia": ""
   },
   "67": {
     "codigo": "MX-F067",
@@ -1041,10 +1282,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO92EJEMPLO 5 · POTENCIA Y COMPONENTESEl contactor maniobra la bombaSe conserva el recorrido monofásico autorizado de los ejemplos anteriores. El puente va de FR1:T2 a KM1:5/L3. Losflotadores no conducen la corriente del motor en este diseño. PE llega a la carcasa.Caso de estudio: motor compatible con 220 Vca entre L1-L2, 60 Hz; PS1 suministra 24 Vcc alcontrol, protegido por F2. QF1 y FR1 se seleccionan para el motor. QS1 y la función completade seguridad se definen en el proyecto.Elegir el flotador por su aplicación eléctricaHay flotadores aptos para accionar ciertos motores directamente y otros destinados aseñales de control. No son intercambiables. En este ejemplo se necesitan contactosadecuados a la carga de control en 24 Vcc, tanto por corriente máxima como por corrientemínima y capacidad inductiva.B0 y B2 conducen la suma de las cargas aguas abajo; B1 conduce la rama de KM1. Si el contacto no admite esas cargas,incorpora una interfaz compatible y actualiza el esquema. No adoptes un modelo de las referencias sin verificar su fichacompleta.Referencia: SJE PumpMaster: aplicación de potencia y límites en cargas pequeñas.Referencia: SJE MilliAmpMaster: variantes de control y valores para CC. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "0d50a9860418300a8dac663c828cd286cc6bce50957e6f8cfdc22dc890c1d0a7",
+    "pendencia": ""
   },
   "69": {
     "codigo": "MX-F069",
@@ -1069,10 +1315,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nTres tarjetas de histéresis de nivel, izquierda a derecha: NIVEL BAJO / “B1 cierra” / “Pide llenado”; ENTRE NIVELES / “B1 conserva su estado” / “Evita ciclos muy cortos”; NIVEL ALTO / “B1 abre” / “Termina el llenado”. Añade flechas diferenciadas de subida y bajada sin convertirlas en conductores. Nota exacta “Al bajar: permanece abierto hasta el nivel bajo. Al subir: cerrado hasta el alto”. No poner valores de altura ni afirmar que B1 se abre al salir del nivel bajo.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO94EJEMPLO 5 · MODOS Y DIFERENCIALManual no elimina los bloqueosSA1ContactoscerradosComportamiento tras pulsar S10NingunoNo habilita KA1 ni ordena la bomba. No es aislamiento eléctrico.MANE y MMarcha hasta S0 o un bloqueo común. B1 no gobierna el ciclo; eloperador vigila el llenado.AUTOE y AKA1 habilitado; la bomba sigue la demanda B1. B0 y B2 siguenactivos.SA1 debe ser de tres posiciones estables y tener los contactos indicados: E cerrado enMAN/AUTO, M solo en MAN y A solo en AUTO. Comprueba su tabla real de contactos; nodeduzcas esta función por la apariencia del selector.Selecciona el recorrido y la fijación de B1 según el fabricante. Un flotador de poco recorrido no equivale automáticamentea un control de llenado con suficiente separación entre arranque y paro.Para cambiar de modoPulsa S0, verifica que KA1 y KM1 hayan caído, lleva SA1 a 0, selecciona el nuevo modo ypulsa S1 cuando las condiciones sean adecuadas. Pasar rápidamente por 0 puede no dartiempo a que los relevadores caigan; este circuito no supervisa la maniobra del selectorni un pulsador soldado.En manual, detén el llenado al nivel de operación previsto; B2 es un límite adicional y no el método habitual de paro. Enautomático, una habilitación permanece válida durante los ciclos normales: señaliza que puede haber arranque sinintervención del operador. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "41739be4f4c0f43160dedc1f51cfc0fcfe3435f774b3a26da69cd2ecd9acbfaf",
+    "final_sha256": "2cd45db63956dc0280dc9cef61e0f5fea1a1a9a6b05999e677339b12b83ec6a2",
+    "pendencia": ""
   },
   "71": {
     "codigo": "MX-F071",
@@ -1097,10 +1348,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO98EJEMPLO 6 · POTENCIA Y DESCARGALa parada eléctrica no vacía elrecipienteRecorrido monofásico explicado en los ejemplos anteriores, solo para un relevador que admita esa conexión. El puenteune FR1:T2 con KM1:5/L3. B1 y B2 no conducen aquí la corriente del motor.Se mantiene el caso de 220 Vca entre L1-L2, 60 Hz, con motor compatible. PS1 proporciona24 Vcc al control mediante F2. Selecciona protecciones y conductores con los datos reales;completa QS1, seguridad y las demás funciones del equipo.Descarga de arranque y retención de aireComprueba el sistema de descarga del cabezal y la válvula de retención previstos por elfabricante. No confundas esa descarga con SV1. Si el descargador depende únicamente dela actuación del presostato, una parada por S0 o sobrecarga puede no descargar el cabezal:revisa también esas condiciones antes de permitir otro arranque.Este esquema no desarrolla el mando del descargador. Debe completarse conforme al compresor elegido. Desenergizar elmotor tampoco elimina el aire almacenado: para mantenimiento se controlan ambas fuentes de energía.Referencia: Condor: instrucciones de presostatos y accesorios de descarga. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "0d50a9860418300a8dac663c828cd286cc6bce50957e6f8cfdc22dc890c1d0a7",
+    "pendencia": ""
   },
   "73": {
     "codigo": "MX-F073",
@@ -1139,10 +1395,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO104EJEMPLO 7 · POTENCIAEl aviso no cambia el recorrido delmotorSe conserva el caso de motor monofásico compatible con 220 Vca entre L1-L2, 60 Hz. PS1entrega 24 Vcc al control y F2 protege ese circuito. KT1 y HA1 no conducen la corriente delmotor.El puente une FR1:T2 con KM1:5/L3. Este recorrido requiere un relevador que admita la conexión monofásica indicada.Azul destaca el puente; no establece el color del conductor.L1: QF1 → KM1 polo 1 → FR1 canal 1 → M1:A.L2: QF1 → KM1 polo 2 → FR1 canal 2 → puente → KM1 polo 3 → FR1 canal 3 → M1:B.A y B son referencias funcionales: confirma bornes y conexión del motor. Dimensiona protecciones, conductores ymaniobra con los datos reales. Completa QS1 y las funciones de seguridad del equipo; PE llega a la carcasa.Referencia: Rockwell 193-TD011D, p. 14, fig. 1: conexión monofásica del relevador. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "ec3605913519f74aff8cb722d06dd636bb755c4d1df1fd118705d3a22eaa8da7",
+    "pendencia": ""
   },
   "76": {
     "codigo": "MX-F076",
@@ -1195,10 +1456,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl caso elegido es un ventilador monofásico para enfriamiento. En AUTO, B1 solicita ventilación al superar el umbral alto y la mantiene hasta el umbral bajo. En MAN, la orden es continua mientras permanece habilitado. Una resistencia calefactora o un compresor requieren su propio circuito y criterios de protección.\nDispositivos: B1: Termostato: demanda de enfriamiento con diferencial.; B2: Permiso externo del proceso, cuando corresponda al diseño térmico.; SA1: Selector 0-MAN-AUTO: E habilita ambos modos; M y A seleccionan.; KA1: Memoria de habilitación: dos contactos NA independientes.; S1 / KM1 / FR1: Habilitación / contactor / sobrecarga del motor..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS110EJEMPLO 8 · POTENCIAEl recorrido de potenciaMotor monofásico compatible con 220 Vca entre L1-L2, 60 Hz. No se usa neutro en estacarga. QF1 protege el circuito; KM1 maniobra y FR1 supervisa sobrecarga. El recorrido detres canales de FR1 solo se utiliza si lo autoriza el fabricante, como en el ejemplo 2.L1: QF1, polo 1 de KM1, canal 1 de FR1 y entrada A de M1.L2: QF1, polo 2 de KM1, canal 2 de FR1, puente al polo 3 de KM1, canal 3 de FR1 y entrada Bde M1.PE une la carcasa al sistema de protección. QS1 y la alimentación protegida de PS1 secompletan en el proyecto.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "5c43d46f334efb3bcdec1666dc5ee5bf4723d73bccf255d1aada4c781760d93e",
+    "pendencia": ""
   },
   "80": {
     "codigo": "MX-F080",
@@ -1251,10 +1517,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDibuja un circuito multifilar de potencia para M1 monofásico, 220 Vca entre L1 y L2, 60 Hz. L1 y L2 son conductores activos; no hay neutro. QF1 tiene dos polos unidos mecánicamente. KM1 tiene tres polos, identificados 1/L1-2/T1, 3/L2-4/T2 y 5/L3-6/T3. FR1 tiene tres canales de corriente; rotula sus salidas T1, T2 y T3 y alinea cada entrada con la salida correspondiente de KM1. Traza exactamente: L1 → QF1 polo 1 → KM1 1/L1-2/T1 → FR1 canal 1 → M1:A. L2 → QF1 polo 2 → KM1 3/L2-4/T2 → FR1 canal 2 → puente desde FR1:T2 hasta KM1:5/L3 → KM1 5/L3-6/T3 → FR1 canal 3 → M1:B. El puente no toca L1 ni otra fase. PE llega únicamente a la carcasa de M1; no pasa por contactos, fusibles ni FR1. A y B representan entradas de alimentación, no extremos de devanados. No inventes puentes internos del motor ni capacitores. Resalta el puente en azul con texto “PUENTE · color didáctico”; esto no prescribe el color real del conductor. Añade la nota “Recorrido válido solo para equipos cuyo fabricante autorice esta conexión monofásica. QS1 y alimentación de PS1 fuera de esta vista”.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nLa bomba necesita una ventana inicial para establecer flujo. KT1 concede ese intervalo; después, B1 debe confirmar caudal. Si no lo confirma o lo pierde durante la marcha, cae la memoria de solicitud. Así se evita que el simple restablecimiento del temporizador repita arranques con S1 liberado.\nDispositivos: B1: Interruptor de flujo: contacto cerrado con caudal suficiente.; KT1: Retardo a la energización; NC temporizado abre al finalizar T.; KA1: Memoria de solicitud y contacto adicional de salida.; B0: Permiso de succión o reserva, seleccionado para la bomba.; KM1 / FR1: Maniobra y sobrecarga del motor..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS118EJEMPLO 10 · POTENCIAEl recorrido de potenciaMotor monofásico compatible con 220 Vca entre L1-L2, 60 Hz. No se usa neutro en estacarga. QF1 protege el circuito; KM1 maniobra y FR1 supervisa sobrecarga. El recorrido detres canales de FR1 solo se utiliza si lo autoriza el fabricante, como en el ejemplo 2.L1: QF1, polo 1 de KM1, canal 1 de FR1 y entrada A de M1.L2: QF1, polo 2 de KM1, canal 2 de FR1, puente al polo 3 de KM1, canal 3 de FR1 y entrada Bde M1.PE une la carcasa al sistema de protección. QS1 y la alimentación protegida de PS1 secompletan en el proyecto.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "final_sha256": "5c43d46f334efb3bcdec1666dc5ee5bf4723d73bccf255d1aada4c781760d93e",
+    "pendencia": ""
   },
   "84": {
     "codigo": "MX-F084",
@@ -1293,10 +1564,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\n+24 V tras F2, KS1, S0 y FR1:95-96 alimenta [S1 NA en paralelo con KM1:13-14 NA], luego KM1:A1. A2 vuelve a 0 V. H0, H1 y H2, si se muestran, siguen la figura 60: control, contactor activado y disparo.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nA partir de aquí los motores son trifásicos. El mando conserva la retención manual y la separación entre protección del circuito y sobrecarga. La viabilidad del arranque directo depende de red, motor y carga; no se fija un límite universal de HP.\nDispositivos: L1 / L2 / L3: Tres conductores de alimentación de potencia.; QF1 / KM1 / FR1: Protección del circuito, maniobra y sobrecarga.; M1: Motor trifásico conectado según placa.; S0 / S1: Paro NC y arranque NA.; KS1 / PS1 / F2: Permiso de seguridad y alimentación de control protegida..\nComportamiento que debe permitir el esquema: S1 energiza KM1; su auxiliar conserva la orden. FR1 abre 95-96 al disparar y retira la bobina. No se elimina la sobrecarga para simplificar el ejemplo. La selección IEC o NEMA debe ser compatible con el equipo real.\nVerificación funcional: S1 momentáneo → KM1 permanece al soltar.; S0 y S1 simultáneos → S0 abierto impide alimentar la bobina.; Disparo de FR1 → Se retira la maniobra.; Retorno de alimentación → No arranca con S1 libre.; Giro de prueba autorizado → Confirmar el sentido adecuado para la máquina..\n\nPara cerrar el alcance de esta imagen, omite los pilotos opcionales mencionados en la referencia; conserva todo el circuito principal especificado.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS123EJEMPLO 11 · CONTROLLa secuencia de control1. Con permisos disponibles, S1 conecta KM1 y el auxiliar conserva la marcha.2. S0, FR1 o KS1 abiertos eliminan la retención.3. Con S1 libre, volver a alimentar o restablecer un permiso no genera otra orden.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
+    "final_sha256": "1cd12857da6004719b733efe0336ab822666a6fa6e0098024fdfc58041536ac2",
+    "pendencia": ""
   },
   "87": {
     "codigo": "MX-F087",
