@@ -2,56 +2,1249 @@
   "MX-F001": {
     "origem": "GPT Image via image_gen",
     "original": "imagens/originais_gpt/MX-F001.png",
-    "original_sha256": "32e42e1cafb10225f535773710c7eba2ca25a634e70b8a99088a1593c3d578c9",
+    "original_sha256": "8c28b6084303a6d075171cf9a7c64ec8dc161185ac390db663d707efb851aa15",
     "original_dimensoes": [
-      1911,
+      1910,
       823
     ],
     "final": "imagens/MX-F001.png",
-    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+    "final_sha256": "50f74b3b90e92f43cf7b14ec94bfee0107383775f0670535c9615eb2a17ab7e2",
+    "estado": "imagens/ESTADO.json"
   },
   "MX-F002": {
     "origem": "GPT Image via image_gen",
     "original": "imagens/originais_gpt/MX-F002.png",
-    "original_sha256": "ba2b92c038eafb004f23a0fa4942bfc71cdfc6c4db5cb87df91f641d9ec66b38",
+    "original_sha256": "d8d96407a1020790e7aa7271ddb4be4a8aeb722509cab64125da233dd1d26417",
     "original_dimensoes": [
       2027,
       776
     ],
     "final": "imagens/MX-F002.png",
-    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+    "final_sha256": "83246108546ee1090eac5a1294f8f3dd224311883ee5774387f526a603f095ed",
+    "estado": "imagens/ESTADO.json"
   },
   "MX-F003": {
     "origem": "GPT Image via image_gen",
     "original": "imagens/originais_gpt/MX-F003.png",
-    "original_sha256": "dcb9ac6bca87593d1b8b1405fdb2b9925f167202c932b0dc475f30537c4ce3e4",
+    "original_sha256": "5f3d087eff3bbf47a97e2984193c1f238668055e77586aace92d27065e518209",
     "original_dimensoes": [
-      2161,
+      2160,
       728
     ],
     "final": "imagens/MX-F003.png",
-    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+    "final_sha256": "3a97ec5dfe15fdeae5c6d275510487c105de5a4fb538b1aa0a36dae3f06552ad",
+    "estado": "imagens/ESTADO.json"
   },
   "MX-F004": {
     "origem": "GPT Image via image_gen",
     "original": "imagens/originais_gpt/MX-F004.png",
-    "original_sha256": "d4281979b575142a3baa1e5bdeb69f5d659a9645cc36d23609a1f7255a516523",
+    "original_sha256": "e90e2e286313286743b3fd1f91c2577571acb641d39f8cad3651c2b209a094cd",
     "original_dimensoes": [
-      2124,
+      2125,
       740
     ],
     "final": "imagens/MX-F004.png",
-    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+    "final_sha256": "406cecb646c9cf03bc8aaca0120b3193ad3efceb707f4fac5fff16e5d70ea42b",
+    "estado": "imagens/ESTADO.json"
   },
   "MX-F005": {
     "origem": "GPT Image via image_gen",
     "original": "imagens/originais_gpt/MX-F005.png",
-    "original_sha256": "8a0d1d2753c9c8fb3446b86a000212d54f65c97cc7e99610dde864b78c0332e1",
+    "original_sha256": "9c63c173b66bceef863559470b8d44ef65be5b8e3f013f4e0ec48502b441104a",
     "original_dimensoes": [
       1476,
-      1066
+      1065
     ],
     "final": "imagens/MX-F005.png",
-    "ajuste": "redimensionamento proporcional e margem branca; sem redesenho por código"
+    "final_sha256": "d705de4f87909cbf18fca5fb613565e6147910db7b92dd7b316ed46566f47f0f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F006": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F006.png",
+    "original_sha256": "1ad65d2a95ab95f1c0c6b59e9c18c7299351724854be6fd9d0314c8dc8f6e83f",
+    "original_dimensoes": [
+      1599,
+      984
+    ],
+    "final": "imagens/MX-F006.png",
+    "final_sha256": "d1e94d2d1de1f4e5a3a4c28dfb4881df3fb46ee42e97f7bf0c470546e1176c3f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F007": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F007.png",
+    "original_sha256": "90fc9601c1eccb8cf0efb124d8506e4705c62e2fc989c8f2528c773ac5d62eb7",
+    "original_dimensoes": [
+      1928,
+      815
+    ],
+    "final": "imagens/MX-F007.png",
+    "final_sha256": "d0b7fb2512dacc6e78fa18eb351531e888725fca9178664f11db43b9d84fd45b",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F008": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F008.png",
+    "original_sha256": "cbf8200af2afffe92d284059d20cee2c19f9b902ed5b025c85ddecc48108010e",
+    "original_dimensoes": [
+      1870,
+      841
+    ],
+    "final": "imagens/MX-F008.png",
+    "final_sha256": "dafd5fab9bcd74c774e97794211e18727ff49dc0e4e3dead019a2405661d9082",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F009": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F009.png",
+    "original_sha256": "aadc5c84ea55e416e0cc59f7af23eaab56387e3600f1dcfaa63d6a5e63731405",
+    "original_dimensoes": [
+      2179,
+      721
+    ],
+    "final": "imagens/MX-F009.png",
+    "final_sha256": "e8bcd5d816f74ae3546dbbbd222a14b8bd0788eac3f6f713bb0638d83cd66338",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F010": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F010.png",
+    "original_sha256": "afb6315912582b87f3af4b8eaf50208544923e23fc1242c0260427a5a63cc725",
+    "original_dimensoes": [
+      1773,
+      887
+    ],
+    "final": "imagens/MX-F010.png",
+    "final_sha256": "426e666d6990fb4398f250616216f911cd928746c486c2b45c9ce32d0d5c8b57",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F011": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F011.png",
+    "original_sha256": "1ecf1441cd4a215f36b6dddbcbab62e80e6dae2df87ed31d4b1cb6e21f8ae808",
+    "original_dimensoes": [
+      2117,
+      743
+    ],
+    "final": "imagens/MX-F011.png",
+    "final_sha256": "d5d1c148f119f3e7a9a9b25826b29361e98390e2aa48f012994f076c7a98694d",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F012": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F012.png",
+    "original_sha256": "0543dafb73b520c5d604b8f48d16a30a0e3874363d4b86067510f5b895a8e3dd",
+    "original_dimensoes": [
+      1848,
+      851
+    ],
+    "final": "imagens/MX-F012.png",
+    "final_sha256": "a66e7e109faf42a7cd2942e76e96f49bd5970f4a51d2629fb97def6644824818",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F013": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F013.png",
+    "original_sha256": "25ad52c066a24b97125169df45fe89397b794936cb2ad538903c9efbc39862bd",
+    "original_dimensoes": [
+      1889,
+      833
+    ],
+    "final": "imagens/MX-F013.png",
+    "final_sha256": "c0c25562d8425fe8e11ca6a4b708b2f9f99c00fc1bea1b8b42c2c749f8558063",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F014": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F014.png",
+    "original_sha256": "9bf49322c8d0d7ec5be86f45c334ec23ac219b591fefffa76d8a466581be4764",
+    "original_dimensoes": [
+      1888,
+      833
+    ],
+    "final": "imagens/MX-F014.png",
+    "final_sha256": "4c279c6452f8e9dc92ad365fc7f0d4ddd395248f0d036951150795dec764cf3b",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F015": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F015.png",
+    "original_sha256": "15223b670826aaf151badd60c35d8765dffc96aba3d8171cba832f79932738aa",
+    "original_dimensoes": [
+      2170,
+      725
+    ],
+    "final": "imagens/MX-F015.png",
+    "final_sha256": "e66b19b8c78d23f914cddd35aaf5a5f628506b19f7f1156839ffc8783d3f4a5e",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F016": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F016.png",
+    "original_sha256": "726528a86b69e6c0b693f21df748eeb9256fb99bcfcce7e88fdd68fadb345b06",
+    "original_dimensoes": [
+      2046,
+      769
+    ],
+    "final": "imagens/MX-F016.png",
+    "final_sha256": "8875c839aec7b593104b0626f759b29ba59df3ab1c2ceb35c7dd5b98caa23b58",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F017": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F017.png",
+    "original_sha256": "308a63424158172d484276e5b884eea8ef0ad0a18768e69a94ffe815466683bd",
+    "original_dimensoes": [
+      1915,
+      821
+    ],
+    "final": "imagens/MX-F017.png",
+    "final_sha256": "db56064c9a14fa720e3097143837d2780bf0d09c77bf949224bcfa4e0ffab3a3",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F018": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F018.png",
+    "original_sha256": "aa5b0e02f52e61da24ec96f0776f7bc19171817a38f56d484248ca81a9d4b9e1",
+    "original_dimensoes": [
+      1889,
+      832
+    ],
+    "final": "imagens/MX-F018.png",
+    "final_sha256": "15cca80307e7145a33fd781ef442962875b0ec7d5cfc28f80f8ba2749011c964",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F019": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F019.png",
+    "original_sha256": "cdf3b2846ed0eef533863f38d66cf67ebf6de02a1bdc0b85e46aa7087611a563",
+    "original_dimensoes": [
+      2089,
+      753
+    ],
+    "final": "imagens/MX-F019.png",
+    "final_sha256": "1607775c74f94e391dfd7af5e4b2db6a40bbc7eba288a64175a0f90d37bea486",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F020": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F020.png",
+    "original_sha256": "730795607f2b35f7ccc07e332c4c0294077ddc7a8cad3450c24eab3fbcd021e9",
+    "original_dimensoes": [
+      1968,
+      799
+    ],
+    "final": "imagens/MX-F020.png",
+    "final_sha256": "00f95ad9938c1d68326423e80f1f48d84fa660c8495c80abae13897c3c9c4629",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F021": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F021.png",
+    "original_sha256": "bb86700c1d26ea9c3e8f10e651ecd19b201078e120e7e7f436f9aa7812959503",
+    "original_dimensoes": [
+      2172,
+      724
+    ],
+    "final": "imagens/MX-F021.png",
+    "final_sha256": "3f2f650b464ab2ff8876b50513058f9a72a8c7070272094cf120da355d9891c3",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F022": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F022.png",
+    "original_sha256": "74ab0dce8001ec6e9f4596e7137d0d232b578d748761c62f26b58741db4770b8",
+    "original_dimensoes": [
+      1889,
+      833
+    ],
+    "final": "imagens/MX-F022.png",
+    "final_sha256": "f56407e994cc53265831ebe4c5f777c19d5bea6fd69250717ed81f97e1115839",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F023": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F023.png",
+    "original_sha256": "2cb549f8d2e156f0a291a5e0dbe1395db47de5f1753660ced0bb25606a6740d4",
+    "original_dimensoes": [
+      2135,
+      736
+    ],
+    "final": "imagens/MX-F023.png",
+    "final_sha256": "d6e2bdfc0f150ad4b1df3b30e085c50e541764b4257ac5a7bcc7f9b2f0466a6f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F024": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F024.png",
+    "original_sha256": "7799a8f0dc45e832b0613756c5beed4edf9ad7720ecdbb49641fcd5a18eea46a",
+    "original_dimensoes": [
+      2124,
+      740
+    ],
+    "final": "imagens/MX-F024.png",
+    "final_sha256": "cfcf93a985e97282e0661143a36d8dd397d4d9b83ab2161810ed75bf3024722f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F025": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F025.png",
+    "original_sha256": "4237779067816afe1ce48ae40873eb2fbf5ae2edc2a7afc0038aab6636235184",
+    "original_dimensoes": [
+      1610,
+      977
+    ],
+    "final": "imagens/MX-F025.png",
+    "final_sha256": "23a7c35ea0971cafd45f5c29d70d5c236a5997a5d7bc928c729d2e26a683458c",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F026": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F026.png",
+    "original_sha256": "f0fc5c6d013ba0ef1259b99ac0b3e4031106bef1cc692a05cbccc4eb50491b74",
+    "original_dimensoes": [
+      1898,
+      829
+    ],
+    "final": "imagens/MX-F026.png",
+    "final_sha256": "05510dd2d07f63eb3a255660ac80d79b485affd774be36a0d420839972f686ff",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F027": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F027.png",
+    "original_sha256": "d05aadbd84a1c9b8fa2d66707f89a0c94e3ad87bfdc0e8dd5aee67efb537ffec",
+    "original_dimensoes": [
+      1852,
+      849
+    ],
+    "final": "imagens/MX-F027.png",
+    "final_sha256": "4a428df297920fb719e224412f1dada7ab3c6a549c121fd6b0919e4de77884c7",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F028": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F028.png",
+    "original_sha256": "ba0c9e799dbb64be729120cd1ddf51760d2e9d3a20babf8051e325be3b9bb0d7",
+    "original_dimensoes": [
+      1493,
+      1053
+    ],
+    "final": "imagens/MX-F028.png",
+    "final_sha256": "9d469ddaf355930f0805e74593a0b8c3548d50843f6cc6d75373cd7c0e8cde60",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F029": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F029.png",
+    "original_sha256": "54acf2683832ef37158c01a82a850de7af8cf473769f29da908910684e3e1dee",
+    "original_dimensoes": [
+      2162,
+      727
+    ],
+    "final": "imagens/MX-F029.png",
+    "final_sha256": "dc9919b11a7988e6dccb67982d35b58fe7eb1109d4cacf40e634ff7f7b053e58",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F030": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F030.png",
+    "original_sha256": "205f24700c39aa0b6dba8856c80e1a9315b0eb1a865a40b7e0af7553e84d29f6",
+    "original_dimensoes": [
+      1962,
+      801
+    ],
+    "final": "imagens/MX-F030.png",
+    "final_sha256": "e4611b3974fa4ebc3f5c520149b21e3bd5b9b9b923ad26938541a89731895ab0",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F031": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F031.png",
+    "original_sha256": "eb64b319c68b37603c3b363c37374805b539f84175c5ceb63104e79a4efdd03c",
+    "original_dimensoes": [
+      1788,
+      880
+    ],
+    "final": "imagens/MX-F031.png",
+    "final_sha256": "3346a252e4b3b6991723299ef84db0540b287b24b2dd1c9353e23b96bf0de31e",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F032": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F032.png",
+    "original_sha256": "6a5a6bf9e70be5454f6e0cb2915b897faa24dfb1f5fc659a55a386a9ed030379",
+    "original_dimensoes": [
+      1646,
+      956
+    ],
+    "final": "imagens/MX-F032.png",
+    "final_sha256": "9126bfe6e293b7458bb8374c99655ae9ed82767b38bb24e96d737fb122ef5b27",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F033": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F033.png",
+    "original_sha256": "0dec59c67ee2ddeb0c592de1a397db227856b6533d8b7d2f337b3f8188704269",
+    "original_dimensoes": [
+      2117,
+      743
+    ],
+    "final": "imagens/MX-F033.png",
+    "final_sha256": "21cdbb055fe645b0b37e93ff032875e603890173123d8d4fef2323fcd73c2487",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F034": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F034.png",
+    "original_sha256": "f51262992907ef1d6ce41939b95aa57236632652ebc37cf4cc59177055154afc",
+    "original_dimensoes": [
+      2065,
+      761
+    ],
+    "final": "imagens/MX-F034.png",
+    "final_sha256": "9c1938478aa6e064518f5030ca3b6eea94666c01d422b4976f5ec439de894889",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F035": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F035.png",
+    "original_sha256": "cd7dd28ddb1a64ed3a115a778e64bba283177581f1a9c7a3a4bc4d008154340c",
+    "original_dimensoes": [
+      1769,
+      889
+    ],
+    "final": "imagens/MX-F035.png",
+    "final_sha256": "d236fc26bc9b49040c52d04c1b3d5063cb6eba778ebd1be06f7e01073172dfb8",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F036": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F036.png",
+    "original_sha256": "c2a1139e8908ac94ab0ff385e4b75a88c2e733461b432d2d0e41d5126646b362",
+    "original_dimensoes": [
+      1828,
+      860
+    ],
+    "final": "imagens/MX-F036.png",
+    "final_sha256": "93a79a6d9a585a7b39761cdafe6c65a0eb729a77563bd513e45f2dcaf385f0ea",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F037": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F037.png",
+    "original_sha256": "9929b3528c1471992c273dba7508096d49daa0f2d26d7c9a9f26a261c9da5cfc",
+    "original_dimensoes": [
+      1509,
+      1042
+    ],
+    "final": "imagens/MX-F037.png",
+    "final_sha256": "dce34eedd177befc0a5ca6b3cfb7620753951c62c4fadde4edcfed0e72562205",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F038": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F038.png",
+    "original_sha256": "6919072dee940c245b6d0a59b75490128e98b4578d66ea9d4dedef12d6d19bd5",
+    "original_dimensoes": [
+      1957,
+      804
+    ],
+    "final": "imagens/MX-F038.png",
+    "final_sha256": "b9e2957e4b660cc279e8e27df8ef4cc297f0b413926f2050d4d6a0b4c5117bd4",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F039": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F039.png",
+    "original_sha256": "c11fcaa3f3ab46fdcaf82d6a4fba60d41cbad36946e0fa1a83480f48e0a677cd",
+    "original_dimensoes": [
+      1839,
+      855
+    ],
+    "final": "imagens/MX-F039.png",
+    "final_sha256": "6344fa9325ea97b9d0f9f72f1e97bcd14b3e45152c32d6b2e198a655588668ba",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F040": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F040.png",
+    "original_sha256": "a452f2de1eec4b3baaa86cdc3c08d8ffe7eaa006cc77b94884be8d4727a65289",
+    "original_dimensoes": [
+      2027,
+      776
+    ],
+    "final": "imagens/MX-F040.png",
+    "final_sha256": "7d188d952d40804f11781c4e4801b40dd44317dd2300da9ed7a3fc961820eb34",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F041": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F041.png",
+    "original_sha256": "43d07d650ef7081df6488832c8b4b6d785269b92100dff4d583d9f74f0f57592",
+    "original_dimensoes": [
+      1531,
+      1027
+    ],
+    "final": "imagens/MX-F041.png",
+    "final_sha256": "13666ddd7d215dde25dddad87088da02c9b835238a57b5941b1dfed32d7b66c1",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F042": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F042.png",
+    "original_sha256": "e15d3ac93e874afc6f2c89aacb610c558fa820b14498f41d46fd5de787973822",
+    "original_dimensoes": [
+      1727,
+      911
+    ],
+    "final": "imagens/MX-F042.png",
+    "final_sha256": "7e25e6e0e16a6bf537e3f142653b3da9c8b2cc3ab738e318704eb8b81e2d0ecd",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F043": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F043.png",
+    "original_sha256": "03af6d6b5206e0440242ec892175b6f131416922414579d5bb004df93e059c63",
+    "original_dimensoes": [
+      1947,
+      808
+    ],
+    "final": "imagens/MX-F043.png",
+    "final_sha256": "1e3614b8bab42feb343577172dc7d56c4c19a18d85177aeb61257b3d914ab732",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F044": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F044.png",
+    "original_sha256": "cd559069b8eab1d5026750aac1303df551d295e09b3ce63fea283ff819837093",
+    "original_dimensoes": [
+      1808,
+      870
+    ],
+    "final": "imagens/MX-F044.png",
+    "final_sha256": "44fb95775f53abdb1cbfe0a9fdf458115ce7d4f191f565e350ad2e385834d7c9",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F045": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F045.png",
+    "original_sha256": "ee5d9435b2c4662cd1db66bbfe169590ebaedd2820c95d7504870e09a1312e61",
+    "original_dimensoes": [
+      2129,
+      739
+    ],
+    "final": "imagens/MX-F045.png",
+    "final_sha256": "f864f5f3334192711f06b8f7f837b7a2bf9e964998a2703197f35985bbba8dce",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F046": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F046.png",
+    "original_sha256": "2cf7fa14121c1efe8aabc117db5d411a64ce32801b6fcecdc0c9538bd27e49c9",
+    "original_dimensoes": [
+      1765,
+      891
+    ],
+    "final": "imagens/MX-F046.png",
+    "final_sha256": "dd0357fc76f0b648ecff1048887a5ff3b7e5e22502ffef269a10ac342ea2d91c",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F047": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F047.png",
+    "original_sha256": "adbd4e7de5fb1ab5878a4298ea0aff309121c3c810df7a6704e7dbfbf40a99f4",
+    "original_dimensoes": [
+      1873,
+      840
+    ],
+    "final": "imagens/MX-F047.png",
+    "final_sha256": "00eeeb631c9da086751cf21152d4d60a6c1ef775b75ffedbbf5d265186897da9",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F048": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F048.png",
+    "original_sha256": "3cde65e145cf936702bc9e646ed05aadade6c39b66c271113932321b6f82847e",
+    "original_dimensoes": [
+      2171,
+      724
+    ],
+    "final": "imagens/MX-F048.png",
+    "final_sha256": "ddbbeaefcfd888904253d5cc3b4d1698c273ac6868d53b44f69a77013779612c",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F049": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F049.png",
+    "original_sha256": "ec1230bf990444f660c1a1daafbbbd96f09b9c77b97dbe18ecc58a103fa441ac",
+    "original_dimensoes": [
+      2167,
+      726
+    ],
+    "final": "imagens/MX-F049.png",
+    "final_sha256": "fa3b57072c0f463cc8dc5ac909e9ec3ef2302615049f66d4bbe641a63422cb8e",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F050": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F050.png",
+    "original_sha256": "213b3d670b1b26a18fa68dfc8d35e8a9a96b23fa41e099722eca6135b88be679",
+    "original_dimensoes": [
+      2181,
+      721
+    ],
+    "final": "imagens/MX-F050.png",
+    "final_sha256": "0e2d07a8662be1b7aa9eadc49c620e137d43454e466de12f4517f103703721c9",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F051": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F051.png",
+    "original_sha256": "27e561dc35b956cb694326f628dddb6c0c5362a7c8e2452bd57e47afa31990c3",
+    "original_dimensoes": [
+      1910,
+      823
+    ],
+    "final": "imagens/MX-F051.png",
+    "final_sha256": "b9cc8771ad8195e32308671b1d69755fe82e4ede76981879034be1ef16b6b717",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F052": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F052.png",
+    "original_sha256": "6d33d190375ca9694670b65ecdb6f5d298806373278028a0c40157339af2c580",
+    "original_dimensoes": [
+      1543,
+      1019
+    ],
+    "final": "imagens/MX-F052.png",
+    "final_sha256": "2cfff84349215287a82d8b12f0a85e251562ecbbbfe5f60052ab16839d1b6bc1",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F053": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F053.png",
+    "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
+    "original_dimensoes": [
+      1911,
+      823
+    ],
+    "final": "imagens/MX-F053.png",
+    "final_sha256": "c3afce315fc5d5187a296c7e3e2feed1deef672ffd70e3809fe498fb927265e7",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F054": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F054.png",
+    "original_sha256": "050cb40c5b2319eeaae69c03623cf2b28099f1172c7d67c57313093e1edf660d",
+    "original_dimensoes": [
+      1962,
+      802
+    ],
+    "final": "imagens/MX-F054.png",
+    "final_sha256": "0e53ffa8cf514e5a53c7efebb924548405a0c6b81a96be88f2453059ec7bc35c",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F055": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F055.png",
+    "original_sha256": "ab8486378225bd62d53712ba9c7db336ccf90bb769b7096e22002ed83ab66870",
+    "original_dimensoes": [
+      2149,
+      732
+    ],
+    "final": "imagens/MX-F055.png",
+    "final_sha256": "938dd5b785baccb59eb1cff1491dd7a867e157200463473b136d681ba7305f3b",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F056": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F056.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F056.png",
+    "final_sha256": "f6a8c80e4bc54339ad5c7e5e8f0b883e806434712a7751a0f53a5f6186eaebde",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F057": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F057.png",
+    "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
+    "original_dimensoes": [
+      1911,
+      823
+    ],
+    "final": "imagens/MX-F057.png",
+    "final_sha256": "e7ac0f87111150a9cb6bb3a1ad41e070a96c765551292b350a5638f91e16d5c6",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F058": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F058.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F058.png",
+    "final_sha256": "f6a8c80e4bc54339ad5c7e5e8f0b883e806434712a7751a0f53a5f6186eaebde",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F059": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F059.png",
+    "original_sha256": "24338dce46c2b079f95a4c9fd531a5b45c5630f8d9495d0dc799aae0458f8c8a",
+    "original_dimensoes": [
+      1410,
+      1116
+    ],
+    "final": "imagens/MX-F059.png",
+    "final_sha256": "1d935bb55225179737f55b2c3017b7e3a7c8f5d5aaeb8839c3ce6222d1a0c7fd",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F060": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F060.png",
+    "original_sha256": "eb023f10c9b6ea7f76e0cd7c7eeb8e3ac53604219af8e271815f171dcac010ed",
+    "original_dimensoes": [
+      1631,
+      964
+    ],
+    "final": "imagens/MX-F060.png",
+    "final_sha256": "97647704a72695c702210ecf9c14b33c768a642866d08c01842f3704831cc308",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F061": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F061.png",
+    "original_sha256": "1bba1f2bcf645b7d24f9bf2c5d9e670a53478ce7ba90157d1da2abe6a1997992",
+    "original_dimensoes": [
+      2087,
+      754
+    ],
+    "final": "imagens/MX-F061.png",
+    "final_sha256": "c7bb13a889bfb2ddfb819c222f646e5b0580e6d00edcf9ccfc24ea308538bf07",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F062": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F062.png",
+    "original_sha256": "7e5a25582dbc0095b8de7fef457619967321dc77fe81bb97c35545e5ab63f6ca",
+    "original_dimensoes": [
+      2032,
+      774
+    ],
+    "final": "imagens/MX-F062.png",
+    "final_sha256": "13f08a6faa80306fed4fe77fd710e78a6912978d48954dc55bb6e13f5d83b147",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F063": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F063.png",
+    "original_sha256": "b51d83c50a8034e314079273aaacd2d7059802697056a85ea97c222a1930b151",
+    "original_dimensoes": [
+      1466,
+      1073
+    ],
+    "final": "imagens/MX-F063.png",
+    "final_sha256": "6f7ea33c0c6608079db1fe3dbe161dd6488d9ee56a8ea1a09466fec780739627",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F064": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F064.png",
+    "original_sha256": "d1ce7258857f20939211996d80694bf8a62f4f0fc21ebb20cee9aed23fa964d0",
+    "original_dimensoes": [
+      1409,
+      1116
+    ],
+    "final": "imagens/MX-F064.png",
+    "final_sha256": "858c6e60b7a9ddb903688fb09dd8a1ae9212530f42577a8374d55b6b7dd35ff2",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F065": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F065.png",
+    "original_sha256": "4bafa9e55b5c28b58790049f6503e04518c9c50e4343e9cfb34df6215097350d",
+    "original_dimensoes": [
+      1466,
+      1073
+    ],
+    "final": "imagens/MX-F065.png",
+    "final_sha256": "c8816a82be35b9b2cc14ee0d7b056892707147b8c269a7faabb960391bc04ac3",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F066": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F066.png",
+    "original_sha256": "ab016e99dc38a8c76f0fc01846328b94054b00cbb00c2775cef26372c1faeff5",
+    "original_dimensoes": [
+      2033,
+      773
+    ],
+    "final": "imagens/MX-F066.png",
+    "final_sha256": "0bb3a191f6ab587da5d45fdaa638721563db9902e95fdfe43ce7708b84403c6a",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F067": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F067.png",
+    "original_sha256": "8d2087678bfbfb1fa9cf14c388feabbfb572aba83974ebb0f3f0223fcf4e3abc",
+    "original_dimensoes": [
+      1774,
+      887
+    ],
+    "final": "imagens/MX-F067.png",
+    "final_sha256": "d8b0e4d152e550409dea78ce424b0fac8eed9fca3d85bb57c8a1521b96866010",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F068": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F068.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F068.png",
+    "final_sha256": "0d50a9860418300a8dac663c828cd286cc6bce50957e6f8cfdc22dc890c1d0a7",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F069": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F069.png",
+    "original_sha256": "789bf5bf10a8aa1550081750c1732968ffb2a2e4aacb905c101b5f5931156c4e",
+    "original_dimensoes": [
+      1329,
+      1183
+    ],
+    "final": "imagens/MX-F069.png",
+    "final_sha256": "ab477da4b8a6857fb078df4a7a47fa556fbed64f6218a41ab45844cf7ec9b6c4",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F070": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F070.png",
+    "original_sha256": "41739be4f4c0f43160dedc1f51cfc0fcfe3435f774b3a26da69cd2ecd9acbfaf",
+    "original_dimensoes": [
+      1942,
+      809
+    ],
+    "final": "imagens/MX-F070.png",
+    "final_sha256": "2cd45db63956dc0280dc9cef61e0f5fea1a1a9a6b05999e677339b12b83ec6a2",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F071": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F071.png",
+    "original_sha256": "b7e74c49fa21ecb202bcca38eb36df0a6891eb48d4c5ab8657f7999606d713a1",
+    "original_dimensoes": [
+      1848,
+      851
+    ],
+    "final": "imagens/MX-F071.png",
+    "final_sha256": "bb0091891df7a27bee966a7774610755a286e886ac7313ee523d0573004812ea",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F072": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F072.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F072.png",
+    "final_sha256": "0d50a9860418300a8dac663c828cd286cc6bce50957e6f8cfdc22dc890c1d0a7",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F073": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F073.png",
+    "original_sha256": "d09ce971342af95bb61c7ac3b242bacd8436ebc17c001be446e8fe268cc5beb6",
+    "original_dimensoes": [
+      1254,
+      1254
+    ],
+    "final": "imagens/MX-F073.png",
+    "final_sha256": "8757530f903990534fe681b3aeb89fe80b5c34862a032a3384a4cd18c844ddfe",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F074": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F074.png",
+    "original_sha256": "bd56f1dd3940945e43c75601fea965258313453d237ac43c9559556aef89fb35",
+    "original_dimensoes": [
+      2124,
+      740
+    ],
+    "final": "imagens/MX-F074.png",
+    "final_sha256": "02aaf7e3a1058022e80e9b8b87340ecb6af3e7bb4a8dca2a2f9a5c8d449a1ac8",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F075": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F075.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F075.png",
+    "final_sha256": "ec3605913519f74aff8cb722d06dd636bb755c4d1df1fd118705d3a22eaa8da7",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F076": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F076.png",
+    "original_sha256": "4e4a8fcecff57c444b0a8af34e3ce5387a0a60adccb55480ba47c3474ea1d6ae",
+    "original_dimensoes": [
+      1293,
+      1216
+    ],
+    "final": "imagens/MX-F076.png",
+    "final_sha256": "ea78729b0a8a717a3922814f71dbabb4acdad16e2f17a62e90ebf457e19391e2",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F077": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F077.png",
+    "original_sha256": "3904d69eb4fb0016ed211463c7c9d0b32b763ef91e07a86122731dc2426230b2",
+    "original_dimensoes": [
+      2137,
+      736
+    ],
+    "final": "imagens/MX-F077.png",
+    "final_sha256": "a26a346a01ae489713779782b86031ef4629b333db037ad0da7eaaf8578071a9",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F078": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F078.png",
+    "original_sha256": "cfdad11bbedad491596bf91ce3acb68a599325fa55112653215d2fff96ad5682",
+    "original_dimensoes": [
+      1790,
+      878
+    ],
+    "final": "imagens/MX-F078.png",
+    "final_sha256": "e25b629db146b79285464b793878110d2beb853356fc314b25b1a326ae1ca73d",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F079": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F079.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F079.png",
+    "final_sha256": "5c43d46f334efb3bcdec1666dc5ee5bf4723d73bccf255d1aada4c781760d93e",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F080": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F080.png",
+    "original_sha256": "c3286b1fb15b4aa00ec63141762bc7a64416fad5d63c4567d48caf2b4daca159",
+    "original_dimensoes": [
+      1503,
+      1047
+    ],
+    "final": "imagens/MX-F080.png",
+    "final_sha256": "ba297413162616a7ba24308b62a40c0c1636df3cdfd16cae215da6231af4c00f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F081": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F081.png",
+    "original_sha256": "c113e977fdc13d40804f5f2fbc346f9b35cb77f91ee9dcfa447dc93e1c7b8c4f",
+    "original_dimensoes": [
+      1555,
+      1012
+    ],
+    "final": "imagens/MX-F081.png",
+    "final_sha256": "dd3388815329fa29c020a68067833dfa15f7ea75b7b6ce6e7609caf80c35bd48",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F082": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F082.png",
+    "original_sha256": "85b1cc5e243937d0813bb9242c2b8408b7056689a8fe08e3cc750bea3dc68a96",
+    "original_dimensoes": [
+      1908,
+      824
+    ],
+    "final": "imagens/MX-F082.png",
+    "final_sha256": "5c39086dc71995aa87add5df61db0c3453e498fdbf243235294e6e8277c197e5",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F083": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F083.png",
+    "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
+    "original_dimensoes": [
+      1368,
+      1149
+    ],
+    "final": "imagens/MX-F083.png",
+    "final_sha256": "5c43d46f334efb3bcdec1666dc5ee5bf4723d73bccf255d1aada4c781760d93e",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F084": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F084.png",
+    "original_sha256": "c04e9932f0bd60c4a64f628d6e9ededd7e75453d348d00f06db0203be98eb6ba",
+    "original_dimensoes": [
+      1506,
+      1045
+    ],
+    "final": "imagens/MX-F084.png",
+    "final_sha256": "a4cba26c870e159cfe41780dae4e7ca10b4b9df63acc4accd995713019471526",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F085": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F085.png",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "original_dimensoes": [
+      1555,
+      1011
+    ],
+    "final": "imagens/MX-F085.png",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F086": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F086.png",
+    "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
+    "original_dimensoes": [
+      1911,
+      823
+    ],
+    "final": "imagens/MX-F086.png",
+    "final_sha256": "1cd12857da6004719b733efe0336ab822666a6fa6e0098024fdfc58041536ac2",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F087": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F087.png",
+    "original_sha256": "ab4707b927cb22e0fb17cadf0fee1a89403783fc0f3ccf48d9360ca5959cffe4",
+    "original_dimensoes": [
+      1556,
+      1011
+    ],
+    "final": "imagens/MX-F087.png",
+    "final_sha256": "c55d42876c7d231c7d32a4cfa1f4ffae6886e0061c2f19871c7b7c81a5e9f54a",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F088": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F088.png",
+    "original_sha256": "48b833d2ea4c56084534fa89d6b7296452aa4d31c8cd5e12199c62807b18ff4d",
+    "original_dimensoes": [
+      1499,
+      1049
+    ],
+    "final": "imagens/MX-F088.png",
+    "final_sha256": "976477b70f833b789140a59448f3f411e46b3326a9d12d725f3638c8072d01e9",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F089": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F089.png",
+    "original_sha256": "d45388e0b524a43e717ec86f6b2cb54726674ddfd23c92b4af9896409efb8dd1",
+    "original_dimensoes": [
+      1787,
+      880
+    ],
+    "final": "imagens/MX-F089.png",
+    "final_sha256": "88df36696520849d3ea406be7b377dda533c494a641eb021b980929ccf193b87",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F090": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F090.png",
+    "original_sha256": "df3339e720e93e7dfa27d54c6383033ca60559ce8d4b69b01cbd06e1867439c3",
+    "original_dimensoes": [
+      1497,
+      1051
+    ],
+    "final": "imagens/MX-F090.png",
+    "final_sha256": "b4d01f400a9f359fe754920b2027157bf92104b2e935c1ac15ed5fea95d2f6e3",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F091": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F091.png",
+    "original_sha256": "f74af6324bd6b6bb71b1eec755051186b9e16268b318c5fd6c045d8c17ca17c7",
+    "original_dimensoes": [
+      1556,
+      1011
+    ],
+    "final": "imagens/MX-F091.png",
+    "final_sha256": "953e47fe71d450cdbd69b930c886019914826ad04c10ced755d727a690148837",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F092": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F092.png",
+    "original_sha256": "f0e95906342d5cf202e7bba9c0e1960d5bb1762e1140ad7a9db8afa0e89777ab",
+    "original_dimensoes": [
+      1500,
+      1049
+    ],
+    "final": "imagens/MX-F092.png",
+    "final_sha256": "c5015b82b2dae6fcfb7ce623fe98fa661a86256b888e6bec8b9e7f3efec20072",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F093": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F093.png",
+    "original_sha256": "1dce25dffdb25fb429bb3889c6361b04f4bbb30761eb70f70cf5dfef920d61fb",
+    "original_dimensoes": [
+      1556,
+      1011
+    ],
+    "final": "imagens/MX-F093.png",
+    "final_sha256": "28ad4481ee66537137da0bdcac16b590dc1a8af49d84bc6f3c04d9c73f9df414",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F094": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F094.png",
+    "original_sha256": "d1ce7258857f20939211996d80694bf8a62f4f0fc21ebb20cee9aed23fa964d0",
+    "original_dimensoes": [
+      1409,
+      1116
+    ],
+    "final": "imagens/MX-F094.png",
+    "final_sha256": "d2ab2e7f4168ea311c1e93f5e3f963790a94eb9939520ae6cbc2b9fd60e26df2",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F095": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F095.png",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "original_dimensoes": [
+      1555,
+      1011
+    ],
+    "final": "imagens/MX-F095.png",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F096": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F096.png",
+    "original_sha256": "789bf5bf10a8aa1550081750c1732968ffb2a2e4aacb905c101b5f5931156c4e",
+    "original_dimensoes": [
+      1329,
+      1183
+    ],
+    "final": "imagens/MX-F096.png",
+    "final_sha256": "77d4e48066e63ab90fb3161cdc761674cd61e0a94821a6b744796740deb48146",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F097": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F097.png",
+    "original_sha256": "3d76ea4a986966b4525f028d88bfd26965eec8e86c736d83ad8e014e9e1307fc",
+    "original_dimensoes": [
+      1556,
+      1011
+    ],
+    "final": "imagens/MX-F097.png",
+    "final_sha256": "f4b8895b7e17b9dada9b787dd0ab60ab12582c6dc52d26fd32c55bd1e3fba8e9",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F098": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F098.png",
+    "original_sha256": "223093a193c7aa351229bd2cdb0821e355e04757ae3d54c4403c983647290aea",
+    "original_dimensoes": [
+      1500,
+      1049
+    ],
+    "final": "imagens/MX-F098.png",
+    "final_sha256": "2551d9c9a976d4979cf04318c9a00dfd3384b3edf3a69c609d97d7cfbe366132",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F099": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F099.png",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "original_dimensoes": [
+      1555,
+      1011
+    ],
+    "final": "imagens/MX-F099.png",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F100": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F100.png",
+    "original_sha256": "c069491280f87d58c72aaed0a566f69ae80c9d6b963a144da9fab381109109c7",
+    "original_dimensoes": [
+      1496,
+      1051
+    ],
+    "final": "imagens/MX-F100.png",
+    "final_sha256": "f93ab755e111576d2d127248852cf2bfedeea9582235cee904121edab4495838",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F101": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F101.png",
+    "original_sha256": "31619bcc8668f1cc58f0ea598bc772e9ddbdc031669666f36d3ac78b93c9e7ad",
+    "original_dimensoes": [
+      1556,
+      1011
+    ],
+    "final": "imagens/MX-F101.png",
+    "final_sha256": "cd1776c9ecc92862f425f432681d1e8c6a11b063caa6a14469cd0c6cf1200dd0",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F102": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F102.png",
+    "original_sha256": "6f8a40ab223003292aa1817f2dfa7568f8fbb0b68bf90c66bb08c91572c4f24c",
+    "original_dimensoes": [
+      1500,
+      1049
+    ],
+    "final": "imagens/MX-F102.png",
+    "final_sha256": "0504727bac209076eb18dc3466386852ec79f88095ed9f02634eb27960b35877",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F103": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F103.png",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "original_dimensoes": [
+      1555,
+      1011
+    ],
+    "final": "imagens/MX-F103.png",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "estado": "imagens/ESTADO.json"
+  },
+  "MX-F104": {
+    "origem": "GPT Image via image_gen",
+    "original": "imagens/originais_gpt/MX-F104.png",
+    "original_sha256": "9bd235f9c864541d1d9c5649f40b0b20cbe3a9813a9577e72b6d1faf16f57f8c",
+    "original_dimensoes": [
+      1496,
+      1051
+    ],
+    "final": "imagens/MX-F104.png",
+    "final_sha256": "553aaa3cd65b4f8f4be27faa66dff8ef5464f5074713d746030153541e1441df",
+    "estado": "imagens/ESTADO.json"
   }
 }

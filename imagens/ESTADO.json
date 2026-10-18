@@ -1086,7 +1086,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
     "final_sha256": "e7ac0f87111150a9cb6bb3a1ad41e070a96c765551292b350a5638f91e16d5c6",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F053",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "58": {
     "codigo": "MX-F058",
@@ -1105,7 +1107,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
     "final_sha256": "f6a8c80e4bc54339ad5c7e5e8f0b883e806434712a7751a0f53a5f6186eaebde",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F056",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "59": {
     "codigo": "MX-F059",
@@ -1268,10 +1272,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nVista hidráulica conceptual: cisterna a la izquierda, bomba M1 al centro, tanque/tinaco a la derecha; flechas de agua desde cisterna hasta tanque. B0 en cisterna “agua suficiente”. En tanque, marca nivel bajo “B1 · pide llenado”, nivel alto normal “B1 · paro normal” y nivel superior “B2 · límite alto-alto”. B1 es una función con diferencial entre dos umbrales, no dos flotadores eléctricos independientes unidos arbitrariamente. B2 es un límite independiente. Sin cotas ni diámetros. Nota “Esquema hidráulico conceptual; no fija alturas, tuberías ni tipo de bomba”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO91EJEMPLO 5 · BOMBA CON FLOTADORESLlenar un tanque desde una cisternaM1 impulsa agua al tanque superior. En AUTO, B1 solicita llenado entre dos niveles; en MAN,el operador ordena la marcha. Se añaden B0 para impedir la orden con nivel insuficiente enla cisterna y B2 como límite alto-alto, activo también en manual.B1 realiza el ciclo habitual. B2 es un dispositivo independiente, por encima del paro normal y por debajo del nivel quecausaría desbordamiento. Las posiciones se definen para la instalación real.DispositivoCondición de su contacto utilizadoB0 · cisternaCierra con agua suficiente; abre antes de perder las condicionesmínimas de succión.B1 · demandaCierra al nivel bajo y abre al nivel alto. Se selecciona con diferencialde operación.B2 · límite alto-altoPermanece cerrado en el rango permitido; abre al alcanzar el límitede llenado.Nivel suficiente no garantiza bombeo correctoB0 no detecta por sí solo pérdida de cebado, obstrucción, válvula cerrada o falta decaudal. Completa las protecciones exigidas por la bomba y el proceso. B2 reduce elriesgo de sobrellenado, pero un flotador y un contactor comunes no garantizanprotección ante cualquier falla. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "8d2087678bfbfb1fa9cf14c388feabbfb572aba83974ebb0f3f0223fcf4e3abc",
+    "final_sha256": "d8b0e4d152e550409dea78ce424b0fac8eed9fca3d85bb57c8a1521b96866010",
+    "pendencia": ""
   },
   "68": {
     "codigo": "MX-F068",
@@ -1290,7 +1299,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
     "final_sha256": "0d50a9860418300a8dac663c828cd286cc6bce50957e6f8cfdc22dc890c1d0a7",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F056",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "69": {
     "codigo": "MX-F069",
@@ -1301,10 +1312,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCadena +24 V tras F2 → KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → R, red 403. Continuación R → SA1:E e1-e2 → B0:a-b → B2:a-b → P, red 406. B0 conduce con agua suficiente y B2 conduce sin nivel alto-alto. Rama memoria: P → [S1 NA 13-14 paralelo KA1 NA 13-14] → KA1:A1. Rama motor: P → KA1 NA 23-24 → dos caminos paralelos [SA1:M m1-m2] y [SA1:A a1-a2 en serie B1:a-b] → KM1:A1. Todos A2 a 0 V. SA1:E cierra en MAN y AUTO; M solo MAN; A solo AUTO; los tres abren en 0. B1 conduce por demanda de llenado. No incluir B1 en la memoria KA1. Etiquetas funcionales de sensores no son bornes universales.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO93EJEMPLO 5 · CONTROLHabilitar el modo antes de bombearR y P son redes comunes identificadas. B0 cierra por agua suficiente; B2 abre por nivel alto-alto; B1 cierra por demanda dellenado. a-b y las letras de SA1 son referencias funcionales, no numeración universal de bornes.S1 habilita KA1 y KA1:13-14 conserva la habilitación. KA1:23-24 permite la marcha. En MAN,SA1:M ordena KM1; en AUTO, SA1:A exige además B1 cerrado. Abrir B0, B2, S0, FR1 o KS1hace perder la habilitación.B1 no debe borrar la habilitación automáticaCuando el tanque llega al nivel alto normal, B1 abre y KM1 cae, pero KA1 permanecehabilitado. Cuando B1 vuelve a pedir llenado, KM1 puede arrancar sin otra pulsación. Losbloqueos comunes sí exigen restablecer condiciones y habilitar de nuevo con S1 liberadopreviamente. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "789bf5bf10a8aa1550081750c1732968ffb2a2e4aacb905c101b5f5931156c4e",
+    "final_sha256": "ab477da4b8a6857fb078df4a7a47fa556fbed64f6218a41ab45844cf7ec9b6c4",
+    "pendencia": ""
   },
   "70": {
     "codigo": "MX-F070",
@@ -1334,10 +1350,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nDiagrama de proceso conceptual de compresor y recipiente de aire: bloque COMPRESOR “Motor M1 / Cabezal y descarga”, línea de proceso hacia RECIPIENTE DE AIRE “Presión almacenada”. Desde el recipiente, tres llamadas independientes: B1 “Control normal”; B2 “Límite adicional”; SV1 “Válvula de seguridad”. SV1 es mecánica, no contacto eléctrico y no está en serie con la bobina. No detallar accesorios o conexiones físicas no especificados. Nota “Funciones independientes; no representa conexiones ni accesorios de montaje”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO97EJEMPLO 6 · COMPRESOR CON PRESOSTATOControlar la presión en los dosmodosEste ejemplo controla un compresor de aire monofásico. MAN ejecuta un ciclo solicitado porel operador; AUTO repite ciclos por demanda mientras permanece habilitado. En ambosmodos, B1 interrumpe la orden al llegar a la presión superior de operación.B1 y B2 actúan sobre el control eléctrico. SV1 actúa sobre la presión del recipiente. El diagrama no dimensiona la válvula,sus conexiones ni la capacidad del recipiente.ElementoFunción adoptadaB1 · presostato de controlCierra a presión baja y abre a presión alta, con diferencial.Gobierna el ciclo normal.B2 · límite independienteAbre por presión excesiva. Se selecciona con restablecimientomanual y retira la habilitación.SV1 · válvula de seguridadReleva presión por vía mecánica; no se sustituye por B1, B2 ni porun contacto eléctrico.Ajustes, capacidad de relevo, presión admisible y condiciones de instalación se determinan para el equipo real. Noelimines ni aísles indebidamente el dispositivo de seguridad. Un compresor no equivale a una bomba de agua: suscondiciones de descarga y energía almacenada requieren revisión propia.Referencia: NOM-020-STPS-2011: recipientes a presión en centros de trabajo; revisar alcance y clasificación aplicables. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "b7e74c49fa21ecb202bcca38eb36df0a6891eb48d4c5ab8657f7999606d713a1",
+    "final_sha256": "bb0091891df7a27bee966a7774610755a286e886ac7313ee523d0573004812ea",
+    "pendencia": ""
   },
   "72": {
     "codigo": "MX-F072",
@@ -1356,7 +1377,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
     "final_sha256": "0d50a9860418300a8dac663c828cd286cc6bce50957e6f8cfdc22dc890c1d0a7",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F056",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "73": {
     "codigo": "MX-F073",
@@ -1367,10 +1390,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nControl con dos memorias. Cadena +24 V tras F2 → KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → B2 permiso a-b → P, red 504. P → B1 a-b (cerrado por demanda de presión baja) → R, red 505. Rama manual: R → SA1:M m1-m2 → [S1 NA 13-14 paralelo KA1 NA 13-14] → KA1:A1. Rama automática: P → SA1:A a1-a2 → [S1 NA 23-24 paralelo KA2 NA 13-14] → KA2:A1. Rama motor: R → [KA1 NA 23-24 paralelo KA2 NA 23-24] → KM1:A1. Todos A2 vuelven a 0 V. Los dos contactos S1 son del mismo pulsador: indicar vínculo mecánico discontinuo, no conexión eléctrica. SA1 selecciona MAN o AUTO, abre ambos en 0. Cuando B1 abre, cae KA1 y KM1, pero KA2 conserva habilitación en AUTO. Ninguna retención puentea B1 para alimentar KM1. B2 abre ante límite adicional y retira ambas memorias.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO99EJEMPLO 6 · CONTROLDos memorias; un corte común porpresiónP incluye los permisos comunes y B2. R añade el contacto de demanda B1. S1 tiene dos NO accionados por el mismopulsador. a-b y las letras de SA1 son referencias funcionales; verifica los bornes reales.KA1 conserva el ciclo manual y cae cuando B1 abre. KA2 conserva la habilitación automática aunque B1 abra. El motorsiempre toma su orden desde R: ninguna de las dos memorias puentea el corte normal de presión. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "d09ce971342af95bb61c7ac3b242bacd8436ebc17c001be446e8fe268cc5beb6",
+    "final_sha256": "8757530f903990534fe681b3aeb89fe80b5c34862a032a3384a4cd18c844ddfe",
+    "pendencia": ""
   },
   "74": {
     "codigo": "MX-F074",
@@ -1381,10 +1409,21 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nTres tarjetas: PRESIÓN BAJA / “B1 cierra” / “Permite compresión”; BANDA INTERMEDIA / “B1 conserva su estado” / “No conmuta en cada variación”; PRESIÓN ALTA / “B1 abre” / “Retira la orden de motor”. Flechas de aumento y descenso de presión. Nota “En descenso, B1 no vuelve a cerrar hasta alcanzar el punto inferior”. No inventar valores de presión ni representar SV1 como sustituto de B1.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO100EJEMPLO 6 · OPERACIÓN Y AJUSTESUn ciclo manual; ciclos automáticosModoRespuesta de la secuencia0SA1:M y SA1:A abiertos. Las memorias pierden alimentación. No equivale a seccionarel equipo.MANCon demanda B1, S1 activa KA1 y KM1. Al abrir B1, ambos caen. La próxima demandarequiere otra pulsación.AUTOS1 habilita KA2. B1 hace entrar y salir a KM1; KA2 conserva la habilitación entre ciclosnormales.El diferencial separa los puntos de entrada y salida. No existe un único valor adecuado para todos los compresores,recipientes y consumos.Ejemplo numérico para interpretar unidadesSolo como ejercicio: entrada a 5 bar(g) = 500 kPa(g) ≈ 72,5 psig; salida a 7 bar(g) = 700kPa(g) ≈ 101,5 psig. El diferencial es 2 bar = 200 kPa ≈ 29 psi. La letra g indica presiónmanométrica; estos valores no son ajustes recomendados para tu equipo.No copies un ajuste ni una forma de regularVerifica placa, rango, acción del contacto y manual del modelo. Cambiar el ajusteprincipal puede modificar ambos puntos; las funciones de las tuercas o tornillos no sonuniversales. Comprueba el resultado con instrumentos adecuados y un procedimientoautorizado.Referencia: Schneider Electric, FA118738: puntos de operación y acción del presostato. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "recorte_branco_exportacao": [
+      0,
+      0,
+      2124,
+      384
+    ],
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "bd56f1dd3940945e43c75601fea965258313453d237ac43c9559556aef89fb35",
+    "final_sha256": "02aaf7e3a1058022e80e9b8b87340ecb6af3e7bb4a8dca2a2f9a5c8d449a1ac8",
+    "pendencia": ""
   },
   "75": {
     "codigo": "MX-F075",
@@ -1403,7 +1442,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
     "final_sha256": "ec3605913519f74aff8cb722d06dd636bb755c4d1df1fd118705d3a22eaa8da7",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F056",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "76": {
     "codigo": "MX-F076",
@@ -1414,10 +1455,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCadena +24 V tras F2 → KS1:a-b → S0 NC 11-12 → FR1 NC 95-96 → P, red 603. Rama memoria P → [S1 NA 13-14 paralelo KA1 NA 13-14] → KA1:A1. Rama temporizador P → KA1 NA 23-24 → X, red 605. X alimenta KT1:A1 y común 15 de una ÚNICA salida conmutada temporizada. KT1:16 NC inicial alimenta HA1:+; HA1:− a 0 V. KT1:18 NA inicial alimenta KM1:A1. KA1:A2, KT1:A2 y KM1:A2 a 0 V. Durante T, 15-16 conduce; al finalizar T, se abre 15-16 y cierra 15-18. Si dibujas los dos contactos separados, usa referencia explícita al mismo común 15; no los conviertas en dos salidas independientes. Retirar P corta aviso y motor. HA1 es un avisador funcional, sin modelo inventado.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO105EJEMPLO 7 · CONTROLUna memoria y dos salidascomplementariasP es la red 603; X es la red 605. Los dos símbolos de KT1 representan una misma salida conmutada con común 15, no doscontactos independientes. t indica conmutación al terminar T. HA1 se muestra como bloque funcional.KA1 alimenta KT1 y su común 15 a través de X. Durante T, 15-16 conduce hacia HA1. Al terminar, 15-16 abre y 15-18cierra hacia KM1. Al retirar P, se elimina la alimentación de ambas ramas, independientemente de la posición de la salidatemporizada. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "4e4a8fcecff57c444b0a8af34e3ce5387a0a60adccb55480ba47c3474ea1d6ae",
+    "final_sha256": "ea78729b0a8a717a3922814f71dbabb4acdad16e2f17a62e90ebf457e19391e2",
+    "pendencia": ""
   },
   "77": {
     "codigo": "MX-F077",
@@ -1428,10 +1474,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nAmpliación de un único contacto conmutado KT1. Entrada X = 605, “24 Vcc con solicitud”, al común 15. En posición inicial, brazo móvil conecta 15 con 16 “NC → HA1 · aviso”; 18 “NO → KM1 · motor” queda abierto. Una flecha mecánica indica conmutación al terminar T. No unas 16 y 18. No hagas dos comunes 15 independientes. Nota “Posición inicial; al finalizar T, 15 se desconecta de 16 y se conecta a 18”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO106EJEMPLO 7 · CONTACTOS Y CONEXIONESEl común 15 también necesitaalimentaciónLa alimentación de KT1:A1-A2 y el contacto de salida son circuitos distintos. Aquí A1 y 15 reciben la misma red X medianteconexiones externas.RedPuntos de conexión600 / 601 / 602+24 V tras F2 → KS1:a; KS1:b → S0:11; S0:12 → FR1:95.603 · PFR1:96 → S1:13, KA1:13 y KA1:23.604 · solicitudS1:14 y KA1:14 → KA1:A1.605 · XKA1:24 → KT1:A1 y KT1:15.606 · avisoKT1:16 → HA1:+.607 · motorKT1:18 → KM1:A1.0 · retornoKA1:A2, KT1:A2, KM1:A2 y HA1:− → 0 V de PS1.La numeración de KT1 corresponde al RE17RMMW de referencia. En función A, Y1 queda sin usar. Verifica la ficha delmodelo instalado, la polaridad y los bornes reales de todos los componentes.El aviso no va directamente en paralelo con KT1KT1 permanece alimentado durante la marcha. Si HA1 se conecta directamente entre A1y A2, también permanecerá activo. Para apagarlo al terminar T, se utiliza la salida 15-16;el común 15 toma X, no una alimentación permanente.Referencia: Schneider RE17RMMW: conexión interna y función A, pp. 5-7. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "3904d69eb4fb0016ed211463c7c9d0b32b763ef91e07a86122731dc2426230b2",
+    "final_sha256": "a26a346a01ae489713779782b86031ef4629b333db037ad0da7eaaf8578071a9",
+    "pendencia": ""
   },
   "78": {
     "codigo": "MX-F078",
@@ -1442,10 +1493,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCronograma de cuatro pistas: S1, KA1 / KT1, HA1, KM1. Hitos t0 Orden, t1 Fin de T, t2 Paro. S1 pulso corto en t0. KA1/KT1 altos t0 a t2. HA1 alto t0 a t1 y bajo después. KM1 bajo antes de t1, alto t1 a t2 y bajo después. No superponer idealmente HA1 y KM1. Indicar T entre t0 y t1. Nota “Eje sin escala; no representa tiempos de respuesta mecánicos o electrónicos”.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO107EJEMPLO 7 · SECUENCIAEl tiempo termina; la alimentacióncontinúaCon KT1 restablecido: S1 inicia la solicitud, HA1 avisa durante T y KM1 recibe la orden después. KA1 y KT1 permanecenenergizados hasta el paro.EstadoHA1KM1Qué ocurreSin solicitudApagadoSin ordenX no tiene alimentación, aunque 15-16 estécerrado.Contando TActivoSin ordenKA1 conserva la solicitud; KT1 cuenta.Tiempo cumplidoApagadoCon ordenKT1 sigue alimentado; su salida ha conmutado.Paro o permisoretiradoApagadoSin ordenCae KA1 y se retira X. KT1 debe restablecerse.Ajustar y comprobar el retardoPuedes usar T = 10 s como ejercicio didáctico. Selecciona una escala que lo permita y mideel intervalo real. No es un tiempo de aviso recomendado para toda máquina: su eleccióndepende de la aplicación y de la respuesta necesaria de las personas.El RE17RMMW de referencia usa selectores e indicación LED; no supongas que tiene pantalla ni cuenta regresiva. Elestado de KM1 tampoco prueba que el motor esté girando. CAPÍTULO 8 · EJEMPLOS PRÁCTICOS",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "cfdad11bbedad491596bf91ce3acb68a599325fa55112653215d2fff96ad5682",
+    "final_sha256": "e25b629db146b79285464b793878110d2beb853356fc314b25b1a326ae1ca73d",
+    "pendencia": ""
   },
   "79": {
     "codigo": "MX-F079",
@@ -1464,7 +1520,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
     "final_sha256": "5c43d46f334efb3bcdec1666dc5ee5bf4723d73bccf255d1aada4c781760d93e",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F056",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "80": {
     "codigo": "MX-F080",
@@ -1475,10 +1533,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V después de F2, KS1, S0, FR1:95-96, B2 y SA1:E. P alimenta [S1 NA en paralelo con KA1:13-14 NA] y luego KA1:A1. P alimenta KA1:23-24 y, después, dos ramas paralelas: SA1:M; SA1:A en serie con B1. Ambas llegan a KM1:A1. A2 vuelve a 0 V. B2 se muestra como permiso funcional externo, no como termostato que necesariamente deba apagar el ventilador.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl caso elegido es un ventilador monofásico para enfriamiento. En AUTO, B1 solicita ventilación al superar el umbral alto y la mantiene hasta el umbral bajo. En MAN, la orden es continua mientras permanece habilitado. Una resistencia calefactora o un compresor requieren su propio circuito y criterios de protección.\nDispositivos: B1: Termostato: demanda de enfriamiento con diferencial.; B2: Permiso externo del proceso, cuando corresponda al diseño térmico.; SA1: Selector 0-MAN-AUTO: E habilita ambos modos; M y A seleccionan.; KA1: Memoria de habilitación: dos contactos NA independientes.; S1 / KM1 / FR1: Habilitación / contactor / sobrecarga del motor..\nComportamiento que debe permitir el esquema: S1 habilita KA1. B1 controla únicamente los ciclos automáticos; su apertura no borra la habilitación. S0, FR1, KS1 o B2 sí la retiran. El termostato debe detectar la temperatura representativa del proceso y su salida debe ser compatible con la carga de control.\nVerificación funcional: AUTO habilitado y B1 conmuta → KM1 sigue la demanda; KA1 permanece habilitado.; MAN con B1 abierto → Puede funcionar el ventilador, sin anular los permisos comunes.; S0 o bloqueo común → Caen KA1 y KM1.; Retorno de tensión, S1 libre → Requiere habilitar de nuevo.; Sensor fuera de rango o roto → Comprobar la respuesta documentada del termostato..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS111EJEMPLO 8 · CONTROLLa secuencia de control1. Selecciona el modo con la maniobra parada. S1 habilita KA1; en MAN entra KM1.2. En AUTO, B1 cerrado ordena KM1. Al abrir B1, KM1 cae y KA1 sigue habilitado.3. Al retirar un permiso común se pierde la habilitación. Restablecerlo con S1 liberado noordena marcha.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "c3286b1fb15b4aa00ec63141762bc7a64416fad5d63c4567d48caf2b4daca159",
+    "final_sha256": "ba297413162616a7ba24308b62a40c0c1636df3cdfd16cae215da6231af4c00f",
+    "pendencia": ""
   },
   "81": {
     "codigo": "MX-F081",
@@ -1489,10 +1552,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso monofásico de 220 Vca, 60 Hz. Esta variante utiliza los tres polos de un QM1 apto: dos quedan en serie sobre uno de los conductores. El fabricante debe autorizar el recorrido y la combinación de protección. Se omite FR1 separado únicamente si QM1 proporciona la función de sobrecarga requerida.\nL1 entra en QM1:1/L1 y sale por 2/T1 hacia un polo de KM1 y M1:A.\nL2 entra en QM1:3/L2; puente de 4/T2 a 5/L3; salida 6/T3 hacia otro polo de KM1 y M1:B. Los bornes son la convención elegida para el dibujo.\nPE llega a la carcasa. La protección aguas arriba, el poder de corte y la coordinación se verifican con el conjunto real.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nQM1 es un guardamotor termomagnético seleccionado para este motor y esta red. KM1 realiza el mando frecuente. El accesorio QM1:RUN informa que el dispositivo permite operar; un contacto de disparo separado puede señalar una falla. Su numeración depende del modelo.\nDispositivos: QM1: Guardamotor y conexión monofásica autorizada.; QM1:RUN: Contacto que abre al desconectar o disparar QM1.; QM1:TRIP: Contacto de señal de disparo, si se instala.; KM1 / S0 / S1: Contactor, paro y arranque con retención.; QS1: Seccionamiento y bloqueo definidos para todas las fuentes..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS114EJEMPLO 9 · POTENCIAEl recorrido de potenciaCaso monofásico de 220 Vca, 60 Hz. Esta variante utiliza los tres polos de un QM1 apto: dosquedan en serie sobre uno de los conductores. El fabricante debe autorizar el recorrido y lacombinación de protección. Se omite FR1 separado únicamente si QM1 proporciona lafunción de sobrecarga requerida.L1 entra en QM1:1/L1 y sale por 2/T1 hacia un polo de KM1 y M1:A.L2 entra en QM1:3/L2; puente de 4/T2 a 5/L3; salida 6/T3 hacia otro polo de KM1 y M1:B. Losbornes son la convención elegida para el dibujo.PE llega a la carcasa. La protección aguas arriba, el poder de corte y la coordinación severifican con el conjunto real.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "c113e977fdc13d40804f5f2fbc346f9b35cb77f91ee9dcfa447dc93e1c7b8c4f",
+    "final_sha256": "dd3388815329fa29c020a68067833dfa15f7ea75b7b6ce6e7609caf80c35bd48",
+    "pendencia": ""
   },
   "82": {
     "codigo": "MX-F082",
@@ -1503,10 +1571,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\n+24 V tras F2, KS1, S0 y QM1:RUN alimenta [S1 NA en paralelo con KM1:13-14 NA], luego KM1:A1; A2 a 0 V. No añadir un FR1 inexistente ni numerar RUN como 95-96 sin ficha. Si se muestra alarma: +24 V tras F2, QM1:TRIP y piloto amarillo en serie, retorno a 0 V.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nQM1 es un guardamotor termomagnético seleccionado para este motor y esta red. KM1 realiza el mando frecuente. El accesorio QM1:RUN informa que el dispositivo permite operar; un contacto de disparo separado puede señalar una falla. Su numeración depende del modelo.\nDispositivos: QM1: Guardamotor y conexión monofásica autorizada.; QM1:RUN: Contacto que abre al desconectar o disparar QM1.; QM1:TRIP: Contacto de señal de disparo, si se instala.; KM1 / S0 / S1: Contactor, paro y arranque con retención.; QS1: Seccionamiento y bloqueo definidos para todas las fuentes..\nComportamiento que debe permitir el esquema: El auxiliar RUN interrumpe la retención cuando QM1 deja de permitir marcha. Después de resolver el disparo, restablecer QM1 con S1 libre no arranca el motor. No atribuyas automáticamente 95-96 y 97-98 a los accesorios del guardamotor.\nVerificación funcional: S1 y liberación → KM1 retiene.; QM1 desconectado → KM1 cae mediante RUN.; Prueba de disparo autorizada → Cae KM1; TRIP responde según el accesorio.; Rearme con S1 libre → No arranca por sí solo.; Revisión sin tensión → Confirmar los tres polos recorridos y los auxiliares reales..\n\nPara cerrar el alcance de esta imagen, omite los pilotos opcionales mencionados en la referencia; conserva todo el circuito principal especificado.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS115EJEMPLO 9 · CONTROLLa secuencia de control1. S1 conecta KM1 cuando QM1:RUN está cerrado y existen los demás permisos.2. KM1:13-14 conserva la orden. Abrir S0 o RUN retira esa retención.3. La señal TRIP identifica un disparo cuando el accesorio lo permite; no equivale a cualquierposición OFF.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "85b1cc5e243937d0813bb9242c2b8408b7056689a8fe08e3cc750bea3dc68a96",
+    "final_sha256": "5c39086dc71995aa87add5df61db0c3453e498fdbf243235294e6e8277c197e5",
+    "pendencia": ""
   },
   "83": {
     "codigo": "MX-F083",
@@ -1525,7 +1598,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "b711b43d56eba8bd88cd8b58619bd8fe1ee34a5ce562a68650574421be917c67",
     "final_sha256": "5c43d46f334efb3bcdec1666dc5ee5bf4723d73bccf255d1aada4c781760d93e",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F056",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "84": {
     "codigo": "MX-F084",
@@ -1536,10 +1611,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0, FR1:95-96 y B0. Desde P: [KT1 NC temporizado en paralelo con B1 NO por flujo] en serie con [S1 NA en paralelo con KA1:13-14 NA], y KA1:A1. En otra rama: P, KA1:23-24, bobinas KM1 y KT1 en paralelo; A2 a 0 V. KT1 inicia restablecido y su NC abre al final de T. Usar un contacto NC temporizado real, no un NC instantáneo.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nLa bomba necesita una ventana inicial para establecer flujo. KT1 concede ese intervalo; después, B1 debe confirmar caudal. Si no lo confirma o lo pierde durante la marcha, cae la memoria de solicitud. Así se evita que el simple restablecimiento del temporizador repita arranques con S1 liberado.\nDispositivos: B1: Interruptor de flujo: contacto cerrado con caudal suficiente.; KT1: Retardo a la energización; NC temporizado abre al finalizar T.; KA1: Memoria de solicitud y contacto adicional de salida.; B0: Permiso de succión o reserva, seleccionado para la bomba.; KM1 / FR1: Maniobra y sobrecarga del motor..\nComportamiento que debe permitir el esquema: La ventana T comienza al energizar KT1 junto con la orden de KM1. Debe ser suficiente para el establecimiento normal del caudal y compatible con el tiempo admisible sin flujo de la bomba. Si el equipo no tolera esa condición, este método no es adecuado.\nVerificación funcional: Arranque sin flujo, antes de T → Se permite la ventana inicial.; Sin confirmación al terminar T → Caen KA1 y KM1.; Flujo confirmado a tiempo → La marcha continúa después de T.; Pérdida de flujo durante marcha → Cae la solicitud; no repite con S1 libre.; Nueva orden tras resolver la causa → KT1 debe estar restablecido; comienza otra ventana..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS119EJEMPLO 10 · CONTROLLa secuencia de control1. S1 retiene KA1 a través del NC inicial de KT1. KA1 ordena KM1 y alimenta KT1.2. B1 debe cerrar antes de finalizar T. Al abrir el NC de KT1, B1 conserva el permiso de flujo.3. Sin B1 al terminar T, o al perderlo después, cae KA1 y la bomba. Con S1 libre, el reset deKT1 no recupera la memoria.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "c04e9932f0bd60c4a64f628d6e9ededd7e75453d348d00f06db0203be98eb6ba",
+    "final_sha256": "a4cba26c870e159cfe41780dae4e7ca10b4b9df63acc4accd995713019471526",
+    "pendencia": ""
   },
   "85": {
     "codigo": "MX-F085",
@@ -1550,10 +1630,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nL1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas del motor.\nLos puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasa sin pasar por contactos de mando.\nQS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan junto con el circuito.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nA partir de aquí los motores son trifásicos. El mando conserva la retención manual y la separación entre protección del circuito y sobrecarga. La viabilidad del arranque directo depende de red, motor y carga; no se fija un límite universal de HP.\nDispositivos: L1 / L2 / L3: Tres conductores de alimentación de potencia.; QF1 / KM1 / FR1: Protección del circuito, maniobra y sobrecarga.; M1: Motor trifásico conectado según placa.; S0 / S1: Paro NC y arranque NA.; KS1 / PS1 / F2: Permiso de seguridad y alimentación de control protegida..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS122EJEMPLO 11 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.L1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas delmotor.Los puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasasin pasar por contactos de mando.QS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan juntocon el circuito.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "pendencia": ""
   },
   "86": {
     "codigo": "MX-F086",
@@ -1572,7 +1657,9 @@
     "origem": "GPT Image via image_gen",
     "original_sha256": "e9b7fca0388675dc5e5e662f1b23343af8900863ea19032134f5f690ef3d3e02",
     "final_sha256": "1cd12857da6004719b733efe0336ab822666a6fa6e0098024fdfc58041536ac2",
-    "pendencia": ""
+    "pendencia": "",
+    "reutilizada_de": "MX-F053",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "87": {
     "codigo": "MX-F087",
@@ -1583,10 +1670,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nQF1 alimenta los dos contactores. KM1 conserva L1-L2-L3; KM2 intercambia dos fases, por ejemplo L1-L3-L2.\nLas salidas alternativas llegan al mismo FR1 y después a M1. El enclavamiento mecánico une KM1 y KM2; PE llega a la carcasa.\nEl cableado cruzado requiere comprobar cada polo con el plano. Ningún conductor debe unir directamente fases distintas.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nKM1 ordena avance y KM2 retroceso intercambiando dos fases. El ejemplo exige parar antes de invertir y añade B0 como permiso de velocidad cero para una nueva orden. Los enclavamientos eléctricos y mecánico impiden la maniobra simultánea prevista, sin sustituir la evaluación de fallas.\nDispositivos: KM1 / KM2: Contactores de avance / retroceso con enclavamiento mecánico compatible.; S1 / S2: Pulsadores de sentido, cada uno con NA y NC asociados.; B0: Permiso de velocidad cero para iniciar cada sentido.; FR1: Sobrecarga común al único motor.; S0 / KS1: Paro normal / permiso de seguridad..\n\nDetalla la conexión sin ambigüedad: KM1 salida 2/T1 a FR1 entrada 1; 4/T2 a entrada 2; 6/T3 a entrada 3. KM2 recibe L1,L2,L3 en sus entradas 1/L1,3/L2,5/L3; sus salidas 2/T1,4/T2,6/T3 llegan respectivamente a FR1 entradas 1,3,2. Los tres canales de FR1 van a las tres entradas de M1. El intercambio ocurre solo por la alternativa KM2. Enlace mecánico discontinuo entre KM1 y KM2, distinto de cualquier conductor.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS126EJEMPLO 12 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.QF1 alimenta los dos contactores. KM1 conserva L1-L2-L3; KM2 intercambia dos fases, porejemplo L1-L3-L2.Las salidas alternativas llegan al mismo FR1 y después a M1. El enclavamiento mecánicoune KM1 y KM2; PE llega a la carcasa.El cableado cruzado requiere comprobar cada polo con el plano. Ningún conductor debe unirdirectamente fases distintas.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "ab4707b927cb22e0fb17cadf0fee1a89403783fc0f3ccf48d9360ca5959cffe4",
+    "final_sha256": "c55d42876c7d231c7d32a4cfa1f4ffae6886e0061c2f19871c7b7c81a5e9f54a",
+    "pendencia": ""
   },
   "88": {
     "codigo": "MX-F088",
@@ -1597,10 +1689,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0 y FR1:95-96. Avance: P, NC de KM2, [(B0 y S1 NA y S2 NC) en paralelo con KM1 NA de retención], KM1:A1. Retroceso: P, NC de KM1, [(B0 y S2 NA y S1 NC) en paralelo con KM2 NA de retención], KM2:A1. A2 a 0 V. Enclavamiento mecánico entre contactores. B0 queda en las ramas de arranque, no en serie con las retenciones.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nKM1 ordena avance y KM2 retroceso intercambiando dos fases. El ejemplo exige parar antes de invertir y añade B0 como permiso de velocidad cero para una nueva orden. Los enclavamientos eléctricos y mecánico impiden la maniobra simultánea prevista, sin sustituir la evaluación de fallas.\nDispositivos: KM1 / KM2: Contactores de avance / retroceso con enclavamiento mecánico compatible.; S1 / S2: Pulsadores de sentido, cada uno con NA y NC asociados.; B0: Permiso de velocidad cero para iniciar cada sentido.; FR1: Sobrecarga común al único motor.; S0 / KS1: Paro normal / permiso de seguridad..\nComportamiento que debe permitir el esquema: Cada contactor utiliza un auxiliar NA de retención y un NC en la bobina contraria. B0 solo pertenece al camino de nueva orden; el auxiliar de retención lo puentea durante la marcha. Pulsar ambos mandos desde reposo no debe iniciar ninguno.\nVerificación funcional: S1 desde reposo → Entra solo KM1.; S2 desde reposo → Entra solo KM2.; S1 y S2 simultáneos en reposo → Ninguno recibe una nueva orden.; Orden contraria durante marcha → Permanece bloqueada.; Paro con motor todavía girando → B0 impide iniciar el sentido contrario..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS127EJEMPLO 12 · CONTROLLa secuencia de control1. Con motor parado y B0 disponible, S1 conecta avance o S2 conecta retroceso.2. El auxiliar NC del contactor activo bloquea la bobina opuesta. Pulsar el otro sentido nosustituye a S0.3. Pulsa S0, espera la detención y confirma B0 antes de ordenar el sentido contrario.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "48b833d2ea4c56084534fa89d6b7296452aa4d31c8cd5e12199c62807b18ff4d",
+    "final_sha256": "976477b70f833b789140a59448f3f411e46b3326a9d12d725f3638c8072d01e9",
+    "pendencia": ""
   },
   "89": {
     "codigo": "MX-F089",
@@ -1611,10 +1708,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nQF1 y FR1 quedan aguas arriba de la distribución de potencia del arrancador. FR1 mide corriente de línea. No apliques automáticamente 0,58 veces la corriente de placa: ese factor corresponde a otras ubicaciones de medición y requiere su selección específica.\nDespués de KM1: L1 llega a U1, L2 a V1 y L3 a W1. KM2 une U2, V2 y W2 cuando está cerrado. Ese punto estrella no se conecta a neutro ni a PE.\nKM3 forma las uniones de marcha U1-W2, V1-U2 y W1-V2. Debe tomar alimentación después del contactor de línea en esta topología.\nFR1 recibe toda la corriente de línea antes de dividir los recorridos. PE llega a la carcasa. Mantén los seis conductores de devanados separados hasta sus conexiones previstas.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl caso usa un motor IEC de 220/380 V Δ/Y, 60 Hz, con seis extremos accesibles y red de 220 V entre líneas. Su conexión de marcha es delta. Este caso no se traslada por sustitución numérica a un NEMA convencional de nueve puntas y 230/460 V.\nDispositivos: KM1: Contactor de línea, activo durante la secuencia.; KM2 / KM3: Contactor de estrella / de delta, enclavados.; KT1: Temporizador estrella-delta con intervalo de transición definido.; FR1: Sobrecarga situada en las tres líneas, antes de la bifurcación.; M1: U1-U2, V1-V2 y W1-W2: tres devanados identificados..\n\nCaso exacto: motor IEC 220/380 V Δ/Y, 60 Hz, seis extremos accesibles, red de 220 V entre líneas; marcha en delta. Mostrar tres devanados U1-U2, V1-V2, W1-W2. Orden de línea QF1 → FR1 → KM1 → distribución, conservando FR1 aguas arriba de toda bifurcación. No usar placa 230/460 V ni motor NEMA de nueve puntas.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS130EJEMPLO 13 · POTENCIAEl recorrido de potenciaQF1 y FR1 quedan aguas arriba de la distribución de potencia del arrancador. FR1 midecorriente de línea. No apliques automáticamente 0,58 veces la corriente de placa: ese factorcorresponde a otras ubicaciones de medición y requiere su selección específica.Después de KM1: L1 llega a U1, L2 a V1 y L3 a W1. KM2 une U2, V2 y W2 cuando estácerrado. Ese punto estrella no se conecta a neutro ni a PE.KM3 forma las uniones de marcha U1-W2, V1-U2 y W1-V2. Debe tomar alimentación despuésdel contactor de línea en esta topología.FR1 recibe toda la corriente de línea antes de dividir los recorridos. PE llega a la carcasa.Mantén los seis conductores de devanados separados hasta sus conexiones previstas.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "d45388e0b524a43e717ec86f6b2cb54726674ddfd23c92b4af9896409efb8dd1",
+    "final_sha256": "88df36696520849d3ea406be7b377dda533c494a641eb021b980929ccf193b87",
+    "pendencia": ""
   },
   "90": {
     "codigo": "MX-F090",
@@ -1625,10 +1727,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0 y FR1:95-96. KM1 retiene mediante S1 y su auxiliar NA. Un segundo auxiliar de KM1 alimenta KT1 y las dos ramas de secuencia. Salida Y de KT1 y NC de KM3 en serie alimentan KM2. Salida Δ de KT1 y NC de KM2 en serie alimentan KM3. A2 a 0 V. KT1 tiene dos salidas específicas con apertura de Y, tiempo muerto y cierre de Δ; no dibujar una sola salida conmutada genérica como si garantizara ese intervalo. Enclavamiento mecánico KM2-KM3.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl caso usa un motor IEC de 220/380 V Δ/Y, 60 Hz, con seis extremos accesibles y red de 220 V entre líneas. Su conexión de marcha es delta. Este caso no se traslada por sustitución numérica a un NEMA convencional de nueve puntas y 230/460 V.\nDispositivos: KM1: Contactor de línea, activo durante la secuencia.; KM2 / KM3: Contactor de estrella / de delta, enclavados.; KT1: Temporizador estrella-delta con intervalo de transición definido.; FR1: Sobrecarga situada en las tres líneas, antes de la bifurcación.; M1: U1-U2, V1-V2 y W1-W2: tres devanados identificados..\nComportamiento que debe permitir el esquema: KM1 establece alimentación, KM2 forma estrella y KT1 cuenta el tiempo de aceleración. Después abre estrella, deja el intervalo sin solape y habilita KM3. La carga debe poder acelerar con el par reducido. Los tiempos se determinan para el conjunto real.\nVerificación funcional: Conexiones sin tensión → Confirmar devanados y uniones Y/Δ.; Secuencia de control → Y primero; intervalo abierto; Δ después.; S0 durante cada etapa → Retirar KM1, KM2 y KM3.; Retorno tras pérdida de control → Nueva orden y KT1 restablecido.; Prueba con carga autorizada → Verificar aceleración, transición y corrientes..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS131EJEMPLO 13 · CONTROLLa secuencia de control1. S1 retiene KM1. KT1 habilita estrella y mantiene delta abierta.2. Al terminar la aceleración, KT1 retira estrella. Durante la transición KM2 y KM3permanecen abiertos.3. Después del intervalo, se habilita delta. S0, FR1 o KS1 retiran toda la secuencia y exigennueva orden.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "df3339e720e93e7dfa27d54c6383033ca60559ce8d4b69b01cbd06e1867439c3",
+    "final_sha256": "b4d01f400a9f359fe754920b2027157bf92104b2e935c1ac15ed5fea95d2f6e3",
+    "pendencia": ""
   },
   "91": {
     "codigo": "MX-F091",
@@ -1639,10 +1746,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nL1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas del motor.\nLos puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasa sin pasar por contactos de mando.\nQS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan junto con el circuito.\nKP1 mide L1-L2-L3 después de QF1 y antes de KM1, con protección de sus tomas conforme al fabricante.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nKP1 supervisa las tres fases en el punto de medida elegido. Con su permiso válido, KT1 espera un intervalo de estabilidad antes de admitir una orden de marcha. El circuito no guarda una pulsación dada antes de completar la espera.\nDispositivos: KP1: Monitor de fases y contacto de permiso.; KT1: Retardo a la energización, sin acumulación.; KM1 / FR1: Contactor y sobrecarga.; S1 / S0: Arranque y paro normal.; PS1 / F2 / KS1: Control protegido e interfaz de seguridad..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS134EJEMPLO 14 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.L1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas delmotor.Los puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasasin pasar por contactos de mando.QS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan juntocon el circuito.KP1 mide L1-L2-L3 después de QF1 y antes de KM1, con protección de sus tomas conformeal fabricante.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "f74af6324bd6b6bb71b1eec755051186b9e16268b318c5fd6c045d8c17ca17c7",
+    "final_sha256": "953e47fe71d450cdbd69b930c886019914826ad04c10ced755d727a690148837",
+    "pendencia": ""
   },
   "92": {
     "codigo": "MX-F092",
@@ -1653,10 +1765,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0, FR1:95-96 y contacto KP1:OK. P alimenta KT1:A1. Otra rama: P, NA temporizado de KT1, [S1 NA en paralelo con KM1 NA], KM1:A1. A2 a 0 V. El común del contacto temporizado recibe P. KP1:OK son bornes funcionales; no asignar 11-14 a todos los monitores.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nKP1 supervisa las tres fases en el punto de medida elegido. Con su permiso válido, KT1 espera un intervalo de estabilidad antes de admitir una orden de marcha. El circuito no guarda una pulsación dada antes de completar la espera.\nDispositivos: KP1: Monitor de fases y contacto de permiso.; KT1: Retardo a la energización, sin acumulación.; KM1 / FR1: Contactor y sobrecarga.; S1 / S0: Arranque y paro normal.; PS1 / F2 / KS1: Control protegido e interfaz de seguridad..\nComportamiento que debe permitir el esquema: Se consideran solo las funciones incluidas en KP1: pérdida, secuencia, asimetría o tensión según el modelo. Cuando el permiso desaparece, KM1 pierde la retención y KT1 debe reiniciar. Los tiempos de respuesta incluyen los retardos configurados del monitor.\nVerificación funcional: Permiso KP1 ausente → Motor bloqueado.; S1 pulsado y liberado antes de T → No conserva la orden.; S1 después de T → KM1 retiene.; Retirada simulada del permiso → KM1 cae y KT1 se restablece.; Recuperación del permiso → Espera completa y nueva orden..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS135EJEMPLO 14 · CONTROLLa secuencia de control1. KP1 cierra su permiso y KT1 inicia la espera. S1 liberado mantiene el motor parado.2. Terminado T, una pulsación de S1 conecta y retiene KM1.3. Si KP1 abre, cae la maniobra. Recuperar fases inicia otra espera, pero no otra marcha conS1 libre.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "f0e95906342d5cf202e7bba9c0e1960d5bb1762e1140ad7a9db8afa0e89777ab",
+    "final_sha256": "c5015b82b2dae6fcfb7ce623fe98fa661a86256b888e6bec8b9e7f3efec20072",
+    "pendencia": ""
   },
   "93": {
     "codigo": "MX-F093",
@@ -1667,10 +1784,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nDespués del alimentador y seccionamiento, se forman dos ramales separados: QF1-KM1-FR1-M1 y QF2-KM2-FR2-M2.\nCada ramal conserva L1-L2-L3. No se unen las salidas de sus contactores ni de sus sobrecargas.\nPE une ambas carcasas. La selección del alimentador considera los motores que pueden operar y arrancar en las condiciones previstas.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nS1 ordena M1. El auxiliar de KM1 alimenta KT1 y, después de T, KM2 conecta M2. Se elige paro conjunto: el disparo de cualquiera de las dos sobrecargas retira ambas órdenes. Otra respuesta de proceso exige modificar el diseño.\nDispositivos: QF1 / KM1 / FR1: Ramal y protección de M1.; QF2 / KM2 / FR2: Ramal y protección de M2.; KT1: Retardo a la energización para la segunda orden.; KM1:13-14 / 23-24: Retención / alimentación de KT1.; S0 / S1 / KS1: Paro, arranque y permiso común..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS138EJEMPLO 15 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.Después del alimentador y seccionamiento, se forman dos ramales separados:QF1-KM1-FR1-M1 y QF2-KM2-FR2-M2.Cada ramal conserva L1-L2-L3. No se unen las salidas de sus contactores ni de sussobrecargas.PE une ambas carcasas. La selección del alimentador considera los motores que puedenoperar y arrancar en las condiciones previstas.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "1dce25dffdb25fb429bb3889c6361b04f4bbb30761eb70f70cf5dfef920d61fb",
+    "final_sha256": "28ad4481ee66537137da0bdcac16b590dc1a8af49d84bc6f3c04d9c73f9df414",
+    "pendencia": ""
   },
   "94": {
     "codigo": "MX-F094",
@@ -1681,10 +1803,17 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0, FR1:95-96 y FR2:95-96. Rama 1: P, [S1 NA en paralelo con KM1:13-14], KM1:A1. Rama 2: P, KM1:23-24, KT1:A1 y común 15; salida temporizada 18 a KM2:A1. Todos los A2 a 0 V. KM2 no tiene retención que puentee KT1. Pilotos opcionales: ramas independientes antes de permisos, con un auxiliar real por indicación.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nS1 ordena M1. El auxiliar de KM1 alimenta KT1 y, después de T, KM2 conecta M2. Se elige paro conjunto: el disparo de cualquiera de las dos sobrecargas retira ambas órdenes. Otra respuesta de proceso exige modificar el diseño.\nDispositivos: QF1 / KM1 / FR1: Ramal y protección de M1.; QF2 / KM2 / FR2: Ramal y protección de M2.; KT1: Retardo a la energización para la segunda orden.; KM1:13-14 / 23-24: Retención / alimentación de KT1.; S0 / S1 / KS1: Paro, arranque y permiso común..\nComportamiento que debe permitir el esquema: Cada motor conserva sus propios conductores, contactor y sobrecarga. Un auxiliar de KM1 comprueba su mecanismo, no el giro ni el caudal de M1. Si M2 necesita que el primer proceso esté realmente activo, añade esa confirmación.\nVerificación funcional: S1 momentáneo → M1 recibe orden inmediata; M2 espera.; Fin de T → Entra KM2 con condiciones válidas.; S0 durante la espera → Cancela ambas órdenes.; Prueba de FR1 y FR2 por separado → En ambos casos caen los dos contactores.; Retorno con S1 libre → No reinicia la secuencia..\n\nPara cerrar el alcance de esta imagen, omite los pilotos opcionales mencionados en la referencia; conserva todo el circuito principal especificado.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS139EJEMPLO 15 · CONTROLLa secuencia de control1. S1 retiene KM1. Su auxiliar inicia la temporización.2. Al concluir T, KM2 recibe la orden mientras se conservan KM1 y los permisos.3. S0, FR1, FR2 o KS1 abiertos retiran ambas órdenes y cancelan la cuenta.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "d1ce7258857f20939211996d80694bf8a62f4f0fc21ebb20cee9aed23fa964d0",
+    "final_sha256": "d2ab2e7f4168ea311c1e93f5e3f963790a94eb9939520ae6cbc2b9fd60e26df2",
+    "pendencia": "",
+    "reutilizada_de": "MX-F064",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "95": {
     "codigo": "MX-F095",
@@ -1695,10 +1824,17 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nL1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas del motor.\nLos puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasa sin pasar por contactos de mando.\nQS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan junto con el circuito.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEsta es la variante trifásica del ejemplo 5. B1 controla el llenado normal; B0 verifica reserva en la cisterna y B2 limita el nivel alto-alto del tanque. MAN conserva B0 y B2, aunque el operador sustituya la demanda normal de B1.\nDispositivos: B0: Permiso de reserva en la cisterna.; B1: Demanda de llenado con diferencial.; B2: Límite alto-alto independiente.; SA1 / KA1: Selector 0-MAN-AUTO y memoria de habilitación.; QF1 / KM1 / FR1: Protección y maniobra de la bomba trifásica..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS142EJEMPLO 16 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.L1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas delmotor.Los puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasasin pasar por contactos de mando.QS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan juntocon el circuito.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "pendencia": "",
+    "reutilizada_de": "MX-F085",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "96": {
     "codigo": "MX-F096",
@@ -1709,10 +1845,17 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0, FR1:95-96, SA1:E, B0 y B2. Rama de memoria: P, [S1 NA en paralelo con KA1:13-14], KA1:A1. Rama de marcha: P, KA1:23-24, [SA1:M en paralelo con (SA1:A y B1)], KM1:A1. A2 a 0 V. SA1:E cierra en MAN y AUTO; M solo en MAN; A solo en AUTO. B0 cerrado con reserva; B2 cerrado sin alto-alto; B1 cerrado por demanda.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEsta es la variante trifásica del ejemplo 5. B1 controla el llenado normal; B0 verifica reserva en la cisterna y B2 limita el nivel alto-alto del tanque. MAN conserva B0 y B2, aunque el operador sustituya la demanda normal de B1.\nDispositivos: B0: Permiso de reserva en la cisterna.; B1: Demanda de llenado con diferencial.; B2: Límite alto-alto independiente.; SA1 / KA1: Selector 0-MAN-AUTO y memoria de habilitación.; QF1 / KM1 / FR1: Protección y maniobra de la bomba trifásica..\nComportamiento que debe permitir el esquema: B1 puede abrir y cerrar en los ciclos normales sin borrar KA1. Abrir B0 o B2 sí cancela la habilitación. Las letras pertenecen a este ejemplo: B0 es la reserva; no copies las referencias del dibujo introductorio de la página 55.\nVerificación funcional: MAN y AUTO antes de S1 → No marcha con KA1 deshabilitado.; AUTO habilitado, B1 abre/cierra → KM1 cicla; KA1 conserva habilitación.; B0 abre → Cae habilitación y marcha.; B2 abre en MAN o AUTO → Se retira la orden de llenado.; Recuperación de niveles → Nueva habilitación con S1 libre previamente..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS143EJEMPLO 16 · CONTROLLa secuencia de control1. Selecciona el modo con el equipo parado y habilita con S1.2. En AUTO, B1 gobierna los ciclos. En MAN, el operador detiene el llenado con S0.3. Reserva insuficiente, alto-alto u otro bloqueo común cancelan la habilitación en ambosmodos.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "789bf5bf10a8aa1550081750c1732968ffb2a2e4aacb905c101b5f5931156c4e",
+    "final_sha256": "77d4e48066e63ab90fb3161cdc761674cd61e0a94821a6b744796740deb48146",
+    "pendencia": "",
+    "reutilizada_de": "MX-F069",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "97": {
     "codigo": "MX-F097",
@@ -1723,10 +1866,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nRepite el conjunto reversor del ejemplo 12: KM1 conserva la secuencia y KM2 intercambia dos fases.\nFR1 es común al único motor, después de las salidas alternativas de los contactores.\nLos finales de carrera actúan en el control de 24 Vcc. Sus cables requieren protección mecánica y aptitud para la flexión prevista; PE sigue hasta la carcasa.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl circuito del ejemplo 12 incorpora dos límites de recorrido. B1 interrumpe avance; B2 interrumpe retroceso. Cada límite permite salir del extremo mediante el sentido contrario, siempre después de detenerse y con la nueva orden correspondiente.\nDispositivos: B1 / B2: NC que abre al alcanzar el extremo de avance / retroceso.; B0: Permiso de velocidad cero para una nueva orden.; KM1 / KM2: Contactores enclavados de avance / retroceso.; S1 / S2: Órdenes con NA y NC asociados.; FR1 / S0 / KS1: Sobrecarga y permisos comunes..\n\nDetalla la conexión sin ambigüedad: KM1 salida 2/T1 a FR1 entrada 1; 4/T2 a entrada 2; 6/T3 a entrada 3. KM2 recibe L1,L2,L3 en sus entradas 1/L1,3/L2,5/L3; sus salidas 2/T1,4/T2,6/T3 llegan respectivamente a FR1 entradas 1,3,2. Los tres canales de FR1 van a las tres entradas de M1. El intercambio ocurre solo por la alternativa KM2. Enlace mecánico discontinuo entre KM1 y KM2, distinto de cualquier conductor.",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS146EJEMPLO 17 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.Repite el conjunto reversor del ejemplo 12: KM1 conserva la secuencia y KM2 intercambiados fases.FR1 es común al único motor, después de las salidas alternativas de los contactores.Los finales de carrera actúan en el control de 24 Vcc. Sus cables requieren protecciónmecánica y aptitud para la flexión prevista; PE sigue hasta la carcasa.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "3d76ea4a986966b4525f028d88bfd26965eec8e86c736d83ad8e014e9e1307fc",
+    "final_sha256": "f4b8895b7e17b9dada9b787dd0ab60ab12582c6dc52d26fd32c55bd1e3fba8e9",
+    "pendencia": ""
   },
   "98": {
     "codigo": "MX-F098",
@@ -1737,10 +1885,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0 y FR1:95-96. Avance: P, B1 NC, NC de KM2, [(B0 y S1 NA y S2 NC) en paralelo con KM1 NA], KM1. Retroceso: P, B2 NC, NC de KM1, [(B0 y S2 NA y S1 NC) en paralelo con KM2 NA], KM2. Retornos A2 a 0 V. B1 y B2 NO se colocan ambos en la cadena común. Enclavamiento mecánico KM1-KM2.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl circuito del ejemplo 12 incorpora dos límites de recorrido. B1 interrumpe avance; B2 interrumpe retroceso. Cada límite permite salir del extremo mediante el sentido contrario, siempre después de detenerse y con la nueva orden correspondiente.\nDispositivos: B1 / B2: NC que abre al alcanzar el extremo de avance / retroceso.; B0: Permiso de velocidad cero para una nueva orden.; KM1 / KM2: Contactores enclavados de avance / retroceso.; S1 / S2: Órdenes con NA y NC asociados.; FR1 / S0 / KS1: Sobrecarga y permisos comunes..\nComportamiento que debe permitir el esquema: B1 y B2 quedan fuera del paralelo de retención de sus respectivas ramas. Alcanzar un límite retira la orden eléctrica, pero la distancia final depende de la inercia y del sistema de frenado. Define posiciones y márgenes con el movimiento real.\nVerificación funcional: Avance y apertura de B1 → KM1 cae y pierde retención.; B1 accionado, salida en retroceso → Permitida con B0 y demás condiciones.; Retroceso y apertura de B2 → KM2 cae.; Ambos límites abiertos → Ninguno puede iniciar.; Prueba de recorrido controlada → Verificar distancia de parada antes del tope..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS147EJEMPLO 17 · CONTROLLa secuencia de control1. Una nueva orden inicia el sentido cuyo límite esté libre y cuyos permisos se cumplan.2. B1 abre al final de avance y hace caer KM1. B2 realiza lo equivalente para KM2.3. En un extremo puede ordenarse la salida en sentido contrario después de la detenciónconfirmada.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "223093a193c7aa351229bd2cdb0821e355e04757ae3d54c4403c983647290aea",
+    "final_sha256": "2551d9c9a976d4979cf04318c9a00dfd3384b3edf3a69c609d97d7cfbe366132",
+    "pendencia": ""
   },
   "99": {
     "codigo": "MX-F099",
@@ -1751,10 +1904,17 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nL1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas del motor.\nLos puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasa sin pasar por contactos de mando.\nQS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan junto con el circuito.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nUn compresor trifásico repite ciclos por demanda de B1 después de una habilitación mediante S1. B2 es un límite independiente de presión con restablecimiento manual. SV1 releva presión por vía mecánica. La lógica no elimina las obligaciones del recipiente ni el mando de descarga del compresor.\nDispositivos: B1: Presostato: cierra a presión baja, abre a presión alta.; B2: Límite independiente que retira habilitación.; SV1: Dispositivo mecánico de relevo de presión.; KA1 / S1: Memoria y pulsador de habilitación.; KM1 / FR1: Maniobra y sobrecarga del motor..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS150EJEMPLO 18 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.L1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas delmotor.Los puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasasin pasar por contactos de mando.QS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan juntocon el circuito.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "pendencia": "",
+    "reutilizada_de": "MX-F085",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "100": {
     "codigo": "MX-F100",
@@ -1765,10 +1925,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0, FR1:95-96 y B2. Memoria: P, [S1 NA en paralelo con KA1:13-14], KA1:A1. Motor: P, KA1:23-24, B1 cerrado por demanda, KM1:A1. A2 a 0 V. SV1 aparece solo en una nota o vista de proceso, nunca como contacto eléctrico. B1 no debe puentearse con la retención de KA1.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nUn compresor trifásico repite ciclos por demanda de B1 después de una habilitación mediante S1. B2 es un límite independiente de presión con restablecimiento manual. SV1 releva presión por vía mecánica. La lógica no elimina las obligaciones del recipiente ni el mando de descarga del compresor.\nDispositivos: B1: Presostato: cierra a presión baja, abre a presión alta.; B2: Límite independiente que retira habilitación.; SV1: Dispositivo mecánico de relevo de presión.; KA1 / S1: Memoria y pulsador de habilitación.; KM1 / FR1: Maniobra y sobrecarga del motor..\nComportamiento que debe permitir el esquema: La apertura normal de B1 detiene KM1 y conserva KA1. La siguiente demanda puede arrancar sin intervención. S0, B2, FR1 o KS1 hacen perder la habilitación; su recuperación no debe reiniciar con S1 libre.\nVerificación funcional: S1 con demanda presente → Arranca el ciclo.; B1 abre y vuelve a cerrar → KM1 cicla; KA1 sigue habilitado.; Actuación simulada de B2 → Caen KA1 y KM1.; Rearme de B2 con S1 libre → No inicia automáticamente.; Parada por S0 → Comprobar condiciones de descarga antes de reiniciar..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS151EJEMPLO 18 · CONTROLLa secuencia de control1. S1 habilita el modo automático cuando existen permisos.2. B1 ordena marcha a presión baja y la retira a presión alta, con diferencial.3. El límite B2 cancela la habilitación. Se revisa la causa antes de restablecer y volver ahabilitar.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "c069491280f87d58c72aaed0a566f69ae80c9d6b963a144da9fab381109109c7",
+    "final_sha256": "f93ab755e111576d2d127248852cf2bfedeea9582235cee904121edab4495838",
+    "pendencia": ""
   },
   "101": {
     "codigo": "MX-F101",
@@ -1779,10 +1944,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nDos ramales independientes: QF1-KM1-FR1-M1 y QF2-KM2-FR2-M2. Las salidas eléctricas de ambos motores permanecen separadas.\nPE une las dos carcasas al sistema de protección. Las conexiones hidráulicas o mecánicas compartidas requieren su propio diseño.\nEl equipo de reserva debe cumplir el servicio requerido. No se exige que tenga siempre idéntica potencia nominal, pero sí capacidad y compatibilidad verificadas.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl operador elige M1 o M2 con SA1, de tres posiciones: PRINCIPAL-0-RESERVA. Solo el motor seleccionado puede recibir una nueva orden. Este ejemplo realiza selección manual; no alternancia por horas ni transferencia automática al fallar el principal.\nDispositivos: SA1: Selector con contactos M1/M2 mutuamente excluyentes.; KM1 / KM2: Contactores con NC de bloqueo cruzado.; QF1 / FR1 y QF2 / FR2: Protecciones individuales de cada motor.; S1: Arranque con dos NA asociados, uno para cada rama.; S0 / KS1: Paro y permiso comunes..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS154EJEMPLO 19 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.Dos ramales independientes: QF1-KM1-FR1-M1 y QF2-KM2-FR2-M2. Las salidas eléctricas deambos motores permanecen separadas.PE une las dos carcasas al sistema de protección. Las conexiones hidráulicas o mecánicascompartidas requieren su propio diseño.El equipo de reserva debe cumplir el servicio requerido. No se exige que tenga siempreidéntica potencia nominal, pero sí capacidad y compatibilidad verificadas.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "31619bcc8668f1cc58f0ea598bc772e9ddbdc031669666f36d3ac78b93c9e7ad",
+    "final_sha256": "cd1776c9ecc92862f425f432681d1e8c6a11b063caa6a14469cd0c6cf1200dd0",
+    "pendencia": ""
   },
   "102": {
     "codigo": "MX-F102",
@@ -1793,10 +1963,15 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1 y S0. M1: P, SA1:M1, FR1:95-96, KM2 NC, [S1 primer NA en paralelo con KM1 NA], KM1:A1. M2: P, SA1:M2, FR2:95-96, KM1 NC, [S1 segundo NA en paralelo con KM2 NA], KM2:A1. A2 a 0 V. SA1 abre antes de cerrar el otro modo. Representar los dos NA de S1 unidos mecánicamente. No cruzar cables de potencia entre ramales.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nEl operador elige M1 o M2 con SA1, de tres posiciones: PRINCIPAL-0-RESERVA. Solo el motor seleccionado puede recibir una nueva orden. Este ejemplo realiza selección manual; no alternancia por horas ni transferencia automática al fallar el principal.\nDispositivos: SA1: Selector con contactos M1/M2 mutuamente excluyentes.; KM1 / KM2: Contactores con NC de bloqueo cruzado.; QF1 / FR1 y QF2 / FR2: Protecciones individuales de cada motor.; S1: Arranque con dos NA asociados, uno para cada rama.; S0 / KS1: Paro y permiso comunes..\nComportamiento que debe permitir el esquema: Cada rama retiene solo su propio contactor y mantiene su sobrecarga en serie. Si dispara FR1, no se ordena automáticamente KM2. Antes de transferir, se detiene, se verifica el proceso y se selecciona el otro equipo.\nVerificación funcional: SA1 en 0 → Ninguno arranca.; PRINCIPAL + S1 → Entra solo KM1.; RESERVA + S1 tras detener → Entra solo KM2.; Disparo del motor seleccionado → Cae su maniobra; no transfiere automáticamente.; Retorno de control con S1 libre → No vuelve a arrancar..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS155EJEMPLO 19 · CONTROLLa secuencia de control1. Con S1 libre, selecciona el motor. La selección por sí sola no inicia la marcha.2. S1 conecta y retiene únicamente el contactor autorizado por SA1.3. Para transferir: S0, verificar parada, SA1 a 0, nuevo equipo y nueva orden.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "6f8a40ab223003292aa1817f2dfa7568f8fbb0b68bf90c66bb08c91572c4f24c",
+    "final_sha256": "0504727bac209076eb18dc3466386852ec79f88095ed9f02634eb27960b35877",
+    "pendencia": ""
   },
   "103": {
     "codigo": "MX-F103",
@@ -1807,10 +1982,17 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagrama permitan operar con ese suministro. La alimentación real puede ser distinta. El control permanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por su número de puntas.\nL1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas del motor.\nLos puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasa sin pasar por contactos de mando.\nQS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan junto con el circuito.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nUn ventilador trifásico recibe orden cuando B1 detecta demanda de enfriamiento. S1 habilita el funcionamiento automático; S0 lo cancela. SE pertenece a una función de emergencia cuya interfaz KS1 retira la habilitación. Recuperar esa interfaz con S1 libre no provoca arranque.\nDispositivos: B1: Termostato de enfriamiento con diferencial.; KA1: Habilitación automática mediante dos NA independientes.; SE / KS1: Actuador de emergencia / interfaz de permiso de la función externa.; S0 / S1: Paro normal / habilitación.; KM1 / FR1: Maniobra y sobrecarga del ventilador..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS158EJEMPLO 20 · POTENCIAEl recorrido de potenciaCaso de estudio: red trifásica de 220 Vca entre líneas, 60 Hz, y motor cuya placa y diagramapermitan operar con ese suministro. La alimentación real puede ser distinta. El controlpermanece en 24 Vcc. No deduzcas la conexión interna del motor únicamente por sunúmero de puntas.L1-L2-L3 recorren QF1, los tres polos de KM1 y los tres canales de FR1 hasta las entradas delmotor.Los puentes de la bornera siguen la placa y el esquema del fabricante. PE llega a la carcasasin pasar por contactos de mando.QS1, la alimentación protegida de PS1 y las funciones de seguridad se documentan juntocon el circuito.Las líneas, referencias y capacidades de esta vista deben coincidir con el esquema de control. La imagen no determina porsí sola calibres, ajustes ni capacidad interruptiva.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "a32ed82d6e4e00f9299a3dd6f49eb1715da39596a974f871dd23a335c3630232",
+    "final_sha256": "b5948a641bf4b048b00d89a2fc2df246ca512c0361518f83204395e3d1283a2f",
+    "pendencia": "",
+    "reutilizada_de": "MX-F085",
+    "motivo_reutilizacao": "Mesmo conteúdo visual e conexões; contexto da página conferido. Exportação nas dimensões próprias."
   },
   "104": {
     "codigo": "MX-F104",
@@ -1821,9 +2003,14 @@
     ],
     "conteudo": "CONTENIDO Y CONEXIONES OBLIGATORIOS\nP = +24 V tras F2, KS1, S0 y FR1:95-96. Memoria: P, [S1 NA en paralelo con KA1:13-14], KA1:A1. Marcha: P, KA1:23-24, B1 cerrado por demanda, KM1:A1. A2 a 0 V. SE se dibuja conectado al bloque externo FUNCIÓN DE SEGURIDAD, cuya única interfaz aquí es KS1. No representar SE como paro de operación ni como toda la arquitectura de seguridad.\n\nCONTEXTO PARA COHERENCIA (no transcribir párrafos completos dentro de la imagen)\nUn ventilador trifásico recibe orden cuando B1 detecta demanda de enfriamiento. S1 habilita el funcionamiento automático; S0 lo cancela. SE pertenece a una función de emergencia cuya interfaz KS1 retira la habilitación. Recuperar esa interfaz con S1 libre no provoca arranque.\nDispositivos: B1: Termostato de enfriamiento con diferencial.; KA1: Habilitación automática mediante dos NA independientes.; SE / KS1: Actuador de emergencia / interfaz de permiso de la función externa.; S0 / S1: Paro normal / habilitación.; KM1 / FR1: Maniobra y sobrecarga del ventilador..\nComportamiento que debe permitir el esquema: B1 puede alternar los ciclos mientras KA1 permanece habilitado. El sensor debe medir una temperatura representativa y la respuesta ante su falla debe estar definida. La emergencia y la protección térmica del proceso se deciden considerando el efecto de detener la ventilación.\nVerificación funcional: S1 con B1 abierto → Habilita; motor sin orden.; B1 cierra y abre → KM1 sigue los ciclos normales.; S0 o disparo FR1 → Caen KA1 y KM1.; Retirada y recuperación de KS1 → No rehabilita con S1 libre.; Sensor defectuoso → Verificar respuesta especificada del control térmico..",
     "contexto_pagina": "MAESTRO DEL CONTROL ELÉCTRICO CAPÍTULO 8 · EJEMPLOS PRÁCTICOS159EJEMPLO 20 · CONTROLLa secuencia de control1. S1 habilita KA1. Si B1 solicita ventilación, KM1 recibe la orden.2. Al desaparecer la demanda normal, KM1 cae y KA1 sigue habilitado.3. S0, FR1 o retirada de KS1 eliminan la habilitación. Después de restablecer condiciones serequiere nueva orden con S1 libre previamente.Todos los retornos de bobinas llegan a 0 V de PS1. La numeración indicada en el dibujo debe corresponder a los contactosdisponibles. Los contactos adicionales no se suponen incluidos en cualquier modelo.",
-    "criada": false,
-    "conferida": false,
-    "inserida": false,
-    "bloqueada": false
+    "criada": true,
+    "conferida": true,
+    "inserida": true,
+    "bloqueada": false,
+    "sem_titulo": true,
+    "origem": "GPT Image via image_gen",
+    "original_sha256": "9bd235f9c864541d1d9c5649f40b0b20cbe3a9813a9577e72b6d1faf16f57f8c",
+    "final_sha256": "553aaa3cd65b4f8f4be27faa66dff8ef5464f5074713d746030153541e1441df",
+    "pendencia": ""
   }
 }

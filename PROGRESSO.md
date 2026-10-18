@@ -1,6 +1,6 @@
 # Progresso do ebook — GPT Image
 
-**73/104 imagens inseridas.** Próxima pendente: MX-F067.
+**104/104 imagens inseridas.** Próxima pendente: nenhuma.
 
 Orientação vigente: GPT Image, sem título geral ou numeração de figura dentro das imagens. Rótulos funcionais e notas didáticas preservados. PNGs finais em `imagens/`; gerações originais em `imagens/originais_gpt/`.
 
@@ -78,43 +78,45 @@ Fonte: Ebook_Codex_corrigido.zip; ZIP antigo corrompido ignorado. Cada inserçã
 | MX-F064 | 87 | sim | sim | sim | não |  |
 | MX-F065 | 88 | sim | sim | sim | não |  |
 | MX-F066 | 90 | sim | sim | sim | não |  |
-| MX-F067 | 91 | não | não | não | não |  |
+| MX-F067 | 91 | sim | sim | sim | não |  |
 | MX-F068 | 92 | sim | sim | sim | não |  |
-| MX-F069 | 93 | não | não | não | não |  |
+| MX-F069 | 93 | sim | sim | sim | não |  |
 | MX-F070 | 94 | sim | sim | sim | não |  |
-| MX-F071 | 97 | não | não | não | não |  |
+| MX-F071 | 97 | sim | sim | sim | não |  |
 | MX-F072 | 98 | sim | sim | sim | não |  |
-| MX-F073 | 99 | não | não | não | não |  |
-| MX-F074 | 100 | não | não | não | não |  |
+| MX-F073 | 99 | sim | sim | sim | não |  |
+| MX-F074 | 100 | sim | sim | sim | não |  |
 | MX-F075 | 104 | sim | sim | sim | não |  |
-| MX-F076 | 105 | não | não | não | não |  |
-| MX-F077 | 106 | não | não | não | não |  |
-| MX-F078 | 107 | não | não | não | não |  |
+| MX-F076 | 105 | sim | sim | sim | não |  |
+| MX-F077 | 106 | sim | sim | sim | não |  |
+| MX-F078 | 107 | sim | sim | sim | não |  |
 | MX-F079 | 110 | sim | sim | sim | não |  |
-| MX-F080 | 111 | não | não | não | não |  |
-| MX-F081 | 114 | não | não | não | não |  |
-| MX-F082 | 115 | não | não | não | não |  |
+| MX-F080 | 111 | sim | sim | sim | não |  |
+| MX-F081 | 114 | sim | sim | sim | não |  |
+| MX-F082 | 115 | sim | sim | sim | não |  |
 | MX-F083 | 118 | sim | sim | sim | não |  |
-| MX-F084 | 119 | não | não | não | não |  |
-| MX-F085 | 122 | não | não | não | não |  |
+| MX-F084 | 119 | sim | sim | sim | não |  |
+| MX-F085 | 122 | sim | sim | sim | não |  |
 | MX-F086 | 123 | sim | sim | sim | não |  |
-| MX-F087 | 126 | não | não | não | não |  |
-| MX-F088 | 127 | não | não | não | não |  |
-| MX-F089 | 130 | não | não | não | não |  |
-| MX-F090 | 131 | não | não | não | não |  |
-| MX-F091 | 134 | não | não | não | não |  |
-| MX-F092 | 135 | não | não | não | não |  |
-| MX-F093 | 138 | não | não | não | não |  |
-| MX-F094 | 139 | não | não | não | não |  |
-| MX-F095 | 142 | não | não | não | não |  |
-| MX-F096 | 143 | não | não | não | não |  |
-| MX-F097 | 146 | não | não | não | não |  |
-| MX-F098 | 147 | não | não | não | não |  |
-| MX-F099 | 150 | não | não | não | não |  |
-| MX-F100 | 151 | não | não | não | não |  |
-| MX-F101 | 154 | não | não | não | não |  |
-| MX-F102 | 155 | não | não | não | não |  |
-| MX-F103 | 158 | não | não | não | não |  |
-| MX-F104 | 159 | não | não | não | não |  |
+| MX-F087 | 126 | sim | sim | sim | não |  |
+| MX-F088 | 127 | sim | sim | sim | não |  |
+| MX-F089 | 130 | sim | sim | sim | não |  |
+| MX-F090 | 131 | sim | sim | sim | não |  |
+| MX-F091 | 134 | sim | sim | sim | não |  |
+| MX-F092 | 135 | sim | sim | sim | não |  |
+| MX-F093 | 138 | sim | sim | sim | não |  |
+| MX-F094 | 139 | sim | sim | sim | não |  |
+| MX-F095 | 142 | sim | sim | sim | não |  |
+| MX-F096 | 143 | sim | sim | sim | não |  |
+| MX-F097 | 146 | sim | sim | sim | não |  |
+| MX-F098 | 147 | sim | sim | sim | não |  |
+| MX-F099 | 150 | sim | sim | sim | não |  |
+| MX-F100 | 151 | sim | sim | sim | não |  |
+| MX-F101 | 154 | sim | sim | sim | não |  |
+| MX-F102 | 155 | sim | sim | sim | não |  |
+| MX-F103 | 158 | sim | sim | sim | não |  |
+| MX-F104 | 159 | sim | sim | sim | não |  |
 
-Detalhes da origem, hashes e conferências em `imagens/ESTADO.json`. As páginas e os controles serão verificados no Chromium a cada bloco; ver `conferencias/`.
+Detalhes da origem, hashes e conferências em `imagens/ESTADO.json`. As páginas e os controles foram conferidos no Chromium durante os blocos; resultado final em `conferencias/RELATORIO.md`.
+
+Conclusão: 104/104 imagens criadas, conferidas e inseridas. Nenhuma bloqueada; próximo código: nenhum. HTML com 160 páginas e imagens incorporadas, sem arquivos externos. Entrega em `Ebook_Mexico_GPT_Image.zip`; navegação em `GALERIA.md`.

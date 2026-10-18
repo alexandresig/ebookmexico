@@ -32,6 +32,10 @@ for key,source in json.loads(Path(sys.argv[1]).read_text()).items():
  w,h=x['dimensoes']
  with Image.open(original) as im:
   source_rgb=im.convert('RGB')
+  if code=='MX-F074':
+   # Recorte apenas da metade inferior branca, conferida visualmente.
+   bounds=(0,0,im.width,int(im.height*.52))
+   source_rgb=source_rgb.crop(bounds);x['recorte_branco_exportacao']=list(bounds)
   if code=='MX-F031':
    # Margens brancas inspecionadas; preserva os cinco pilotos e seus rótulos.
    bounds=(0,int(im.height*.20),im.width,int(im.height*.75))
